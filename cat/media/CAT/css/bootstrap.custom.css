@@ -1,0 +1,1103 @@
+/* bootstap.custom.css
+ * custom styles for the wireframes.
+*/
+/**styles added to configure link on hp colour box to relevant college**/
+
+.apply-button.visitSite { border-color: white; color: white; margin-bottom: 30px; }
+.apply-button.visitSite:hover {border-color:white; color:#00AEDA; background:white;}
+.apply-button.visitSite a {color:inherit; text-decoration:none;}
+
+/** 28.5.14 added link styles **/
+a:hover {text-decoration:none; color:inherit;}
+.news a:link, .events a:link{text-decoration: none; color: #4A4A4F; }
+.news a:visited, .events a:visited {text-decoration: none; color: #4A4A4F; }
+.news a:hover, a:visited:hover, .events a:hover, a:visited:hover {text-decoration: none; opacity: 0.6;}
+
+.breadcrumbs a:link { text-decoration: none; color: #8C8789; }
+.breadcrumbs a:visited { text-decoration: none; color: #8C8789; }
+.breadcrumbs a:hover, a:visited:hover {text-decoration: none; opacity: 0.6;}
+
+.courses-row a:link { text-decoration: none; color: white; }
+.courses-row a:visited { text-decoration: none; color: white; }
+.courses-row a:hover, a:visited:hover {text-decoration: none; opacity: 0.6;}
+
+.margin-bottom a:link {text-decoration: none; color: #4A4A4F; }
+.margin-bottom a:visited {text-decoration: none; color: #4A4A4F; }
+.margin-bottom a:hover, a:visited:hover {text-decoration: none; opacity: 0.6;}
+
+.margin-bottom-share a:link {text-decoration: none; color: #8C8789; }
+.margin-bottom-share a:visited {text-decoration: none; color: #8C8789; }
+.margin-bottom-share a:hover, a:visited:hover {text-decoration: none; opacity: 0.6;}
+
+.margin-bottom-undergrad a:link {text-decoration: none; color: #72C2C6; }
+.margin-bottom-undergrad a:visited {text-decoration: none; color: #72C2C6; }
+.margin-bottom-undergrad a:hover, a:visited:hover {text-decoration: none; opacity: 0.6;}
+
+.margin-bottom-postgrad a:link {text-decoration: none; color: #00AEDA; }
+.margin-bottom-postgrad a:visited {text-decoration: none; color: #00AEDA; }
+.margin-bottom-postgrad a:hover, a:visited:hover {text-decoration: none; opacity: 0.6;}
+
+.margin-bottom-partshort a:link {text-decoration: none; color: #008CA8; }
+.margin-bottom-partshort a:visited {text-decoration: none; color: #008CA8; }
+.margin-bottom-partshort a:hover, a:visited:hover {text-decoration: none; opacity: 0.6;}
+
+.margin-bottom-white a:link {text-decoration: none; color: white; }
+.margin-bottom-white a:visited {text-decoration: none; color: white; }
+.margin-bottom-white a:hover, a:visited:hover {text-decoration: none; opacity: 0.6;}
+
+p a:link {font-family: 'sofia_probold'; color: #4A4A4F; text-decoration: none;}
+p a:visited {font-family: 'sofia_probold'; color: #4A4A4F; text-decoration: none;}
+p a:hover, a:visited:hover {text-decoration: none; opacity: 0.6;}
+
+
+		@font-face {
+    font-family: 'sofia_pro_regularregular';
+    src: url('../../../../fonts/mostardesign_-_sofia_pro_regular-webfont.eot');
+    src: url('../../../../fonts/mostardesign_-_sofia_pro_regular-webfont.eot%3F') format('embedded-opentype'),
+         url('../../../../fonts/mostardesign_-_sofia_pro_regular-webfont.woff') format('woff'),
+         url('../../../../fonts/mostardesign_-_sofia_pro_regular-webfont.ttf') format('truetype'),
+         url('../../../../fonts/mostardesign_-_sofia_pro_regular-webfont.svg') format('svg');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sofia_probold';
+    src: url('../../../../fonts/mostardesign_-_sofia_pro_bold-webfont.eot');
+    src: url('../../../../fonts/mostardesign_-_sofia_pro_bold-webfont.eot%3F') format('embedded-opentype'),
+         url('../../../../fonts/mostardesign_-_sofia_pro_bold-webfont.woff') format('woff'),
+         url('../../../../fonts/mostardesign_-_sofia_pro_bold-webfont.ttf') format('truetype'),
+         url('../../../../fonts/mostardesign_-_sofia_pro_bold-webfont.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+.img200 {height: 200px;}
+.img400 {height: 400px;}
+
+.midway-vertical,
+.midway-horizontal {
+  display: none;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+body {background: #D5D5D5;font-family: 'sofia_pro_regularregular'; font-size: 16px;}
+
+strong {font-family: 'sofia_probold';}
+
+.navbar-collapse, .container, .row,
+.welcome-row .col-md-7{
+  border: 0;
+}
+
+ul li{list-style:none;}
+ul{padding:0px !important;}
+
+
+.content-spacer{
+    width:80%;
+    padding:0px !important;
+    margin: 30px 30px 30px 30px;
+}
+
+.info-row h3,
+.bottom-dropdown-row .col-md-4 h4,
+.question-row .col-md-4 h3,
+.question-row .col-md-6 h4,
+.question-row .col-md-3 h4{
+    margin-left:20px;
+}
+
+.margT10{margin-top:10px;}
+
+.bottom-right-row .col-md-12 .col-md-12{
+    margin-bottom:15px;
+    margin-bottom:15px;
+}
+
+.form-group input{
+    margin-top:10px;
+    margin-right:10px;
+    width:90%;
+}
+
+.remove-space{
+    margin:0px;
+    padding:0px;
+}
+
+.navbar-collapse, .navbar, .navbar-default{
+    background-color:white !important;
+}
+
+.navbar{
+    min-height: 10px !important;
+}
+
+.navbar-collapse .col-sm-12 .col-sm-4{
+    margin-top:12px;
+    margin-bottom:8px !important;
+}
+
+
+
+.center-header *{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+.footer-row ul,
+.info-row ul {
+    padding:10px !important;
+}
+
+.margin-bottom li{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+}
+
+.margin-bottom-white li{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 16px;
+}
+
+.margin-bottom-undergrad li{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #008CA8;
+    color: #008CA8;
+    font-size: 16px;
+}
+
+.margin-bottom-share li{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #8C8789;
+    color: #8C8789;
+    font-size: 16px;
+}
+
+.margin-bottom-ditblue li{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #00AEDA;
+    color: #00AEDA;
+    font-size: 16px;
+}
+
+.course-list li
+{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+
+.list-head
+{
+    font-family: 'sofia_probold';
+}
+
+.breadcrumb{
+    margin-top:10px;
+    margin-bottom:5px;
+    background-color:white !important;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 89.5%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.dropdown-menu-custom {
+    width: 100% !important;
+}
+
+.caret-spacer {
+    margin-top:10px;
+    margin-right:10px;
+}
+
+.social-buttons {
+    margin-top:10px;
+}
+
+/** CSS Properties for overlays applied to images**/
+.image-hover-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+
+}
+
+.image-hover-overlay-invert {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0.0;
+}
+
+
+/** DIT top menu **/
+
+.dit_topmenu
+{
+background: #F1F1F2;
+font-family: 'sofia_pro_regularregular';
+font-size: 10px;
+line-height: 25px;
+border: 0px;
+height: 25px;
+text-align: right;
+}
+
+.ditmand-menu li
+{
+display: inline-block;
+padding-right: 20px;
+}
+
+.fa-angle-right
+{
+color: #00AEDA;
+padding-right: 2px;
+}
+
+/** Header **/
+.ditlogo
+{
+width: 86px;
+}
+
+.school-header
+{
+background: white;
+font-family: 'sofia_pro_regularregular';
+padding-left: 80px;
+padding-top: 30px;
+height: 125px;
+}
+
+.innerpadding-left
+{
+padding-left: 20px;
+}
+
+.innerpadding-large
+{
+padding: 80px 40px 80px 70px;
+}
+
+.innerpadding-large2
+{
+padding: 40px 40px 80px 70px;
+}
+
+.school-header h1.irish
+{
+font-family: 'sofia_pro_regularregular';
+font-size: 18px;
+line-height: 32px;
+margin: 0;
+padding: 0;
+color: #4A4A4F;
+}
+
+.school-header h1.english
+{
+font-family: 'sofia_probold';
+font-size: 18px;
+line-height: 18px;
+margin: 0;
+padding: 0;
+color: #4A4A4F;
+}
+
+
+
+
+/** Main Nav menu **/
+
+.main_navmenu
+{
+background: #4A4A4F;
+font-family: 'sofia_pro_regularregular';
+font-size: 15px;
+color: white;
+min-height: 50px;
+border: 0;
+}
+
+
+/** Welcome **/
+
+.welcome-row
+{
+background: white;
+}
+
+.breadcrumbs
+{
+color: #8C8789;
+font-size: 12px;
+}
+
+.breadcrumbs .fa-angle-right{
+color: #8C8789;
+font-size: 12px;
+padding-left: 5px;
+}
+
+
+h1
+{
+font-family: 'sofia_probold';
+font-size: 48px;
+}
+
+p.welcome_intro
+{
+font-family: 'sofia_pro_regularregular';
+font-size: 24px;
+line-height: 28px;
+}
+
+
+.news
+{
+background: #C9EAF4;
+height: 200px;
+}
+
+.news .fa-angle-right
+{
+color: black;
+}
+
+
+/** Course Overlays **/
+.text-hover-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #7F7F7F;
+    opacity: 0;
+}
+
+.image-hover-text{ padding-top:0; }
+.hover-column{ max-height:200px; overflow: hidden; cursor: pointer;}
+.hover-column-large{ overflow: hidden; cursor: pointer;}
+
+.placeholder-text {
+    margin:0 !important;
+    padding:50px;
+}
+
+.course_buttons_overlay
+{
+font-size: 24px;
+line-height: 28px;
+font-family: 'sofia_probold';
+color: white;
+height: 200px;
+}
+
+.course_buttons_overlay_bottom
+{
+font-size: 24px;
+line-height: 28px;
+font-family: 'sofia_probold';
+color: white;
+text-align: left;
+}
+
+.course_buttons
+{
+font-size: 24px;
+line-height: 28px;
+font-family: 'sofia_probold';
+color: white;
+text-align: center;
+}
+
+.course_buttons_small
+{
+font-size: 24px;
+line-height: 28px;
+text-align: left;
+padding: 10px 0px 10px 20px;
+font-family: 'sofia_probold';
+color: white;
+height: 50px;
+}
+
+.overlay-news
+{
+font-size: 24px;
+line-height: 28px;
+font-family: 'sofia_probold';
+color: #4A4A4F;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.categorybox
+{
+font-size: 12px;
+line-height: 16px;
+text-transform: capitalize;
+color: #4A4A4F;
+padding: 5px;
+display: block;
+text-align: center;
+width: 50px;
+margin: 0 auto;
+background:white;
+font-family: 'sofia_pro_regularregular';
+}
+
+.meta
+{
+font-size: 10px;
+line-height: 16px;
+text-transform: capitalize;
+letter-spacing: .1em;
+color: #4A4A4F;
+padding: 5px;
+display: block;
+text-align: center;
+width: 100%;
+margin: 0 auto;
+font-family: 'sofia_pro_regularregular';
+}
+
+.small-overlay
+{
+font-family: 'sofia_pro_regularregular';font-size:16px;
+}
+
+/** Choose **/
+.choose_course
+{
+background: #162328;
+color: white;
+cursor: pointer;
+height: 50px;
+padding-top:5px;
+}
+
+/** What **/
+.whatdoyou
+{
+background: #4A4A4F;
+color: white;
+cursor: pointer;
+height: 50px;
+padding-top:5px;
+}
+
+
+
+
+/** Root Colours **/
+
+.undergrad {background: #72C2C6;}
+.ud-text {color: #72C2C6;}
+.postgrad {background: #00AEDA;}
+.pg-text {color: #00AEDA;}
+.partshort {background: #008CA8;}
+.ps-text {color: #008CA8;}
+.white {background: white;}
+.w-text {color: white;}
+.dark-grey { background: #4A4A4F; color: white;}
+.dk-grey { color: #4A4A4F;}
+.gs1 {background: #162328;}
+.gs2 {background: #454F54;}
+.gs3 {background: #747B7E;}
+
+.ditblue {background: #00AEDA;}
+.db-text {color: #00AEDA;}
+
+
+/** Events row **/
+
+.events
+{
+background: white;
+}
+
+.events .fa-angle-right
+{
+color: #8C8789;
+}
+
+h2.eventstitle
+{
+font-size: 24px;
+font-family: 'sofia_probold';
+margin: 0;
+padding: 0;
+}
+
+.innerpadding
+{
+padding: 20px;
+}
+
+
+/** 2nd Last row **/
+
+.success
+{
+background: #C9EAF4;
+}
+
+.logoslider
+{
+background: #BDDDE8;
+}
+
+.friend
+{
+background: #C9EAF4;
+}
+
+.course_buttons_blk
+{
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+padding: 70px;
+font-family: 'sofia_probold';
+color: black;
+height: 200px;
+}
+
+
+/** Footer **/
+.footer
+{
+background:#EDECED;
+color: #4A4A4F;
+font-size: 12px;
+}
+
+
+/** Overview template **/
+
+.overview-page h1
+{
+margin: 0;
+padding: 0;
+}
+
+.overview-page h3
+{
+font-family: 'sofia_probold';
+font-size: 20px;
+}
+
+
+/** Discipline template **/
+
+.discipline-page
+{
+}
+
+.margin-bottom-undergrad li{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #72C2C6;
+    color: #72C2C6;
+    font-size: 16px;
+}
+
+.discipline-page h3
+{
+font-family: 'sofia_probold';
+font-size: 20px;
+}
+
+
+.margin-bottom-postgrad li{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #00AEDA;
+    color: #00AEDA;
+    font-size: 16px;
+}
+
+.margin-bottom-partshort li{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #008CA8;
+    color: #008CA8;
+    font-size: 16px;
+}
+
+.innerpadding-discipline
+{
+padding: 40px 40px 0px 80px;
+}
+
+.innerpadding-discipline-end
+{
+padding: 40px 40px 80px 80px;
+}
+
+
+/** Profile template **/
+.innerpadding-profile
+{
+padding: 20px 80px 20px 80px;
+}
+
+.align-right2
+{
+text-align: right;
+float: right;
+padding: 0px;
+margin-right: 10px;
+}
+
+.profilepage h1
+{
+font-family: 'sofia_probold';
+font-size: 48px;
+margin-bottom: 96px;
+}
+
+.profilepage h2
+{
+font-family: 'sofia_probold';
+font-size: 24px;
+}
+
+.profilepage .panel-title
+{
+font-family: 'sofia_probold';
+font-size: 24px;
+color: #4A4A4F;
+}
+
+.panel-heading a:hover {text-decoration: none;}
+
+.right-profile h4
+{
+font-family: 'sofia_probold';
+}
+
+/** Grad Profile template **/
+
+.innerpadding-grad
+{
+padding: 80px 80px 80px 80px;
+}
+
+.innerpadding-gradright
+{
+padding: 80px 40px 20px 40px;
+}
+
+.gradprofilepage h1
+{
+font-family: 'sofia_probold';
+font-size: 48px;
+margin-bottom: 24px;
+}
+
+.gradprofilepage h2
+{
+font-family: 'sofia_pro_regularregular';
+font-size: 24px;
+line-height: 30px;
+}
+
+/** Grad Show template **/
+
+.gradshowpage h1
+{
+font-family: 'sofia_probold';
+font-size: 48px;
+}
+
+.gradshowpage h2
+{
+font-family: 'sofia_pro_regularregular';
+font-size: 24px;
+line-height: 30px;
+}
+
+.gradshowpage h3
+{
+font-family: 'sofia_pro_regularregular';
+font-size: 20px;
+}
+
+
+/** Course template **/
+
+.coursepage h1
+{
+font-family: 'sofia_probold';
+font-size: 48px;
+}
+
+.coursepage h2
+{
+font-family: 'sofia_probold';
+font-size: 24px;
+}
+
+.coursepage h3
+{
+font-family: 'sofia_pro_regularregular';
+font-size: 20px;
+line-height: 0;
+}
+
+.coursepage .apply-button
+{
+font-family: 'sofia_pro_regularregular';
+font-size: 12px;
+line-height: 16px;
+border: 1px solid white;
+width: 100px;
+color: white;
+padding: 3px 6px 6px 6px;
+text-align: center;
+margin: 0 auto;
+cursor: pointer;
+}
+
+.coursepage .apply-button:hover
+{
+border: 1px solid white;
+background: white;
+color: #72C2C6;
+}
+
+.apply-button
+{
+font-family: 'sofia_pro_regularregular';
+font-size: 12px;
+line-height: 16px;
+border: 1px solid #00AEDA;
+width: 100px;
+color: #00AEDA;
+padding: 3px 6px 6px 6px;
+text-align: center;
+cursor: pointer;
+}
+
+.apply-button:hover
+{
+border: 1px solid #00AEDA;
+background: #00AEDA;
+color: white;
+}
+
+
+.nav-tabs
+{
+color: white;
+cursor: pointer;
+height: 50px;
+font-family: 'sofia_probold';
+font-size: 24px;
+margin: 0;
+padding: 0;
+}
+
+.nav-tabs li
+{
+padding: 5px 0px 5px 20px;
+}
+
+.nav-tabs .fa-chevron-down
+{
+font-size: 18px;
+}
+
+.tab-content, .tab-pane
+{
+width: 100%;
+}
+
+.t1
+{
+cursor: pointer;
+height: 50px;
+background: #DFEFEF;
+}
+
+.t2
+{
+cursor: pointer;
+height: 50px;
+background: #D1E8E9;
+}
+
+.t3
+{
+cursor: pointer;
+height: 50px;
+background: #C3E2E3;
+}
+
+.t4
+{
+cursor: pointer;
+height: 50px;
+background: #E8E7E7;
+}
+
+.t5
+{
+cursor: pointer;
+height: 50px;
+background: #DDDBDB;
+}
+
+.t6
+{
+cursor: pointer;
+height: 50px;
+background: #D1CFD0;
+}
+
+.innerpadding-course
+{
+padding: 20px 80px 20px 80px;
+}
+
+.align-right
+{
+text-align: right;
+float: right;
+padding: 10px;
+margin-right: 10px;
+}
+
+/** Pobail **/
+input[type=text] {
+   border: 0;
+   border-radius: 0;
+   margin: 0;
+   margin-top:3px;
+   padding: 0;
+   padding-left: 10px;
+}
+
+.question
+{
+padding-left: 20px;
+font-family: 'sofia_probold';
+font-size: 24px;
+line-height: 36px;
+margin: 0;
+}
+
+/** Resources Template **/
+
+.resources
+{
+background: #E8E6E6;
+}
+
+.resource
+{
+background: #F7F7F7;
+border: 1px solid #E8E6E6;
+}
+
+.resources h2
+{
+font-size: 24px;
+font-family: 'sofia_probold';
+margin: 0;
+padding: 0;
+}
+
+.innerpadding
+{
+padding: 20px;
+}
+
+.text-hover-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #00AEDA;
+    opacity: 0;
+    color: white;
+    padding: 10px 50px 50px 50px;
+    cursor: pointer;
+}
+
+.resources .course_buttons_blk
+{
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+padding: 50px;
+font-family: 'sofia_probold';
+color: black;
+height: 150px;
+}
+
+
+
+@media (min-width: 1920px) {
+
+ .t1, .t2, .t3, .t4, .t5, .t6
+{
+width: 620px;
+}
+
+
+}
+
+
+/** Iphone **/
+@media handheld, only screen and (max-width: 767px) {
+
+.dit_topmenu
+{
+background: #F1F1F2;
+font-family: 'sofia_pro_regularregular';
+font-size: 10px;
+line-height: 25px;
+border: 0px;
+height: 100%;
+text-align: right;
+}
+
+.ditlogo
+{
+width: 46px;
+}
+
+.school-header
+{
+background: white;
+font-family: 'sofia_pro_regularregular';
+padding-left: 20px;
+padding-top: 20px;
+height: auto;
+padding-bottom:10px;
+}
+
+ .col-md-1 {
+    width: 10%;
+    float: left;
+  }
+
+   .col-md-11 {
+    width: 90%;
+        float: left;
+
+  }
+
+  .school-header h1.irish
+{
+font-family: 'sofia_pro_regularregular';
+font-size: 12px;
+line-height: 26px;
+}
+
+.school-header h1.english
+{
+font-family: 'sofia_probold';
+font-size: 12px;
+line-height: 12px;
+}
+
+.innerpadding-large
+{
+padding: 40px 30px 30px 30px;
+}
+
+.innerpadding-large2
+{
+padding: 40px 30px 30px 30px;
+}
+
+.innerpadding-profile, .innerpadding-course, .innerpadding-discipline, .innerpadding-discipline-end
+{
+padding: 20px 20px 20px 20px;
+}
+
+
+ .t1, .t2, .t3, .t4, .t5, .t6
+{
+font-size: 12px;
+}
+
+
+.img400 {height: 400px;}
+
+.text-hover-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #00AEDA;
+    opacity: 0;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+ h1{font-size:35px;}
+
+
+
+

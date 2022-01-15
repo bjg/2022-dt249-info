@@ -1,0 +1,53 @@
+/*960px pages*/
+
+#container {margin:0px auto;text-align:left;width:960px;padding:0;}
+.wrapper,#wrapper {width:670px;}
+
+#tertiary {margin-left:220px}
+#navigation ul{width:720px;margin:0px auto;}
+
+#secondary {width:280px;background-color:#0065af;
+/*background-image:url(http://www.dit.ie/media/styleimages/side_nav_border_bottom.jpg);*/
+background-position:bottom right;background-repeat:no-repeat;
+padding-bottom:40px;margin-bottom:20px}
+
+/* Sidebar Nav Section. Lots of styles for defining the different colours, paddings, bullets
+Default colour options are set here. Faculty colours are set in the Themes section */
+#secondary ul, #secondary li {margin:0;padding:0;width:280px}
+
+#secondary ul.links li a {float:left;text-decoration:none;color:#fff;display:block;border:0;
+background-image:url(../styleimages/arrow_side_nav_level1.gif);
+background-position:center left;background-repeat:no-repeat;padding-left:14px;width:266px}
+#secondary ul.links li span.currentsection {float:left;text-decoration:none;color:#fff;display:block;
+border:0;
+background-image:url(../styleimages/arrow_side_nav_level1.gif);
+background-position:center left;background-repeat:no-repeat;padding-left:14px;
+width:266px;font-weight:bold}
+
+/* level 2 */
+
+#secondary ul.links ul.multilevel-linkul-0 li a, 
+#secondary ul.links ul.multilevel-linkul-0 li span.currentsection 
+{color:#fff;background-color:#0096d7;padding-left:24px;width:256px;}
+
+/*level 3 */
+#secondary ul.links ul.multilevel-linkul-1 li a, 
+#secondary ul.links ul.multilevel-linkul-1 li span.currentsection 
+{background-color:#00aedb;padding-left:34px;width:246px; color:#fff;}
+
+#breadcrumbs {width:650px;}
+
+body.three-column #wrapper,body.three-column .wrapper {
+width:475px;float:left;
+}
+
+body.three-column #tertiary,body.three-column .right-menu{
+float:left;width:100px;background-color:#eee}
+
+body.three-column #primary,body.three-column #secondary,body.three-column #tertiary 
+{float:left;}
+
+body.three-column #primary {width:500px;}
+body.three-column #secondary {width:250px;}
+body.three-column #tertiary {width:150px;margin-left:20px}
+

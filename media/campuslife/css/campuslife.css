@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image:url(http://dit.ie/media/campuslife/images/background.jpg);
+	text-align:center;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+#primary {
+	margin:0;
+	padding:0;
+	width:960px
+}
+#main {
+	padding:0;
+}
+#one {
+	float:left;
+	width:572px;
+	height:260px;
+	background-color:#0099cc;
+	margin-right:10px
+}
+#two {
+	float:left;
+	width:184px;
+	height:260px;
+	background-color:#006699;
+	margin-right:10px
+}
+#three {
+	float:left;
+	width:184px;
+	height:260px;
+	background-color:#ffcc00;
+	margin-right:0px
+}
+#four {
+	float:left;
+	width:184px;
+	height:260px;
+	background-color:#ffcc00;
+	margin-top:10px;
+	margin-right:10px
+}
+#five {
+	float:left;
+	width:184px;
+	height:260px;
+	background-color:#0099cc;
+	margin-top:10px;
+	margin-right:10px
+}
+#six {
+	float:left;
+	width:184px;
+	height:260px;
+	background-color:#ffcc00;
+	margin-top:10px;
+	margin-right:10px
+}
+#seven {
+	float:left;
+	width:184px;
+	height:260px;
+	background-color:#006699;
+	margin-top:10px;
+	margin-right:10px
+}
+#eight {
+	float:left;
+	width:184px;
+	height:260px;
+	background-color:#0099cc;
+	margin-top:10px;
+	margin-right:0px
+}
+#three a:hover {
+	color:#333
+}
+#one,#two,#three,#four,#five,#six,#seven,#eight {
+	-moz-border-radius:15px;
+	border-radius:15px;
+	color:#fff
+}
+.boxcontent {
+	margin:10px
+}
+.boxcontent a:link,.boxcontent a:visited,.boxcontent a:hover,.boxcontent a:active {
+	color:#fff
+}
+#main h1 {
+	font-family:'PT Sans Caption';
+	background-color:transparent;
+	color:white;
+	padding:0;
+	font-size:3em
+}
+#main h2 {
+	font-family:'PT Sans Caption';
+	background-color:transparent;
+	color:white;
+	padding:0;
+	font-size:2em
+}
+#main h3 {
+	font-family:'PT Sans Caption';
+	background-color:transparent;
+	color:white;
+	padding:0;
+	font-size:1.4em;
+}
+#four,#four h3,#six,#six h3,#five .yellowmiddle h3 {
+	color:#333;
+}
+#four td {
+	border:0px none;
+}
+#four a:link,#four a:visited,#four a:hover,#four a:active {
+	color:#fff;
+}
+#four h3,#five h3,#six h3,#seven h3,#eight h3 {
+	padding-top:5px
+}
+#five li a {
+	font-size:1.2em;
+}
+#five li {
+	margin:10px 0px 10px 10px;
+}
+#five li {
+	list-style-type:disc;
+	color:#fff;
+}
+.bottom {
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius-bottomright:15px;
+	-moz-border-radius-bottomleft:15px;
+}
+#three p {
+	margin-top:0px;
+}
+.background {
+}
+.caption {
+	font-weight:bold;
+	text-align:right;
+	font-size:1.2em;
+	padding:10px;
+}
+.caption a {
+	color:white
+}
+.bluetransparent div,.yellowmiddle div,.bluesolid div {
+	padding:5px
+}
+.bluetransparent a:link,.bluetransparent a:visited,.bluetransparent a:hover,.bluetransparent a:active {
+	color:white
+}
+.yellowmiddle {
+	background-color:#ffcc00;
+}
+.yellowmiddle a:link,.yellowmiddle a:visited,.yellowmiddle a:hover,.yellowmiddle a:active {
+	color:#333
+}
+.boxcontent ul,.boxcontent ul li {
+	list-style-type:none;
+	background-image:none;
+	margin:0;
+	padding:0;
+	line-height:17px
+}
+#six img {
+	margin:5px
+}
+div.boxcontent a:hover {
+	background-color:transparent
+}
+.poll {
+	margin-top:0px
+}
+.pollone {
+	margin-top:-10px
+}
+#one {
+	text-align:right
+}
+#one h1 {
+	text-align:left
+}
+#one .background span {
+	font-size:1.2em;
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	padding:5px;
+	position:relative;
+	bottom:-13px
+}
+#one ul#imagerotatecampuslife li a:link,#one ul#imagerotatecampuslife li a:visited {
+	color:white
+}
+#one ul#imagerotatecampuslife li a:hover {
+	color:#333
+}
+ul#imagerotatecampuslife {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	margin-left:-15px
+}
+ul#imagerotatecampuslife li {
+	background-image:none
+}
+#hidden {
+	display:none
+}
+.bluespan a:link,.bluespan a:visited,.bluespan a:hover,.bluespan a:active,
+#four .bluespan a:link,#four .bluespan a:visited,#four .bluespan a:hover,#four .bluespan a:active{
+	color:#fff;
+	font-size:1.1em;
+	font-weight:bold;
+	text-decoration:none;
+}
+.yellowspan a:link,.yellowspan a:visited,.yellowspan a:hover,.yellowspan a:active {
+	color:#333;
+	font-size:1.1em;
+	font-weight:bold;
+	text-decoration:none;
+}
+.yellowspan a:hover,.bluespan a:hover {
+	text-decoration:underline
+}
+.bluespan {
+	height:40px;
+	display:block;
+	text-align:center;
+	background-color:#0099cc !important;
+}
+.yellowspan {
+	height:40px;
+	display:block;
+	text-align:center;
+	background-color:transparent
+}
+#main #hidden h1 {
+	color: #666
+}

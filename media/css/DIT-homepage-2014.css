@@ -1,0 +1,192 @@
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
+.clearfix:after { clear: both; }  
+.clearfix { zoom: 1; } 
+
+
+/* Grangegorman Homepage */
+
+.landing-page { font-size: 1.090909em; clear: both; }
+.landing-page p, .landing-page li { line-height: 1.5em; }
+.landing-page h2 { font-size: 1.0909090em; border-bottom: 1px solid #ccc;  padding: 0 3px; line-height: 30px; margin-bottom: 1em; text-transform: uppercase; font-weight: normal; color: #000 }
+
+#content { width: 100%; margin: 0; padding: 0; }
+
+#news-slideshow, #aside, #panels { float: left; display: inline; margin: 0 10px 0px;  } 
+
+.slider{ padding-bottom:35px;}
+.slide{display:none;}
+.slide1{display:block;}
+.slider iframe{z-index:1000;}
+.slide h2 { padding-left: 25px; margin-bottom: 8px; }
+.slide .wrap { padding: 0 17px; margin: 0; }
+.slide .wrap h3 { color:#00659b; font-size: 1.5em; line-height: 22px; padding-bottom: 0px;  }
+
+.cycle-pager{text-align:center;width:100%;z-index:500;position:absolute; height: 34px; text-align: center;  background-color: #f3f3f3; border-top:1px solid #cfcfcf; }
+.cycle-pager span{font-family:arial;font-size:35px;line-height:34px;width:18px;height:18px;display:inline-block;margin:0 4px;color:#999;cursor:pointer;}
+.cycle-pager span.cycle-pager-active{color:#666;}
+.cycle-pager>*{cursor:pointer;}
+
+#news-slideshow { border: 1px solid #f2f2f2; overflow: hidden; margin-bottom: 20px }
+#news-slideshow .wrap { min-height: 130px; }
+#news-slideshow .photo { height: 350px; }
+#news-slideshow .date { color: #999; margin-bottom: 2px; font-size: 0.9166666em; }
+#news-slideshow .wrap p { margin-bottom: 10px; }
+
+#video-slideshow { border: 1px solid #cfcfcf; margin-bottom: 7px}
+#video-slideshow .slide .wrap { padding:0 12px; min-height: 65px; }
+
+.contact { background-color: #0096d7; color: #fff; margin-bottom: 5px;  }
+.contact h2 { color: #fff; padding-left: 12px; border-bottom-color: #fff; font-weight: bold;}
+.contact .wrap { padding: 0px; min-height: 170px; }
+.contact p { margin: 0; padding: 0; color: #fff;  }
+.contact a { color: #fff !important; text-decoration: underline }
+.contact a:hover { text-decoration: none }
+.contact ul {padding-bottom: 5px;}
+
+#aside { margin-bottom: 15px }
+
+#panels { clear: both; }
+#panels .item { float: left; display: inline; margin-left: 20px; margin-bottom: 15px }
+#panels .row { margin-left: 0; clear: left }
+#panels .photo { border:1px solid #f2f2f2; overflow: hidden }
+#panels p.more { font-weight: bold; }
+#panels p.more a { text-decoration: underline; color: #00649d }
+#panels .item ul li { margin-left: 0; padding-left: 0; background: none; }
+#panels .item ul li a { text-decoration: none }
+#panels .item ul li a:before { content: "\00BB \00A0"; }
+
+.hr { clear: both; border-bottom: 1px solid #ccc }
+
+/* Widths */
+#news-slideshow { width: 618px; }
+#aside, #panels .item { width: 300px;  }
+
+.about h1{ color:#008da9; }
+
+.knowingwhatyouwant h1  { color:#8d0e3b; }
+
+.knowingwhatsoutthere h1  { color: #7d4199;}
+
+.makingapplications h1 { color: #f78f1e; }
+
+.preparingforinterviewsandassesments h1 { color: #e50278; }
+
+.reflecting h1 { color: #ffea01; }
+
+
+/* Grangegorman Defaults */
+.section-grangegorman .wrapper strong { color: #0065af }
+.section-grangegorman .wrapper table { width: 100% }
+.section-grangegorman a { color:#0065af; text-decoration: none }
+.section-grangegorman #content h2 { padding-top: 0; padding-bottom: 0; margin-bottom: 5px; }
+
+/* Grangegorman Layout */
+.section-grangegorman .wrapper { margin-left: 10px; width: 620px; }
+.section-grangegorman .text-wrapper { width: 600px; }
+
+.section-grangegorman #secondary { background: none !important; font-size: 13px; width: 300px; margin-left: 10px; padding-bottom: 15px;   }
+.section-grangegorman #secondary h2 { background-color: #0065af; border: 0; margin: 0; padding:0 0 0 5%; line-height: 42px; font-size: 14px; }
+.section-grangegorman #secondary ul.links, .section-grangegorman #secondary ul.links li { width: 100% }
+.section-grangegorman #secondary ul.links li { margin: 0; display: block }
+.section-grangegorman #secondary ul.links li a, .section-grangegorman #secondary ul.links li span.currentsection { color: #333; border-bottom: 1px solid #ccc; padding: 10px 5% 10px 5%; width: 90%; margin: 0; display: block;  }
+.section-grangegorman #secondary ul.links ul.multilevel-linkul-0 { width: 100%; }
+.section-grangegorman #secondary ul.links ul.multilevel-linkul-0 li a, .section-grangegorman #secondary ul.links ul.multilevel-linkul-0 li span.currentsection
+ { border-bottom: 1px solid #ccc; padding-left:10%; padding-right: 5%; width:85%;  }
+.section-grangegorman #secondary ul.links li a, .section-grangegorman #secondary ul.links ul.multilevel-linkul-0 li a { background: none; }
+.section-grangegorman #secondary ul.links li span.currentsection, #secondary ul.links ul.multilevel-linkul-0 li span.currentsection, .section-grangegorman #secondary ul.links li a:hover, .section-grangegorman #secondary ul.links span.currentsection, .section-grangegorman #secondary ul.links ul.multilevel-linkul-0 a:hover  { color: #fff; background: none }
+#secondary ul.links ul.multilevel-linkul-0 li span.currentsection { font-weight: normal; }
+.section-grangegorman #secondary ul.links ul.multilevel-linkul-0 a { color: #333; }
+
+
+.section-grangegorman #footer { background-color: #0065af; color: #fff; padding-top: 20px  }
+.section-grangegorman #footer a { color: #fff; text-decoration: none }
+.section-grangegorman #footer a:hover { background: none; border: 0; }
+.section-grangegorman #footer a:hover img { opacity: 0.7; }
+.section-grangegorman #footer h3 { font-size: 14px; margin-bottom: 15px }
+.section-grangegorman #siteinfo { border-top: 1px solid #78acd4; padding: 10px 0 5px; margin-top: 20px; font-size: 11px;  }
+.section-grangegorman #siteinfo .membership { font-size: 13px; }
+.section-grangegorman #siteinfo p { margin-bottom: 5px; }
+
+
+
+
+/* Grangegorman Classes & Ids */
+.section-grangegorman #breadcrumbs { padding-left: 10px }
+
+.section-grangegorman .intro { width: 90%; }
+
+.section-grangegorman .listings { margin-bottom: 15px; }
+
+.section-grangegorman .banner img { max-width: 100%; margin-bottom: 15px; }
+
+.section-grangegorman #content h1.page-title, #homepage.section-grangegorman h1.page-title { font-size: 18px; background-color: #00abf0; color: #fff; padding-bottom: 9px;  }
+.section-grangegorman #content h1.page-title { width: 620px; margin-bottom: 20px; }
+.section-grangegorman #content h2.archive { border-top:2px solid #ccc; border-bottom: 2px solid #ccc; padding: 7px 0; margin: 0 0 10px; font-size: 21px; color: #00abf0; font-weight: normal; }
+
+table.stripes tr:nth-child(even) {background: #d2e9ef}
+table.stripes tr:nth-child(odd) {background: #f3f3f3}
+table.stripes td { border: 0; padding-left: 10px; }
+table.stripes td p { margin:8px 0 }
+
+ul.inline { text-align: center }
+ul.inline li { display: inline; }
+ul.inline li a { margin: 0 12px; }
+
+.item-summary { border-bottom: 1px solid #ccc; padding: 10px 90px 1px 0; clear: both; }
+.item-summary .date { color: #666; margin: 0 0 5px; font-size: 11px; }
+.item-summary a.more { font-style: italic; color: #069; text-decoration: none }
+.item-summary h2 a { color: #069; text-decoration: none }
+#content .item-summary h2 { padding: 0 0 5px; margin: 0; }
+
+.news-summary .photo img { max-width: 530px; margin-bottom: 15px; }
+
+.document-summary { padding-right: 0; }
+.document-summary .photo { width: 210px; float: left; display: inline; margin-left: 15px; }
+.document-summary .photo img { border: 10px solid #eee; max-width: 190px;  }
+.document-summary .text { width: 360px; float: right; display: inline; margin-right: 20px; }
+
+.section-grangegorman .back-to-top a { color: #05adf4  }
+
+ul.pagination, ul.pagination li { margin: 0; padding: 0; list-style-type: none; background: none }
+ul.pagination li { display: inline; margin-right: 5px; margin-bottom: 15px; }
+ul.pagination li.previous a, ul.pagination li.next  a { background: none;  }
+ul.pagination li.previous { margin-left: 0; }
+ul.pagination li.previous a { padding-right: 5px; }
+ul.pagination li.next a { padding-left: 5px; }
+ul.pagination li.current { font-weight: bold; }
+ul.pagination li a { background-color: #f7f7f7; line-height: 28px; padding: 4px 6px; color: #05adf4 }
+ul.pagination li a:hover { background-color: #ffcc33; }
+
+
+
+/* Grangegorman Mobile Styles
+-------------------------------- */
+@media handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+
+/* Header and Footer */
+.section-grangegorman #siteinfo, .section-grangegorman #breadcrumbs, .section-grangegorman #actions { display: none }
+.section-grangegorman #utility { width: 100%; }
+.section-grangegorman #main { padding-top: 10px; }
+.section-grangegorman #quicklinks { margin-top: 0px; }
+.section-grangegorman #header #branding { width: 100%; }
+
+/* Homepage */
+.section-grangegorman #news-slideshow { width:95%; margin: 0 2.5% 10px; }
+.section-grangegorman #news-slideshow .slide { width: 100%; }
+.section-grangegorman #news-slideshow .wrap { width: 90%; padding:5px 5%; margin: 0; }
+.section-grangegorman #panels .item { margin-left: 0; }
+
+/* Internal Pages */
+.section-grangegorman #container { width: 100%; text-align: left }
+.section-grangegorman #secondary { background: none !important; background: none !important; background-color: #fff !important; }
+.section-grangegorman .wrapper, .section-grangegorman #secondary  { width: 95%; margin: 0 2.5%; }
+.section-grangegorman .text-wrapper, .section-grangegorman #content h1.page-title, .section-grangegorman .text-wrapper table  { width: 100%; }
+.section-grangegorman #content h1.page-title { width: 97.5%; padding-left: 2.5%; padding-right: 0;  clear: both;  }
+.section-grangegorman #secondary ul.links li a { width: 97.5%; padding-left:2.5%; padding-right: 0; }
+
+/* Listings */
+.section-grangegorman .news-summary { padding-right: 10px; }
+.section-grangegorman .document-summary .photo, .section-grangegorman .document-summary .text { float:none; margin: 0; width: 100%; display: block; }
+.section-grangegorman .document-summary .photo { margin-bottom: 15px;  }
+.news-summary .photo img { max-width: 90%;  }
+}

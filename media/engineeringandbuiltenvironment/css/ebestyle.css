@@ -1,0 +1,404 @@
+@charset "UTF-8";
+/* CSS Document */
+#breadcrumbswide {
+	clear:both;
+	float:left;
+	width:700px;
+	margin:20px 0px;
+}
+#actions {
+	float:left;
+	width:245px;
+	margin:20px 0px;
+	padding:0px;
+}
+#page {
+	width:965px;
+	color:#333333;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:small;
+	padding-top:10px;
+	margin:auto;
+}
+#page a {
+	color:#CC3366;
+	text-decoration:none;
+}
+#page a:hover {
+	color:#CC3366;
+	text-decoration:underline;
+}
+#page img a {
+	border:none;
+	text-decoration:none;
+}
+#content {
+	padding:20px;
+	border:1px dotted #CCCCCC;
+	background-color:#efefef;
+}
+#main-feature p{padding:0px 5px}
+#banner {
+	height:185px;
+	border:none;
+	padding:none;
+}
+#mastHead {
+	width:748px;
+	margin:0px auto;
+}
+#topLinks {
+	padding-top:5px;
+	padding-right:5px;
+	clear:both;
+	float:right;
+	color:#FF9900;
+	font-size:x-small;
+}
+#topLinks a {
+	text-decoration:none;
+	color:#FF9900;
+}
+#topLinks a:hover {
+	text-decoration:none;
+	color:#FF9900;
+}
+#pageMenu {
+	clear:both;
+	padding-top:5px;
+	width:inherit;
+}
+#leftNav {
+	float:left;
+	width:180px;
+}
+#menu {
+	background:#eee;
+	width:180px;
+	background-image:url(http://www.dit.ie/media/collegeofsciencesandhealth/images/bottomMenueng.jpg);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	font-size:12px
+}
+#menu .science {
+	width:160px;
+	padding:10px;
+	border-bottom:#FFFFFF 1px solid;
+	font-size:1.2em;
+	font-weight:bold;
+	background-color:#ff6600;
+	color:white;
+}
+#menu ul {
+	padding-left:0px;
+	padding-top:10px;
+	padding-bottom:40px;
+}
+#menu ul ul {
+	margin:0px 0px 0px 10px;
+	padding-left:0px;
+	padding-top:5px;
+	padding-bottom:0px;
+}
+#menu li {
+	margin:0;
+	background-image:none;
+	padding:3px 0px;
+}
+#menu a {
+	text-decoration:none;
+	color:#333333;
+}
+#menu a:hover {
+	background-color:#ff6600;
+	color:#fff
+}
+#menu span.currentsection {
+	font-weight:bold
+}
+#events {
+	width:180px;
+}
+#newsEvents {
+	width:180px;
+}
+#events .title {
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	width:180px;
+	border-top:1px dotted #CC3366;
+	border-left:1px dotted #CC3366;
+	border-right:1px dotted #CC3366;
+	font-weight:bold;
+	font-size:large;
+	color:#CC3366;
+}
+#newsEvents .title {
+	font-family:Geneva,Arial,Helvetica,sans-serif;
+	width:180px;
+	font-weight:bold;
+	font-size:medium;
+	color:#006699;
+}
+#pageContent {
+	border:1px solid #ccc;
+	background-color:#eee;
+	width:765px;
+	height:auto;
+	float:right;
+  padding:0px;
+	padding-bottom:40px;
+	font-size:1.2em;
+}
+#pageContent li {
+	background-image:none;
+	list-style-type:disc;
+	margin:0px 0px 0px 30px;
+	padding:0px;
+color:#333;
+}
+
+#pageContent li a:link, #pageContent li a:visited{color:#333}
+#bannerSlider {
+	padding:10px 0px 0px 5px;
+	float:left;
+	width:554px;
+	margin-left:7px;
+}
+#mainContentWrap {
+	padding:0px;
+	float:left;
+	width:554px;
+	margin-left:0px;
+}
+
+#main {
+	clear:both;
+	float:left;
+	width:960px;
+	padding:0px;
+	margin-bottom:0px;
+	padding-bottom:0px
+}
+
+#navigation {
+	width:960px;
+	background:#d3e9ef;
+	display:inline;
+	text-align:center
+}
+
+#navigation ul {
+	text-align:center;
+	margin: 0px 120px
+}
+
+#container {
+	margin:0 auto;
+	text-align:left;
+	width:960px;
+	padding:0
+}
+
+#mainContentWrap h1{margin-top:0px;height:32px;width:746px;padding:9px}
+#homepage #main-feature h1{height:55px}
+h2, ,h3,h4,table,p{padding:10px}
+
+#homepage #sideBar {margin-top:90px}
+#bannerTabSlider {
+	float:left;
+	width:554px;
+}
+#albums {
+	float:left;
+	background-color:#BB9766;
+	border:2px solid #996633;
+	width:650px;
+	height:600px;
+	padding:10px;
+}
+#sideBar {
+	text-align:center;
+	float:right;
+	width:175px;
+	height:450px;
+	background-color:white;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+	margin:10px;
+  margin-top:60px;
+}
+#pageContent #sideBar h1 {
+	margin:0;
+	padding:5px 0px;
+	color:#09c;
+	text-align:center;
+	background-color:transparent;
+}
+#sideBar table {
+	margin:0px auto
+}
+#sideBar table tr {
+	margin-top:5px;
+	border:3px solid white
+}
+#facebookTop {
+	width:174px;
+	height:17px;
+	margin-top:-10px;
+	background-image:url(http://www.dit.ie/media/collegeofsciencesandhealth/images/facebook_BgTop.gif);
+	background-repeat:no-repeat;
+}
+#sideBar td {
+	border:0px none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+#footer {
+	float:right;
+	width:965px;
+	clear:both;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:x-small;
+	padding-top:5px;
+	padding-bottom:10px;
+	margin:7px 0 0 7px;
+	color:#999999;
+}
+#footer .left {
+	float:left;
+	margin-bottom:5px;
+}
+#footer .right {
+	float:right;
+	margin-bottom:5px;
+}
+#footer a {
+	color:#999999;
+	text-decoration:none;
+	border-bottom:1px dotted #999999;
+}
+.pinkText {
+	color:#CC3366;
+}
+.lightGreyText {
+	color:#999999;
+}
+.blueText {
+	color:#006699;
+}
+#footer a:hover {
+	color:#FFFFFF;
+	text-decoration:none;
+	background-color:#999999;
+}
+#sciencefooter {
+	clear:both;
+	padding:20px;
+}
+#browsealoud {
+	clear:both;
+}
+#pageContent h1 {
+	line-height:auto;
+	background-color:#999;
+	color:#fff;
+	padding-left:10px;
+	font-size:1.6em;
+	margin-bottom:10px;
+font-weight:bold
+}
+#breadcrumbs {
+	width:710px
+}
+ul#dropdownmenu {
+	list-style-type:none;
+	font-size:1.4em;
+	float:right;
+	margin:0;
+	padding:0;
+}
+ul#dropdownmenu li {
+	margin:0px 0px 0px 1px;
+	background:#0099cc;
+	color:#fff;
+	padding:10px 30px;
+	display:inline;
+	-webkit-border-top-left-radius:15px;
+	-webkit-border-top-right-radius:15px;
+	-moz-border-radius-topleft:15px;
+	-moz-border-radius-topright:15px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	background:#0099cc;
+	background:-moz-linear-gradient(top,#0099cc 0%,#006699 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#0099cc),color-stop(100%,#006699));
+	background:-webkit-linear-gradient(top,#0099cc 0%,#006699 100%);
+	background:-o-linear-gradient(top,#0099cc 0%,#006699 100%);
+	background:-ms-linear-gradient(top,#0099cc 0%,#006699 100%);
+	background:linear-gradient(to bottom,#0099cc 0%,#006699 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099cc',endColorstr='#006699',GradientType=0 );
+}
+ul#dropdownmenu li a:link,ul#dropdownmenu li a:visited {
+	color:white;
+	text-decoration:none;
+	font-weight:bold
+}
+ul#dropdownmenu li a:hover,ul#dropdownmenu li a:active {
+	background-color:transparent;
+	color:white;
+	text-decoration:none;
+	font-weight:bold
+}
+ul#dropdownmenu li:hover {
+	position:relative;
+}
+ul#dropdownmenu ul {
+	z-index:1;
+	position:absolute;
+	left:-999em;
+	width:300px;
+	background:#666;
+	margin-top:5px;
+	margin-left:-3px;
+}
+ul#dropdownmenu li ul li {
+	display:block;
+	border:0px none;
+	background-color:#666;
+	margin:0px;
+	-webkit-border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topleft:0px;
+	-moz-border-radius-topright:0px;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+}
+ul#dropdownmenu ul li a:link,ul#dropdownmenu ul li a:visited {
+	background-color:transparent;
+	color:white
+}
+ul#dropdownmenu ul li a:hover,ul#dropdownmenu ul li a:visited,ul#dropdownmenu ul li:hover {
+	background-color:#09c;
+	color:white
+}
+ul#dropdownmenu li:hover ul {
+	top:2em;
+	left:3px;
+}
+ul#dropdownmenu li li {
+	margin:0 0 3px 0;
+	background:#909;
+	background:rgba(153,0,153,0.66);
+	border: 3px solid #909;
+}
+
+#main-feature table,#main-feature h2,#main-feature p{
+  margin:10px
+}
+
+
+
+

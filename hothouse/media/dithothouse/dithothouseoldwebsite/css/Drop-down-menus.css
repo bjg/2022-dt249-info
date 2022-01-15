@@ -1,0 +1,75 @@
+/*:: Dropdown menus
+	-------------------------------------------------- */
+
+	.flat-menu ul.flat-responsive-menu li ul.menu-dropdown-one{
+	    position:absolute;
+		border:none;
+		outline:none;
+		margin:0;
+		padding:0;
+		list-style:none;
+		padding: 30px;
+	}
+
+
+	.flat-menu ul.flat-responsive-menu li ul.menu-dropdown-one  {
+		background-color:#fdb728;
+		width:200px;
+		position:relative;
+		text-align:left;
+		cursor:pointer;
+	}
+
+
+
+
+	.flat-menu ul.flat-responsive-menu li ul.menu-dropdown-one li a{
+		color:white;
+		text-decoration:none;
+		font-style:normal;
+	    font-weight:normal;
+	    font-family: 'sofia_pro_regularregular';
+		font-size: 12px;
+		margin: 0;
+		padding: 0;
+		padding: 20px;
+		}
+
+	.flat-menu ul.flat-responsive-menu li ul.menu-dropdown-one li a:hover{
+		color:#fdb728;
+	}
+
+
+
+
+	.flat-menu ul.flat-responsive-menu li ul.menu-dropdown-one,
+	.flat-menu ul.flat-responsive-menu li div.wrapper.grid{
+	    opacity:0;
+	    top:-9999px;
+	    display:none/9;
+		position:absolute;
+    }
+
+	.flat-menu ul.flat-responsive-menu li:hover ul.menu-dropdown-one,
+	.flat-menu ul.flat-responsive-menu li:hover div.wrapper.grid{
+	    opacity:1;
+	    top:100%;
+	    display:block/9;
+    }
+
+
+
+	.flat-menu ul.flat-responsive-menu li li > a{
+	    display:block;
+    }
+
+	.flat-menu ul.flat-responsive-menu li ul.menu-dropdown-one,
+    .flat-menu ul.flat-responsive-menu li div.wrapper.grid{
+		-webkit-transition:-webkit-transform 0.4s, opacity 0.4s;
+              -moz-transition:-moz-transform 0.4s, opacity 0.4s;
+		        -ms-transition:-ms-transform 0.4s, opacity 0.4s;
+		          -o-transition:-o-transform 0.4s, opacity 0.4s;
+		                transition:transform 0.4s, opacity 0.4s;
+    }
+
+

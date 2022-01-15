@@ -1,0 +1,177 @@
+* {
+	border-collapse:collapse;
+	vertical-align:baseline;
+	font-weight:inherit;
+	font-family:inherit;
+	font-style:inherit;
+	font-size:%;
+	border:0 none;
+	outline:0;
+	padding:0;
+	margin:0
+}
+#tabs {
+	padding:10px 20px
+}
+#tabs span {
+	margin:0px;
+	font-weight:bold;
+	font-size:.9em
+}
+#tabs a:link,#tabs a:visited {
+	background-color:#0099ff;
+	padding:10px;
+	color:white;
+	text-decoration:none;
+}
+#tabs a:hover,#tabs a:active,#tabs span:hover {
+	background-color:#ffcc00;
+	color:black;
+	text-decoration:none;
+}
+a img {
+	border:0
+}
+body,p,td,input,button,select,ul,ol,li {
+	font-family:trebuchet ms,verdana,sans-serif;
+}
+p {
+	padding-bottom:15px
+}
+h1 {
+}
+ol {
+}
+ol li {
+}
+strong {
+	font-weight:bold
+}
+/*body {
+	background-image:url(http://dit.ie/media/firstyearinformation/images/bg.jpg);
+	background-repeat:repeat-x;
+	background-color: #025e2f
+}
+*/
+body {
+	background-color:#aaa
+}
+.clear {
+	clear:both;
+}
+a:link {
+}
+a:visited {
+}
+a:hover {
+}
+#container {
+	width:790px;
+	margin:20px auto;
+}
+#main_content_head {
+	width:840px;
+	height:197px;
+	margin:0px auto;
+background-color:#ffde00;
+	border-top:10px solid white;
+	border-left:10px solid white;
+	border-right:10px solid white
+}
+#main_content_head_left {
+	background:url(../images/bg_top_left.jpg) no-repeat left top;
+	width:466px;
+	height:197px;
+	float:left
+}
+#main_content_head_right {
+	background:url(../images/bg_top_right.jpg) no-repeat left top;
+	width:274px;
+	height:197px;
+	float:right;
+}
+#main_content {
+	background-image:url(http://dit.ie/media/firstyearinformation/images/bg_bottom.gif);
+	background-repeat:no-repeat;
+ background-size:840px 356px;
+	width:840px;
+	min-height:356px;
+	margin:0px auto;
+	border-bottom:10px solid white;
+	background-color:#c6e7ef;
+	border-left:10px solid white;
+	border-right:10px solid white
+}
+
+#accordion {
+	width:745px;
+	margin-left:48px;font-size:.9em;line-height:20px;
+}
+#accordion .accontent {
+	padding:20px 20px 20px 20px;
+	background-color:#ffffcc;
+	border-left:solid 4px #ffffff;
+	border-right:solid 4px #ffffff;
+  max-height:400px;
+  overflow:auto;
+}
+#accordion #lastaccontent {
+	border-bottom:solid 4px #ffffff
+}
+a#section {
+	width:719px;
+	display:block;
+ background-size:845px 37px;
+  background-color:black;
+  border-top:3px solid white;
+  border-left:3px solid white;
+  border-right:3px solid white;
+  font-size:1.4em;
+}
+h3:last-of-type{
+  border-bottom:3px solid white;
+}
+a#section:link,a#section:visited{
+	padding:10px;
+  color:white;
+  font-style:italic;
+  font-family:Georgia,serif;
+}
+.accontent {
+	font-size:1em;
+}
+.accontent h2 {
+	font-size:1.2em;
+	color:#0066cc;
+	font-weight:bold;
+	margin:20px 0px
+}
+.accontent h3 {
+	font-weight:bold;
+	color:#0066cc;
+	margin:15px 0px;
+  border-bottom:0px none;
+}
+.accontent ul {
+	margin-left:40px
+}
+.accontent p {
+	margin:5px 0px
+}
+.accontent a:link,.accontent a:visited {
+	color:#000;
+}
+.accontent a:hover,.accontent a:active {
+	background-color:#000;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+

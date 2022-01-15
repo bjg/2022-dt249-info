@@ -1,0 +1,21 @@
+.jcarousel-skin-pika .jcarousel-container-horizontal {
+    padding: 10px 10px 10px 17px;margin-top:15px;
+}
+
+
+.jcarousel-skin-pika .jcarousel-clip-horizontal {
+    height: 50px;
+    width: 100%;
+}
+
+.jcarousel-skin-pika .jcarousel-item-horizontal {
+    margin-right: 10px;
+}
+
+
+.jcarousel-skin-pika .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+

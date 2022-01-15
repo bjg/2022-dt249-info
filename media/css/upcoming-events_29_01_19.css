@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* Upcoming Events Styling */
+.event-date {
+    border: 1px solid #CCC;
+    text-align: center;
+    line-height: 36px;
+    font-size: 13px;
+    float: left;
+    width: 70px;
+    margin: 0px 15px 25px 0px;
+}
+
+.event-date .day { background: #00aab8; color: #fff; }
+
+.event-date .image {margin: 10px;}
+
+h3{ color: #00aab8;}
+#main .wrapper {
+    background-color: #FFF;
+    margin-bottom: 15px;
+}
+#main .wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+article .news-summary row clearfix .col-xs-4 {
+	margin: 20px;	
+}
+.news-summary {
+    border-bottom: 4px solid #EBECEE;
+    padding: 0px 0px 20px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+	

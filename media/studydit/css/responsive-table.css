@@ -1,0 +1,18 @@
+/*Responsive Table*/
+
+h3.table {
+	padding: 0px 10px;
+	line-height: 45px;
+	background-color: #E7E7E5;
+	margin-bottom: 5px;
+}
+
+.table-standard tr th {
+	background: #005caf;
+	color: #fff;
+	border-bottom: 5px solid #fff !important;
+	padding-left: 10px !important;
+}
+.table-standard tr td { border-bottom: 2px solid #ececec !important; background: #FFF; padding: 15px 10px !important; list-style:none;  }
+.table-responsive .table { max-width: 900px !important; background:#FFF; }
+.table-responsive .table td { white-space: normal !important; background:#FFF; }

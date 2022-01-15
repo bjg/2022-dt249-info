@@ -1,0 +1,2209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Page Layout - Student Services hme -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Student Services - Student Services</title>
+   
+
+      <link href="../../media/studydit/css/bootstrap.min.css" rel="stylesheet">
+      <link href="../../media/studydit/css/styles_1203.css" rel="stylesheet">
+        
+        <!--Upcoming Events Styling-->
+      <link href="../../media/css/upcoming-events_29_01_19.css" rel="stylesheet">
+          
+          <!--Language Switcher-->
+      <link href="../../media/studydit/css/language_switcher.css" rel="stylesheet">   
+        
+        <!--Instagram.css-->
+       <link href="../../media/css/instagram.css" rel="stylesheet">
+          
+
+  
+         <link href="../../media/collegeofbusiness/css/styles-cob.css" rel="stylesheet">
+ 
+<link rel="stylesheet" type="text/css" href="../../media/collegeofbusiness/css/hpbannernews.css"/> 
+           
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        
+<!--TU Dublin Styles & Favicon -->
+    <!-- navigation object : TU Dublin Stylesheet Refs and Favicon --><link href="../../media/studydit/css/bootstrap.min.css" rel="stylesheet"> <!--bootstrap-->
+   <link href="../../media/studydit/css/styles_1203.css" rel="stylesheet"> <!--styles.css -->
+
+ <link href="../../media/tudublin/css/mainTUDublin.css" rel="stylesheet"> <!--main tudublin DCC-->
+      <link href="../../media/tudublin/css/mobile-stylesTUDublinDCC.css" rel="stylesheet"> <!--mobile styles-->
+        
+       
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        
+  
+ <!--favicon -->
+
+        <link rel="icon" href="../../favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
+ 
+<style>
+  /* Carousel Fading slide */
+.main-slider .carousel-fade .carousel-inner { background: #000; }
+.main-slider .carousel-fade .carousel-control { z-index: 2; }  
+.main-slider .carousel-fade .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  }
+
+.main-slider .carousel-fade .next.left,
+.main-slider .carousel-fade .prev.right,
+.main-slider .carousel-fade .item.active { opacity: 1; }
+
+.main-slider .carousel-fade .active.left,
+.main-slider .carousel-fade .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+    }
+
+
+/* Safari Fix */
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+
+
+
+/* Carousel Control custom */
+.main-slider  .carousel-control .control-icon {
+  font-size: 48px;
+  height: 30px;
+  margin-top: -15px;
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  }
+.main-slider  .carousel-control .prev { margin-left:  -15px;  left: 50%; } /* Prev */
+.main-slider .carousel-control .next { margin-right: -15px; right: 50%; } /* Next */
+
+
+/* Removing BS background */
+.main-slider  .carousel .control-box { opacity: 0; }
+.main-slider a.carousel-control.left  { left: 0; background: none; border: 0;}
+.main-slider a.carousel-control.right { right: 0; background: none; border: 0;}
+
+
+/* Animation */
+.main-slider  .control-box, a.carousel-control, .carousel-indicators li {
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;   
+  /* hardware acceleration causes Bootstrap carousel controlbox margin error in webkit */
+  /* Assigning animation to indicator li will make slides flicker */
+  } 
+
+
+/* Hover animation */
+.main-slider  .carousel:hover .control-box { opacity: 1; }
+.main-slider .carousel:hover a.carousel-control.left { left: 15px; }
+.main-slider .carousel:hover a.carousel-control.right { right: 15px; }  
+
+ 
+/* Carouse Indicator */
+.main-slider .carousel-indicators li.active,
+.main-slider .carousel-indicators li { border: 0; }
+
+.main-slider .carousel-indicators li {
+  background: #666;
+  margin: 0 3px;
+  width: 12px;
+  height: 12px;
+  }
+
+.main-slider  .carousel-indicators li.active {
+  background: #fff;
+  margin: 0 3px;
+  }
+  .carousel-caption{
+  background-color:#FFF;
+  opacity: 0.5;
+  }
+  .carousel-caption{
+  background-color:#FFF;
+  opacity: 0.9;
+  width:40%;
+     margin-top: 0;
+ margin-bottom: 100px;
+  padding: 40px;
+  
+  }
+  
+  .carousel-caption h2{
+  opacity:1;
+  line-height: 1.2em;
+  font-family: "KlavikaBasic-Medium",arial,sans-serif;
+    font-weight: normal;
+  font-size: 39px;
+  color: #0094dd;
+  text-shadow: none;
+  text-align:left
+  
+  }
+    .carousel-caption p{
+ 
+  color: #000;
+  text-shadow: none;
+  text-align:left
+  
+  }
+
+#logo.logooverride { background:none !important;}
+.logoarea{ padding:0px 0px 0px 0px !important;}
+@media only screen and (min-width:767px) and (max-width:959px) {
+.logoarea {padding:0px 0px 0px 0px !important;}
+}  
+  </style>  
+  
+  
+  </head>
+ <body>
+
+<!-- navigation object : 01 DIT Header 2018 *Live* --><header id="cookies-warning">  
+<div class="container"><div class="row">
+	
+	<div class="col-sm-16">
+<p class="pull-left message">
+  To support your privacy rights we have updated our Privacy Statement and Cookie Policy to describe our use and sharing of cookies with our social media, advertising &amp; analytics partners. We recommend that you review the privacy statement <a href="../../tools/disclaimer/privacy/index.html">here</a>, and follow the instructions to modify your cookie settings to suit your privacy preferences. Continued use of our site confirms your choice to accept our privacy statement &amp; cookie policy and confirms your agreement to the processing of your personal data in line with our policy and your preferences. <strong><a href="../../tools/disclaimer/cookiepolicy/index.html">Read Cookie Policy.</a></strong></p>   
+
+<p class="pull-left"><a href="index.html#" class="action">OK</a></p>
+
+	</div>
+	
+</div></div>
+</header>   
+
+<header id="header" class="clearfix">
+<div class="container"><div class="row">
+
+<div class="col-sm-12 hidden-xs">
+	<nav id="quicklinks">
+       <ul class="list-inline pull-right" style="background-color:#000; padding-left:0px;">
+         
+      <li><a href="../../ga/2015header/index.html#d.ga.109084">Gaeilge</a></li>
+
+
+<!--
+<li><a href="/2015header/#d.en.109084">English</a></li>
+-->
+      </ul>
+	<ul class="list-inline pull-right">
+<!-- navigation object : Study at DIT - NAV - DIT BAR --><li><a href="/about/organisation/contacts/">Contacts</a></li>
+     
+     
+	</ul>
+     
+    
+	</nav>
+</div>
+  
+  <!--Logo-->
+		
+<div class="col-sm-8 hidden-xs">
+   <div class="tulogo">
+   <a href="../../index.html"><img src="../../media/tudublin/images/TUDublin_small-01SVG.svg" alt="TU Dublin Logo"/> </a>
+  </div>
+ </div>
+
+<div id="mobile-actions" class="col-xs-12 visible-xs">
+  <div class="logo pull-left">
+    <div class="tulogo">
+    <a href="../../index.html"><img src="../../media/tudublin/images/TUDublin_small-01SVG.svg" alt="TU Dublin Logo"/> </a>
+    </div>
+  </div>
+  <ul class="list-inline pull-right">
+      <li><button type="button" class="navbar-toggle mobile-action collapsed" data-toggle="collapse" data-target="#search-mobile"><i class="fa fa-search"></i></button></li>
+  <li><button type="button" class="navbar-toggle mobile-action collapsed" data-toggle="collapse" data-target="#mobile-global"><i class="fa fa-bars"></i></button></li>
+  </ul>
+</div>
+  
+ 
+  <!-- navigation object : DIT Search Box 2018 --><!-- Search Box Code[April 2018] -->
+<div class="col-sm-4 hidden-xs">
+<form action="/tools/search/" id="search-form" class="form-inline pull-right">
+  <div class="form-group">
+    <input name="cx" value="012936220131878774434:zcynfr4fqjg" type="hidden">
+    <input name="cof" value="FORID:11" type="hidden">
+    <input name="ie" value="UTF-8" type="hidden">
+    <input id="keywords" placeholder="search" name="q" class="form-control" value="Search" type="text">
+  </div>
+  <button type="submit" name="sa" value="Search"><i class="fa fa-search"></i></button>
+</form>
+ <script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box;"></script>  
+</div>
+</header>
+
+<div id="search-mobile" class="collapse clearfix col-xs-12">
+<form action="/tools/search/" id="search-form-mobile" class="form-inline">
+<div class="form-group">
+    <input type="hidden" name="cx" value="012936220131878774434:zcynfr4fqjg" />
+    <input type="hidden" name="cof" value="FORID:11" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" id="keywords" placeholder="search" name="q" class="form-control" value="Search">
+  </div>
+</form>
+ 
+</div>  
+<!-- End of Search Box Code[April 2018] -->
+
+    
+<!-- navigation object : Study at DIT - NAV Main Navigation (responsive) (2015) --><nav id="mobile-global" class="collapse">
+<ul class="navlinks">
+    <li><a href="/studyatdit/">Study at DIT</a></li>
+	<li><a href="/researchenterprise/">Research &amp; Enterprise</a></li>                 
+	<li><a href="/colleges/">Colleges &amp; Schools</a></li>                  
+    <li><a href="/about/">About</a></li>                 
+	<li><a href="/news/">News &amp; Events</a></li>
+</ul>
+</nav>
+
+    
+<!-- navigation object : Study at DIT - NAV Main Navigation (full) (2015) --><nav id="primary">
+<div class="container">
+<ul class="list-inline">
+<li><a href="index.html#" data-target="#panel1">Study at TU Dublin</a></li>
+  <li><a href="index.html#" data-target="#panel2">Research &amp; Enterprise</a></li> 
+<li><a href="index.html#" data-target="#panel3">Colleges &amp; Schools</a></li>                 
+<li><a href="index.html#" data-target="#panel4">About</a></li>  
+<li><a href="index.html#" data-target="#panel5">News &amp; Events</a></li>     
+</ul>
+</div>
+</nav>
+
+
+
+<nav id="panel1" class="panel clearfix">
+<div class="container"><div class="row">
+<section class="col-sm-3 col-lg-2 col-lg-offset-1">
+  <h5><a href="https://tudublin.ie/study/undergraduate/">Undergraduate</a></h5>
+<ul class="list-unstyled">
+  <li><a href="https://tudublin.ie/study/find-a-course/">Programmes &amp; Courses</a></li>
+  <li><a href="https://tudublin.ie/study/undergraduate/entry-or-eligibility-requirements/">Entry requirements</a></li>
+  <li><a href="https://tudublin.ie/study/undergraduate/how-to-apply/">How to Apply</a></li>
+  <li><a href="https://tudublin.ie/study/undergraduate/feesregistration/">Fees  &amp; Registration</a></li>
+  <li><a href="https://tudublin.ie/study/undergraduate/how-to-apply/entry-pathways/portfolio/">Submission of Portfolio</a></li>
+ 
+<!-- navigation object : SaD Undergrad --><!---->
+</ul>
+  <h5><a href="../../international/index.html">International Students</a></h5>
+  </section>
+  <section class="col-sm-3 col-lg-2">
+  <h5><a href="https://tudublin.ie/study/postgraduate/">Postgraduate</a></h5>
+  <ul class="list-unstyled">
+  <li><a href="https://tudublin.ie/study/postgraduate/why-tu-dublin/">Why TU Dublin?</a></li>
+  <li><a href="https://tudublin.ie/study/find-a-course/search-results/?courseType=Postgraduate">Taught Programmes</a></li>
+  <li><a href="https://tudublin.ie/study/postgraduate/taught-postgraduate-applications/how-to-apply/">How to Apply</a></li>
+  <li><a href="https://tudublin.ie/current-students/student-services-and-support/registration-and-fees/">Fees &amp; Registration</a></li>
+  <li><a href="https://tudublin.ie/study/postgraduate/taught-postgraduate-applications/postgraduate-faqs/">FAQs for Postgraduates</a></li>
+  <li><a href="https://tudublin.ie/research/phd-research-opportunities/">Postgraduate Research</a></li>
+  <li><a href="https://tudublin.ie/study/postgraduate/taught-postgraduate-applications/how-to-apply/">Conversion Programmes</a></li>
+  <li><a href="https://tudublin.ie/study/international-students/entry-requirements/english-language-requirements/">English Language requirements</a></li>
+  <li><a href="https://tudublin.ie/study/international-students/entry-requirements/postgraduate-entry-requirements/">Qualification Comparison</a></li>
+<!-- navigation object : SaD Postgrad --><!---->
+</ul>
+</section>
+<section class="col-sm-3 col-lg-2">
+<h5><a href="/studyatdit/part-time/">Part-time</a></h5>
+<ul class="list-unstyled">
+<!-- navigation object : SaD Part-time --><li><a href="../../studyattudublin/part-time/programmescourses/index.html">Programmes &amp; Courses</a></li><li><a href="../../studyattudublin/part-time/howtoapply/index.html">How to Apply</a></li><li><a href="../../studyattudublin/part-time/fees/index.html">Fees</a></li><li><a href="../../studyattudublin/part-time/aboutpart-timestudy/index.html">About Part-time study</a></li><li><a href="../../studyattudublin/part-time/faqsforpart-timestudents/index.html">FAQs for Part-time students</a></li><li><a href="../../studyattudublin/part-time/contacttheschool/index.html">Contact the School</a></li>
+</ul>
+</section>
+<section class="col-sm-3 col-lg-2">
+  <h5><a href="/studyatdit/springboard/">Springboard</a></h5>
+<ul class="list-unstyled">
+<!-- navigation object : SaD Springboard --><li><a href="../../studyattudublin/springboard/aboutspringboard/index.html">About Springboard</a></li><li><a href="../../studyattudublin/springboard/programmescourses/index.html">Programmes &amp; Courses</a></li><li><a href="../../studyattudublin/springboard/amieligibletoapply/index.html">Am I eligible to apply?</a></li>
+</ul>
+</section>
+  <section class="col-sm-3 col-lg-2">
+  <h5><a href="/studyatdit/officeofadmissions/">Office of Admissions</a></h5>
+<ul class="list-unstyled">
+<!-- navigation object : Study at DIT - NAV Office of Admissions (2015) --><li><a href="../../studyattudublin/officeofadmissions/undergraduateadmissions/index.html">Undergraduate Admissions</a></li><li><a href="https://tudublin.ie/study/admissions-office/school-liaison-team/">School Liaison Officer</a></li><li><a href="../../studyattudublin/officeofadmissions/postgraduateadmissions/index.html">Postgraduate Admissions</a></li><li><a href="../../studyattudublin/officeofadmissions/admissionsteam/index.html">Admissions Team</a></li><li><a href="../../studyattudublin/officeofadmissions/internationaladmissions/index.html">International Admissions</a></li><li><a href="../../studyattudublin/officeofadmissions/usefuldownloads/index.html">Useful Downloads</a></li>  
+</ul>
+<h5><a href="../../oifignagaeilge/index.html">Oifig na Gaeilge</a></h5>
+</section>
+</div></div>
+</nav>
+
+<nav id="panel2" class="panel clearfix">
+<div class="container"><div class="row">
+  <section class="col-sm-3 col-lg-2 col-lg-offset-2">
+    <h5><a href="../../researchenterprise/index.html">Research &amp; Enterprise Home</a></h5>
+  <h5><a href="../../researchenterprise/ourresearch/index.html"><!-- navigation object : DRE - Our Research Name -->Our Research</a></h5>
+<ul class="list-unstyled">
+ <!-- navigation object : DRE - Our Research --><li><a href="../../researchenterprise/ourresearch/researchthemes/index.html">Research Themes</a></li><li><a href="../../researchenterprise/ourresearch/researchinstitutescentresgroups/index.html">Research Institutes, Centres &amp; Groups</a></li><li><a href="/">Arrow</a></li>
+</ul>
+</section>
+<section class="col-sm-3 col-lg-2">
+  <h5><a href="../../researchenterprise/researchsupport/index.html">Research Resources</a></h5>
+<ul class="list-unstyled">
+<!-- navigation object : DRE - Research Resources --><li><a href="../../researchenterprise/researchsupport/supportoffice/index.html">Support Office</a></li><li><a href="../../researchenterprise/researchsupport/meettheteam/index.html">Meet the Team</a></li><li><a href="../../researchenterprise/researchsupport/integrityethics/index.html">Integrity &amp; Ethics</a></li>
+</ul>
+  <h5><a href="../../researchenterprise/newseventspublications/news/index.html">News &amp; Events</a></h5>
+<ul class="list-unstyled">
+<!-- navigation object : DRE - News & Events --><li><a href="../../researchenterprise/newseventspublications/eventscalendar/index.html">Events Calendar</a></li><li><a href="../../researchenterprise/newseventspublications/publications/index.html">Publications</a></li><li><a href="../../researchenterprise/newseventspublications/researchnewsmagazine/index.html">Research News Magazine</a></li>
+</ul>
+</section>
+<section class="col-sm-3 col-lg-2">
+  <h5><a href="../../researchenterprise/enterpriseinnovation/index.html">Enterprise &amp; Innovation</a></h5>
+<ul class="list-unstyled">
+ <!-- navigation object : DRE - Enterprise & Innovation --><li><a href="../../researchenterprise/enterpriseinnovation/enterprisehub/index.html">Enterprise Hub</a></li><li><a href="../../hothouse.html">Commercialisation</a></li><li><a href="../../researchenterprise/enterpriseinnovation/studententerprisecompetition/index.html">Student Enterprise Competition</a></li>
+</ul> 
+<h5><a href="../../researchenterprise/graduateresearchschool/index.html">Graduate Research School</a></h5>
+<ul class="list-unstyled">
+  <!-- navigation object : DRE - Graduate Research School --><li><a href="../../researchenterprise/graduateresearchschool/graduateresearchschoolinformation/index.html">Graduate Research School Information</a></li><li><a href="../../researchenterprise/graduateresearchschool/currentstudents/index.html">Current Students</a></li><li><a href="../../researchenterprise/graduateresearchschool/prospectivestudents/index.html">Prospective Students</a></li><li><a href="../../researchenterprise/graduateresearchschool/supervisors/index.html">Supervisors</a></li><li><a href="../../researchenterprise/graduateresearchschool/postdoctoralprogramme/index.html">Post Doctoral Programme</a></li><li><a href="../../researchenterprise/graduateresearchschool/usefulresources/index.html">Useful Resources</a></li><li><a href="../../researchenterprise/graduateresearchschool/newsevents/index.html">News &amp; Events</a></li>
+</ul> 
+</section>
+<!--<section class="col-sm-3 col-lg-2 col-lg-offset-2">
+  <h5><a href="/researchenterprise/ourresearch/">Our Research</a></h5>
+<ul class="list-unstyled">
+  <li><a href="/researchenterprise/ourresearch/researchthemes/">Research Themes</a></li>
+<li><a href="/researchenterprise/ourresearch/researchinstitutescentresgroups/">Research Institutes, Centres &amp; Groups</a></li>
+<li><a href="/researchenterprise/ourresearch/researchspotlight/">Current Research Projects</a></li>
+<li><a href="/researchenterprise/researchsupport/meettheteam">Meet the Team</a></li>
+</ul>
+</section>
+<section class="col-sm-3 col-lg-2">
+  <h5><a href="/researchenterprise/researchsupport/">Research Resources</a></h5>
+<ul class="list-unstyled">
+<li><a href="/researchenterprise/researchsupport/researchsupport/">Research Support</a></li>
+<li><a href="/researchenterprise/researchsupport/horizon2020/">Horizon 2020 Office</a></li>
+</ul>
+  <h5><a href="/researchenterprise/newseventspublications/">News &amp; Events</a></h5>
+<ul class="list-unstyled">
+<li><a href="/researchenterprise/newseventspublications/">Research Publications</a></li>
+  <li><a href="/researchenterprise/newseventspublications/eventscalendar/">Events Calendar</a></li>
+</ul>
+</section>
+<section class="col-sm-3 col-lg-2">
+  <h5><a href="/researchenterprise/enterpriseinnovation/">Enterprise &amp; Innovation</a></h5>
+<ul class="list-unstyled">
+  <li><a href="/hothouse/">DIT Hothouse</a></li>
+</ul>
+  <h5><a href="https://www.researchprofessional.com/0/rr/home">Professional Development</a></h5>
+<ul class="list-unstyled">
+  <li><a href="/lttc/">Learning, Teaching &amp; Technology Centre (LTTC)</a></li>
+</ul>
+</section> --> 
+</div></div>
+</nav>
+
+<nav id="panel3" class="panel clearfix">
+<div class="container"><div class="row">
+<section class="col-sm-3 col-lg-2 col-lg-offset-2">
+  <h5><a href="../../cat/index.html">College of Arts &amp; Tourism</a></h5>
+</section>
+<section class="col-sm-3 col-lg-2">
+  <h5><a href="../../business/index.html">College of Business</a></h5>
+</section>
+<section class="col-sm-3 col-lg-2">
+  <h5><a href="../../colleges/collegeofscienceshealth/index.html">College of Sciences &amp; Health</a></h5>
+</section>
+<section class="col-sm-3 col-lg-2">
+  <h5><a href="../../colleges/collegeofengineeringbuiltenvironment/schoollinks/index.html">College of Engineering &amp; Built Environment</a></h5>
+</section>
+</div></div>
+</nav>
+
+<nav id="panel4" class="panel clearfix">
+<div class="container"><div class="row">
+  <section class="col-sm-3 col-lg-2 col-lg-offset-2">
+  <h5><a href="../../about/index.html">About</a></h5>
+<ul class="list-unstyled">
+ <h5><a href="../../edi/index.html">Equality &amp; Diversity</a></h5>
+</ul>
+</section>
+<section class="col-sm-3 col-lg-2">
+  <h5><a href="../../about/profile/index.html">Profile</a></h5>
+<ul class="list-unstyled">
+<!-- navigation object : SaD main about profile -->
+</ul>
+</section>
+<section class="col-sm-3 col-lg-2">
+  <h5><a href="../../about/organisation/index.html">Organisation</a></h5>
+<ul class="list-unstyled">
+<!-- navigation object : SaD main about organisation -->
+</ul>
+</section>
+<section class="col-sm-3 col-lg-2">
+  <h5><a href="../../about/campusfacilities/index.html">Campus &amp; Facilities</a></h5>
+<ul class="list-unstyled">
+<!-- navigation object : SaD main about campus and facilities -->
+</ul>
+</section>
+<section class="col-sm-3 col-lg-2">
+  <h5><a href="../../about/ditfoundation/index.html">DIT Foundation</a></h5>
+</section>
+
+<section class="col-sm-3 col-lg-2">
+ <h5><a href="../../about/ditpublicationscheme/index.html">DIT Publication Scheme</a></h5>
+</section>
+
+</div></div>
+</nav>
+
+<nav id="panel5" class="panel clearfix">
+<div class="container"><div class="row">
+<section class="col-sm-3 col-lg-2 col-lg-offset-2">
+  <h5><a href="../../newsandevents/news/index.html">News</a></h5>
+</section>
+<section class="col-sm-3 col-lg-2">
+  <h5><a href="../../newsandevents/calendarofevents/index.html">Events</a></h5>
+</section>
+<section class="col-sm-3 col-lg-2">
+  <h5><a href="../../about/profile/publications/index.html">Publications</a></h5>
+</section>
+<section class="col-sm-3 col-lg-2">
+  <h5><a href="../../about/organisation/offices/publicaffairsoffice/media/index.html">Press &amp; Media</a></h5>
+</section>
+<section class="col-sm-3 col-lg-2">
+  <h5><a href="../../newsandevents/calendarofevents/index.html">Calendar</a></h5>
+</section>
+</div></div>
+</nav>
+ 
+
+</div>
+
+
+<!-- TC -->
+
+    <section class="main-slider">
+  <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+
+
+
+
+    <!-- Carousel items -->
+    <div class="carousel-inner">
+
+      <!-- navigation object : Student Services - Carousel Slider  -->      <div class="item" style="min-height:444px;">
+        <img src="../../media/studentservices/images/Banner&#32;BST-2.jpg" alt="" style="width : 2000px; height : 444px;     " />
+        <div class="carousel-caption">
+          <h2>Student Services</h2>
+          <p>Exam Timetables are available to view here <a href="examinations/examinationstimetables/index.html">Click here for more location details</a></p>
+        </div><!-- /.carousel-caption -->
+      </div><!-- /Slide -->      <div class="item" style="min-height:444px;">
+        <img src="../../media/studentservices/images/Banner&#32;BST.jpg" alt="" style="width : 2000px; height : 444px;     " />
+        <div class="carousel-caption">
+          <h2>Student Services</h2>
+          <p>TU Dublin's Student Services is here to support you through your studies from your first day in college to your graduation.</p>
+        </div><!-- /.carousel-caption -->
+      </div><!-- /Slide -->      <div class="item" style="min-height:444px;">
+        <img src="../../media/studentservices/images/Banner&#32;GG.jpg" alt="" style="width : 2000px; height : 444px;     " />
+        <div class="carousel-caption">
+          <h2>Student Services</h2>
+          <p>Find all the useful Student Service Forms <a href="../../studentservices/studentservicecentres/usefulforms/index.html">Click here</a></p>
+        </div><!-- /.carousel-caption -->
+      </div><!-- /Slide -->      <div class="item" style="min-height:444px;">
+        <img src="../../media/studentservices/images/Banner&#32;AST.jpg" alt="" style="width : 2000px; height : 444px;     " />
+        <div class="carousel-caption">
+          <h2>Student Services</h2>
+          <p>Check out the Student Service Center locations <a href="studentservicecentres/findastudentservicecentre/index.html">Click Here</a></p>
+        </div><!-- /.carousel-caption -->
+      </div><!-- /Slide -->
+      
+      
+      
+
+    </div><!-- /.carousel-inner -->
+
+
+    <!-- Controls -->
+    <div class="control-box">
+      <a class="left carousel-control" href="index.html#myCarousel" role="button" data-slide="prev">
+        <span class="control-icon prev fa fa-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      
+      <a class="right carousel-control" href="index.html#myCarousel" role="button" data-slide="next">
+        <span class="control-icon next fa fa-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.control-box -->
+
+
+  </div><!-- /#myCarousel -->
+</section><!-- /.main-slider -->
+
+
+   
+    
+    
+    
+<!-- TC END CAROUSEL -->
+    
+
+
+  
+   
+
+<div class="container">
+  <div class="row" style="clear:both; padding:20px 0px">
+    
+  
+    
+    <!-- End of Page Header -->
+    
+    <section id="main" class="col-xs-12 col-md-9">
+      <div class="row">
+        <div class="equal-column"> 
+          
+          <!-- navigation object :Student Services Feature Boxes (2015) --><!--start DIT website page content-->
+<div class="main-site-white">
+<a name="d.en.171247"></a>
+<h1>Student Services</h1>
+<p>We are a group of Services that are involved in your student journey from the time you start your studies until the time you graduate. We produce your ID cards, advice about fees and forms for your academic options as well as manage your registration and exam information. Explore the Student Services webpages to see how we can help you and make contact with us if you need assistance.</p>
+</div>
+<!--end DIT website page content--><article class="box col-xs-12 col-sm-4 col-md-4">
+ 
+  <div class="wrap equal-height" style="height: 353px;">
+  
+    
+  <a href="registration/index.html">
+  
+  <header>
+    <img src="../../media/studentservices/images/Registration.jpg" alt="Registration" />
+    <h3>Registration</h3>
+  </header>
+    </a></a>
+		<div class="summary">
+			
+          <a href="registration/index.html">
+            <a href="index.html">
+            <p>Each Student must register on their programme annually in advance of classes commencing. </p>
+			            <p class="more">Find out more
+              </p></a>
+      
+		</div>
+	</div>  
+  </article>
+<article class="box col-xs-12 col-sm-4 col-md-4">
+ 
+  <div class="wrap equal-height" style="height: 353px;">
+  
+    
+  <a href="feesandgrants/index.html">
+  
+  <header>
+    <img src="../../media/studentservices/images/Fees&#32;and&#32;Grants.jpg" alt="Fees and Grants" />
+    <h3>Fees & Grants</h3>
+  </header>
+    </a></a>
+		<div class="summary">
+			
+          <a href="feesandgrants/index.html">
+            <a href="index.html">
+            <p>All Programmes offered by TU Dublin are subject to a fee, find out about the options for payment.</p>
+			            <p class="more">Find out more
+              </p></a>
+      
+		</div>
+	</div>  
+  </article>
+<article class="box col-xs-12 col-sm-4 col-md-4">
+ 
+  <div class="wrap equal-height" style="height: 353px;">
+  
+    
+  <a href="studentservicecentres/index.html">
+  
+  <header>
+    <img src="../../media/studentservices/images/Service-100.jpg" alt="Student Service" />
+    <h3>Student Services Centre</h3>
+  </header>
+    </a></a>
+		<div class="summary">
+			
+          <a href="studentservicecentres/index.html">
+            <a href="index.html">
+            <p>We have two Student Service Centres which offer an extensive range of facilities and support services for students.</p>
+			            <p class="more">Find out more
+              </p></a>
+      
+		</div>
+	</div>  
+  </article>
+<article class="box col-xs-12 col-sm-4 col-md-4">
+ 
+  <div class="wrap equal-height" style="height: 353px;">
+  
+    
+  <a href="examinations/index.html">
+  
+  <header>
+    <img src="../../media/studentservices/images/Artboard&#32;19-100.jpg" alt="Examinations" />
+    <h3>Examinations</h3>
+  </header>
+    </a></a>
+		<div class="summary">
+			
+          <a href="examinations/index.html">
+            <a href="index.html">
+            <p>Information on the exams process in TU Dublin: from accessing your timetable to checking your results.</p>
+			            <p class="more">Find out more
+              </p></a>
+      
+		</div>
+	</div>  
+  </article>
+<article class="box col-xs-12 col-sm-4 col-md-4">
+ 
+  <div class="wrap equal-height" style="height: 353px;">
+  
+    
+  <a href="https://www.tudublin.ie/connect/graduates/graduation-2021/">
+  <header>
+    <img src="../../media/studentservices/images/Artboard&#32;8-100.jpg" alt="Graduation" />
+    <h3>Graduations</h3>
+  </header>
+    </a>
+		<div class="summary">
+			
+          <a href="https://www.tudublin.ie/connect/graduates/graduation-2021/">
+            <p>Find out about your ceremony and events on the day, as well as ordering a replacement parchment and joining our TU Dublin Alumni</p>
+			            <p class="more">Find out more
+              </p></a>
+      
+		</div>
+	</div>  
+  </article>
+<article class="box col-xs-12 col-sm-4 col-md-4">
+ 
+  <div class="wrap equal-height" style="height: 353px;">
+  
+    
+  <a href="studentservicecentres/itservicesforstudents/index.html">
+  
+  <header>
+    <img src="../../media/studentservices/images/online-100.jpg" alt="Online Services" />
+    <h3>Online Student Services</h3>
+  </header>
+    </a></a>
+		<div class="summary">
+			
+          <a href="studentservicecentres/itservicesforstudents/index.html">
+            <a href="index.html">
+            <p>Our online service gives access to a wide range of useful tools to help with college life</p>
+			            <p class="more">Find out more
+              </p></a>
+      
+		</div>
+	</div>  
+  </article>
+
+        </div>
+      </div>
+    </section>
+    
+    <aside id="sidebar" class="col-xs-12 col-md-3">
+      <section class="hidden">
+        <nav id="secondary">
+          <ul class="navlinks level-1">
+        
+          </ul>
+        </nav>
+      </section>
+      <div class="equal-column" > 
+        
+        <!-- navigation object : COB- Contact us (2017) -->
+        <section class="alt3"><div class="wrapper">
+<h4>Contact us</h4>
+
+<p><strong>Student Fees Office</strong><br />+353 1 220 7500<br />E: studentfees.city@tudublin.ie</p>
+<p><strong>Registration Service</strong> <br />+353 1 220 6002<br />E: registrations.city@tudublin.ie<br /> <br /><strong>Student Services - Aungier Street</strong><br />+353 1 220 6003<br />E: studentservices.city@tudublin.ie<br /><a href="https://goo.gl/maps/4S9JCu8feG72">Google Map Link</a><br /> <br /><strong>Student Services - Grangegorman</strong><br />+353 1 220 6003<br />E: studentservices.city@tudublin.ie<br /><a href="https://goo.gl/maps/pZAhykEQRKU2">Google Map Link</a><br /> <br /><strong>Exams - Cathal Brugha Street</strong><br />+353 1 220 6001<br />E: Exams.Cbs@TUDublin.ie<br /> <br /><strong>Exams - Kevin Street</strong><br />+353 1 220 6001<br />E: Exams.KevinSt@TUDublin.ie<br /> <br /><strong>Exams - Aungier Street</strong><br />+353 1 220 6001<br />E: Exams.AungierSt@TUDublin.ie<br /> <br /><strong>Exams - Bolton Street</strong><br />+353 1 220 6001<br />E: Exams.BoltonSt@TUDublin.ie</p>
+
+</div></section>
+
+       <section class="alt1">
+          <div class="wrapper">
+            <h4>News &amp; Events</h4>
+            <!--<ul class="links list-unstyled">-->
+            <ul class="links list-unstyled news-list">  
+              <!-- navigation object : Student Services - News list sidebar (2015) --><li><a href="newsevents/articles/onlineregistrationsystemupdate.html">01/09/2021<br>Online Registration System Update</a></li><li><a href="newsevents/articles/registrationsofficehasmoved.html">22/04/21<br>The Registrations Office has moved</a></li><li><a href="newsevents/articles/examtimetablesforsemester2.html">21/04/21<br>Exam Timetables for Semester 2</a></li>
+            </ul>
+            <p class="more"><a href="/currentstudents/studentservices/newsevents">view all news</a></p>
+          </div>
+        </section>
+        <section>
+          
+          <!--<div class="wrapper">
+            <h5>Stay Connected with our team</h5>
+            <ul class="list-unstyled social">
+              
+              <!-- navigation object : COB - Stay connected (2017) 
+              <li><a href="https://tudublincollegeofbusinessblog.wordpress.com/"><i class="fa fa-wordpress"></i>Read our Blog</a></li><li><a href="https://twitter.com/WeAreTUDublin"><i class="fa fa-twitter"></i>Follow TU Dublin</a></li><li><a href="https://www.facebook.com/TechnologicalUniversityDublin.TUDublin/"><i class="fa fa-facebook-square"></i>Follow us on Facebook</a></li><li><a href="https://www.linkedin.com/school/technological-university-dublin/"><i class="fa fa-linkedin-square"></i>Join us on Linkedin</a></li><li><a href="https://www.youtube.com/user/DITPublicAffairs/"><i class="fa fa-youtube-play"></i>TU Dublin on YouTube</a></li>
+            </ul>
+          </div>-->
+        </section>
+      </div>
+    </aside>
+    
+  </div>
+</div>
+</section>
+  
+  </div>
+      <aside id="sidebar" class="col-xs-4 col-md-3" style="display:none">
+ <section class="section clearfix">
+<nav id="secondary">
+
+<!-- navigation object : Study at DIT - NAV Side Breadcrumbs (2015) --><ul class="breadcrumbs"><li><a href="../index.html">Current Students</a></li></ul>
+<!-- navigation object : Study at DIT - NAV Internal Sidenav (2015) --><ul><li><span class="currentbranch0">Student Services</span>
+<ul class="multilevel-linkul-0">
+<li><a href="registration/index.html">Registration</a></li>
+<li><a href="studentservicecentres/index.html">Student Service Centres</a></li>
+<li><a href="feesandgrants/index.html">Fees and Grants</a></li>
+<li><a href="examinations/index.html">Examinations</a></li>
+<li><a href="/currentstudents/studentservices/newsevents/">News &amp; Events</a></li>
+<li><a href="/currentstudents/studentservices/directorateofstudentdevelopment/">Directorate of Student Development </a></li>
+
+</ul>
+</li><li><a href="../index.html">Home</a></li></ul>
+
+
+</nav>
+</section>
+
+</aside>   <!--<section id="news-feed" class="section-block" >
+  <div class="container">
+    	<div class="row">
+				<header class="section-intro"><h2>News and Events</h2><a class="all" href="/business/news/">See all news and events</a></header>       
+         
+         		 <div id="slider">
+                            <div class="cycle-slideshow" data-cycle-fx="carousel"
+                                data-cycle-timeout="0"
+                                data-cycle-carousel-fluid="true"
+                                data-cycle-next="#next"
+                                data-cycle-prev="#prev"
+                                data-cycle-pager="#pager"
+                                data-cycle-slides="> .slide"
+                              >
+            
+          
+          						<!-- navigation object : 01 DIT New Homepage News 2015 <article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline184453en.html"><header>
+<img  src="/business/news/BR.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Postgraduate Diploma in Business Resilience approved Springboard+ Funding </h3>
+<p>TU Dublin College of Business is very pleased to announce the part-time one-year PgD in Business Resilience has been approved for Springboard+ funding. This allows a 90% discount on the normal €5,300 programme fee for eligible applicants at are in employment and 100% discount for eligible applicants that are currently unemployed</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline182518en.html"><header>
+<img  src="/business/news/paulca.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Professor Paul Donnelly was invited to moderate advocacy panel for Citizen’s Assembly on Gender Equality </h3>
+<p>The theme for the Assembly meeting followed from an Oireachtas resolution: to identify and dismantle economic and salary norms that result in gender inequalities, and reassess the economic value placed on work traditionally held by women;, and to scrutinise the structural pay inequalities that result in women being disproportionately represented in low pay sectors. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline182302en.html"><header>
+<img  src="/business/news/TeamA.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin City Campus Team represent Ireland in International Strategy Competition</h3>
+<p>The Lazaridis International Case Competition is a case competition for post-secondary students, 16 of the top business schools across Europe, North America, Asia and Australia qualified to compete at the online event from October 9-16, 2020. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline182220en.html"><header>
+<img  src="/business/news/Copy of Copy of Brexit Paul.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Business, IT, Law & Languages Virtual Careers Fair - Wed 14th Oct - 11 to 3pm</h3>
+<p>Every year, the Career Development Centre offers our students the opportunity to connect with recruiting employers and this year it will be no different! </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline182532en.html"><header>
+<img  src="/business/news/Copy of Copy of Yellow and Green Geometric Technology Keynote Presentation.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>National Launch European CAse Study Alliance (ECASA)</h3>
+<p>Join us on Thursday 29th October at 9.30am for the National Launch of the European CAse Study Alliance - 'Creating SME Business Case Studies with Real Impact'.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline181859en.html"><header>
+<img  src="/business/news/Brexit Paul.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Professor Paul Donnelly Brexit interview with Argentine Public Radio</h3>
+<p>Professor Paul Donnelly discusses Brexit with veteran journalist María Laura Avignolo on Radio Ciudad Once Diez, Argentina</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline180940en.html"><header>
+<img  src="/business/news/Strat Management IG.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Masters in Strategic Management, what’s new for September 2020?</h3>
+<p>The Masters in Strategic Management was redesigned for September 2020, exciting new modules and an Expert Seminar Series.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline180803en.html"><header>
+<img  src="/business/news/careers business.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Career Development Centre Seminars</h3>
+<p>Advice on the next steps in your career from TU Dublin Career Development Centre. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline180805en.html"><header>
+<img  src="/business/news/parttime.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Infinite Possibilities with a Postgraduate Qualification from TU Dublin</h3>
+<p>TU Dublin is a leader in postgraduate and executive education with a large portfolio of business programmes delivered in Aungier Street. Next week, the Graduate Business School will host two webinars detailing the University's part-time and full-time provision.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline180570en.html"><header>
+<img  src="/business/news/TU Dublin Virtual Open Days.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Virtual Open Days 2020</h3>
+<p>Now that the Leaving Certificate is due to commence in July, TU Dublin has developed a range of virtual Open Day events beginning on Wednesday, 29th April.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline180569en.html"><header>
+<img  src="/business/news/Copy of 23rd April.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Webinar: Effective Remote Leadership- 4pm- Thursday 23rd April 2020</h3>
+<p>In response to the COVID-19 pandemic and Government guidelines advising people to stay at home and avoid unnecessary social contact, the number of people working from home has rapidly increased, many for the first time.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline180571en.html"><header>
+<img  src="/business/news/who made my clothes.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>How COVID-19 might accelerate a global fashion revolution</h3>
+<p>On Earth Day, Dr Dee Duffy, Marketing Lecturer in Fashion & Retail Studies and Consumer Behaviour, explains why Covid-19 may be the catalyst for a global transformation of the fashion industry.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline180240en.html"><header>
+<img  src="/business/news/R O.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Marketing Graduate Ryan O' Carroll winner of the European EACA Thesis Competition </h3>
+<p>Ryan O' Carroll's thesis was titled 'The Uses and Gratifications of Generation Z within Social Networks: A Dialectical Investigation into the Facebook Domain' </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline180234en.html"><header>
+<img  src="/business/news/covid191919.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>COVID-19: Awareness and Preparedness</h3>
+<p>TU Dublin is closely following the advice of the HSE in relation to containing the potential spread of the COVID-19 virus. This virus can cause illness ranging from the common cold to more severe respiratory illness.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline180184en.html"><header>
+<img  src="/business/news/Hugh.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Students finish in Top 5 of Universities at CaseIT 2020. </h3>
+<p>CaseIT is an annual international undergraduate Management Information Systems (MIS) business case competition seeking to find the best and brightest students in case analysis. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline180086en.html"><header>
+<img  src="/business/news/NCBI.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>NCBI Retail Managers graduate at TU Dublin</h3>
+<p>The Graduation Ceremony took place at TU Dublin on the 25th of February with 12 Retail Managers from NCBI receiving a CPD Certificate in Retail Operations and Marketing. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline180060en.html"><header>
+<img  src="/business/news/Copy of Copy of PG Seminar Series 1.jpg"  width="1920"  height="1080"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Postgraduate Seminar Series- Your Career... The Next Steps</h3>
+<p>Join us on Wednesday 11th March for the Postgraduate Seminar Series 'Your Career, The Next Steps' with TU Dublin Career Development Centre. 
+</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline180034en.html"><header>
+<img  src="/business/news/Copy of Copy of Finance 3.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin SMF Future of Finance 2020</h3>
+<p>Join us on Thursday 23rd April at TU Dublin College of Business as we bring together leading industry experts to explore the Future of Finance. This event is being run by the Student Managed Fund in TU Dublin which is proudly sponsored by Goodbody and in aid of Pieta House.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline179826en.html"><header>
+<img  src="/business/news/Merenda.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>MSc Marketing Students in collaboration with Merenda</h3>
+<p>Merenda is a family owned Irish business with an expertise in manufacturing wood veneer component products for furniture manufacturers worldwide. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline179607en.html"><header>
+<img  src="/business/news/PG Seminar Series 1.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Postgraduate Seminar Series 2020- Digital in China</h3>
+<p>Colin Lewis-Chief Marketing Officer for OpenJaw Technologies </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline180035en.html"><header>
+<img  src="/business/news/Start-Ups-for-People-with-Disabilities.jpg"  width="600"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Report Provides Blueprint to Encourage Entrepreneurship in People with Disabilities</h3>
+<p>A new report published by Technological University Dublin (TU Dublin) today has highlighted the need for tailored supports for people with disabilities that want to start their own business.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline179691en.html"><header>
+<img  src="/business/news/eog2.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Marketing Students qualify for NIBS Worldwide Case Competition 2020</h3>
+<p>L-R: Roger Sherlock (Coach), Charlie Miller, Casey O’Brien, Eoin Byrne, Alex O’Sullivan, Tara Rooney (Coach)</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline179640en.html"><header>
+<img  src="/business/news/David Gluckman4.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>How a Global Giant Operated Like a Small Start-Up For Three Decades and Found Fortune with David Gluckman</h3>
+<p>The internationally recognised product development and marketing guru, David Gluckman will share his insights and experience. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline179858en.html"><header>
+<img  src="/business/news/EOGHAN3.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>College of Business Students in Montreal for the John Molson Undergraduate Case Competition 2020</h3>
+<p>(L-R) Aoife O Neill (BSc Business and Law), Billy O Reilly, Jennifer Hickey and Rachel Keogh (all BSc Business and Management)</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline179619en.html"><header>
+<img  src="/business/news/PG Seminar Series 2.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Postgraduate Seminar Series 2020- Artificial Intelligence in Practice </h3>
+<p>Artificial Intelligence in Practice- David Kerrigan-author and keynote speaker. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline179594en.html"><header>
+<img  src="/business/news/Open evening 1902.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Executive MBA Open Evening</h3>
+<p>TU Dublin invites you to join us for our Executive MBA Open Evening on Wednesday 19, February. Meet our alumni and career experts, and discover how an Executive MBA at TU Dublin can relaunch your career for the 2020s!</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline179561en.html"><header>
+<img  src="/business/news/Love your Career.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Love Your Career Week, 10-14 February </h3>
+<p>February 14th is traditionally a time for lovers. Still, the Career Development Centre at TU Dublin is encouraging students to start loving their careers this Valentine's Day with events taking place next week on a range of topics, including Interview Skills, Writing a CV and Job-Hunting.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline179431en.html"><header>
+<img  src="/business/news/Retail News item 2020.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Retail Symposium 2020- Customer Loyalty Management in Retailing</h3>
+<p>The annual Retail Management Symposium, takes place this year on the 5th to the 7th of February, with this year’s focus on customer loyalty and loyalty management in a retail context.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline179383en.html"><header>
+<img  src="/business/news/DIGI wEEK.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin International Digital Marketing Week 2020</h3>
+<p>The School of Marketing are delighted to welcome students and staff from the Amsterdam University of Applied Sciences as they join us for International Digital Marketing Week from 4th – 6th February 2020</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline179365en.html"><header>
+<img  src="/business/news/Employers campus.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Employers on Campus- Aungier Street </h3>
+<p>Upcoming company visits on 28th and 29th of Janauary as IBEC, EY and Vodafone join us to discuss their graduate programmes. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline179313en.html"><header>
+<img  src="/business/news/Seminar Brexit.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Seminar Invitation - Tuesday, 28th January</h3>
+<p>3S Research Group would like to invite TU Dublin staff members and PhD Students to an informative seminar on the project “Post-Brexit Implications on Irish Freight, Transport and Logistics Industry” on Tuesday 28th January 2020.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline171968en.html"><header>
+<img  src="/business/news/brexit 2.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Research Opportunity at TU Dublin College of Business</h3>
+<p>An exciting research opportunity is now open at the College of Business with the project "Brexit Implication for Irish Freight, Logistics and Transportation". The project will assess potential post-Brexit implications for the logistics and transportation sector and the impact on movements of goods between Ireland, the other EU Member States, or the United Kingdom.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline179053en.html"><header>
+<img  src="/business/news/ADS.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Postgraduate Diploma in Advertising and Digital Communications commences on 27th January 2020</h3>
+<p>Ambitious Advertising Talent- Accelerate your career in 2020 with a professional qualification in advertising and digital communications.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline178929en.html"><header>
+<img  src="/business/news/TC1.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Masters in Technology & Innovation Management Students Support Work of ChildVision</h3>
+<p>During Semester One, students taking Corporate Entrepreneurship, led by Prof Tom Cooney, undertook consultancy work for the not-for-profit organisation ChildVision. The class was divided into groups, with each group focusing on analysing a specific ChildVision activity.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline178856en.html"><header>
+<img  src="/business/news/Copy of Open Evening and D&I event.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin is delighted to invite our Executive MBA students and alumni to join us for a festive and insightful evening on Friday 13th December at 7.30pm.</h3>
+<p>TU Dublin is delighted to invite our Executive MBA students and alumni to join us for a festive and insightful evening on Friday 13th December at 7.30pm.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline178855en.html"><header>
+<img  src="/business/news/Hanoi-Main-Image.jpg"  width="600"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Academic Delivers Keynote at Vietnamese National University</h3>
+<p>Dr Anthony Paul Buckley visited the prestigious Vietnamese National University in Hanoi where he delivered a seminar to the country’s future leaders in Higher Education. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline178858en.html"><header>
+<img  src="/business/news/Copy of OPEN EVENING.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin MBA Open Evening, Friday 13 December</h3>
+<p>TU Dublin invites you to join us for our MBA Open Evening on Friday, 13 December. Explore how the pursuit of an MBA qualification at Ireland's first Technological University can energise your career, and sample one of our MBA masterclasses – Diversity & Inclusion: How to Leverage Fresh Insights</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline178832en.html"><header>
+<img  src="/business/news/research22222.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Design Thinking with IBM at TU Dublin Graduate Business School</h3>
+<p>The latest event in the TU Dublin Graduate Business School Seminar Series was a Design Thinking workshop delivered by Noel Leddy of IBM. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline178833en.html"><header>
+<img  src="/business/news/eog1.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Place Third At University of University of Münster Case Competition</h3>
+<p>Four postgraduate students at TU Dublin recently competed at the University of Muenster Case Competition coming third in what is one of the world's most innovative and reputable contests in Higher Education.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline178831en.html"><header>
+<img  src="/business/news/research333.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin host Symposium on Policy Analysis in Ireland</h3>
+<p>Back row L-R: Brendan O’Rourke (TUDublin); Eoin Cullina (NUIG); Mary Murphy (NUIM); Fiona Dukelow (UCC); Sharon Feeney (TUDublin); Rory O’Donnell (NESC)
+ Front row L-R: John Hogan (TUDublin); Clare O’Mahony (TUDublin); Orla O’Connor (NWCI); Pauline Cullen (MU); Muiris MacCarthaigh (QUB) 
+ 
+</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline178606en.html"><header>
+<img  src="/business/news/ipa.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>IPA Ireland hosted their 2nd Irish Interpretative Phenomenological Analysis Colloquium</h3>
+<p>IPA Ireland hosted their 2nd Irish Interpretative Phenomenological Analysis (IPA) Colloquium at TU Dublin City Campus, Aungier Street on Saturday 9th November 2019, chaired by Dr. Serge Basini. Senior Lecturer, TU Dublin.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline178442en.html"><header>
+<img  src="/business/news/Copy of research.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>College of Business Partner in EU Project on HEI Community Engagement</h3>
+<p>The College of Business is a partner in an EU Funded project that is seeking to develop innovative and feasible policy tools for supporting, monitoring and assessing the community engagement of higher education institutions. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline178104en.html"><header>
+<img  src="/business/news/KEITH G INNOVATION.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Innovation Symposium with Professor Keith Goffin</h3>
+<p>TU Dublin Innovation Symposium with Professor Keith Goffin, Portfolio Selection “Why is it hard to choose the best Innovation projects?”</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline178084en.html"><header>
+<img  src="/business/news/Konzinets 11.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Two Dozen Years of Netnography: 1995-2019</h3>
+<p>TU Dublin are joined by Professor Robert V. Kozinets, a Jayne and Hans Hufschmid Professor of Public Relations and Business Communications in the Marshall School of Business, University of Southern California for an event exploring Netnography in Grangegorman on Monday, 11 November</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline177986en.html"><header>
+<img  src="/business/news/research team1.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin lead EU funded project on ‘Improving management development standards in SMEs in Ireland’</h3>
+<p>Pictured Left to Right: Dr Lorraine Sweeney, TU Dublin, Dr Wael Rashwan, TU Dublin Shona McManus, CEO of Osborne Recruitment and Steering Group Chair Prof Tom Cooney, TU Dublin, Georgina Georgiou, EU Structural Reform Support Service, Dr Katrina Lawlor, TU Dublin, Sven Spollen-Behrens, Director SFA Small Firms Association, Dr Deirdre McQuillan, TU Dublin, Don O'Connor, Senior Policy Analyst, Department of Business, Enterprise & Innovation</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline177969en.html"><header>
+<img  src="/business/news/Supply Chain Visibility Tool Project.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Partner on the Supply Chain Visibility Project</h3>
+<p>The project team held their final meeting in October at TU Dublin:(L-R): Fiachra Coll (TU Dublin), John Jameson (TU Dublin) Gwenaëlle Lairet (ESSCA), Annabelle Holder (University of Gloucestershire), Brigitte de Faultrier (ESSCA), George Stalidis (ATEITH), Neil Towers (University of Gloucestershire).</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline178105en.html"><header>
+<img  src="/business/news/challenges facing leaders.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Leadership Event: Future Challenges Facing Leaders</h3>
+<p>TU Dublin Graduate Business School invites you to our Leadership Event: Future Challenges Facing Leaders on Tuesday 5th November, with a panel of industry experts</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline177237en.html"><header>
+<img  src="/business/news/Capture2.JPG"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Research Opportunity at TU Dublin College of Business</h3>
+<p>An exciting research opportunity is now open at the College of Business with the project "Improving Management Development Standards in SMEs in Ireland". </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline176758en.html"><header>
+<img  src="/business/news/Jonnie.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Jonnie Cahill- Guest Speaker at TU Dublin College of Business </h3>
+<p>The Feelings Business - In a world where we can measure everything the real question is, should we? Here is your chance to listen to one of Ireland’s most innovative, creative and successful marketers, Jonnie Cahill, Chief Marketing Officer at Heineken USA. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline176628en.html"><header>
+<img  src="/business/news/Megan (1).png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin College of Business Student Meagan Yeates wins Gold at WorldSkills 2019</h3>
+<p>TU Dublin students and apprentices have won seven medals at the WorldSkills 2019 competition, which saw over 1,300 young people from 63 countries compete in 56 skills across a wide range of industries — from freight forwarding to cloud computing; aircraft maintenance and visual merchandising.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline176546en.html"><header>
+<img  src="/business/news/HRM MSC.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Progress your career as a HR Professional with a Masters in Human Resource Management</h3>
+<p>People are at the heart of every business, meaning that a high-performing HRM function is one of the keys to business success. Mixing theory and practice, this masters programme offers you the opportunity for in-depth study of human resource management and the practical application to live company projects. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline176493en.html"><header>
+<img  src="/business/news/Postgraduate Diploma Management Marketing.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Postgraduate Diploma in Management & Marketing celebrates 10 Years
+</h3>
+<p>The Postgraduate Diploma in Management & Marketing conversion programme was designed by TU Dublin's School of Marketing in partnership with the Marketing Institute of Ireland in 2009, aimed at graduates from a range of disciplines including Science, Engineering, IT, Arts and Humanities working in business-related roles looking to gain a business qualification.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline176398en.html"><header>
+<img  src="/business/news/EIA 2019.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Business Students on Top Winning Teams at EIA 2019</h3>
+<p>Five TU Dublin students from the College of Business, Aungier Street, recently travelled to Portugal to compete at the European Innovation Academy (EIA), the world's largest entrepreneurship summer school focused on technology innovation.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline176399en.html"><header>
+<img  src="/business/news/Worldskills5.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin College of Business Student Meagan Yeates at WorldSkills 2019</h3>
+<p>L-R - Declan Allen, Paul Marah, Glen McNamara, Megan Yeates, Professor David FitzPatrick, Ryan Dempsey, Fernando Perez Tellez and Ray English</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline175633en.html"><header>
+<img  src="/business/news/ciara.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>MSc Advertising Student Ciara Gilmartin shares her story of the Roger Hatchuel Academy</h3>
+<p>Ciara Gilmartin was selected to represent Ireland at this year's Roger Hatchuel Academy at Cannes Lions International Festival of Creativity 2019 through a competitive selection process ran by the Institute of Advertising Practitioners in Ireland (IAPI). Check out Ciara's video where she brings us through her journey and shares in this once in a lifetime experience. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline175441en.html"><header>
+<img  src="/business/news/Copy of MBA Scholarships.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin 2019 MBA Scholarship Programme</h3>
+<p>The Graduate Business School at TU Dublin is pleased to announce the launch of our 2019 MBA Scholarship programme.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline175392en.html"><header>
+<img  src="/business/news/Arthur Ryan.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin note the passing of Dr. Arthur Ryan with deep sadness</h3>
+<p>Dr. Arthur Ryan pictured at St. Patrick's Cathedral in November 2011, as he was awarded an Honorary Doctorate by Dublin Institute of Technology for his outstanding contribution to business and employment in Ireland and globally.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline175304en.html"><header>
+<img  src="/business/news/Copy of MBA Event.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin MBA Breakfast Briefing</h3>
+<p>TU Dublin MBA invites you to our next breakfast briefing on Wednesday 17th July at 8.30am, where you can find out how the pursuit of an MBA qualification at Ireland's first Technological University can energise your career in 2019!</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline175223en.html"><header>
+<img  src="/business/news/ad on radio.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Masters in Advertising Students interviewed on Dublin City Radio</h3>
+<p>Kelly O'Connor and Ben O'Beirne discuss their journey to the Ad Grad Showcase 2019 with Alex Gibson on the Persuaders Radio Show Dublin City 103.2FM. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline175840en.html"><header>
+<img  src="/business/news/Ent.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Entrepreneurship for People with Disabilities Seminar</h3>
+<p>Pictured: Front Row (Left to Right) Eileen Daly (The AT Network), Noelle Day (Mobility Mojo) Back Row (Left to right): Helen McQuillan (Employability Clare), Des Henry (WALK), Brian Aird (TeamWork Cooperative, Canada), Prof Thomas Cooney (TU Dublin), Marion Wilkinson (National Disability Authority), Prof Yvonne Galligan (Equality, Diversity and Inclusion, TU Dublin) and Fergus Finlay (Chair of the Implementation Group for the Comprenhensive Employment Strategy for People with Disabilities.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline175199en.html"><header>
+<img  src="/business/news/MBA TU Dublin winners.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin MBA Students win 'Best Speaker' Awards at the MBA Association of Ireland Strategy Competition 2019</h3>
+<p>Pictured L-R: Gerard Whelan (MD of GWP Developments), Stuart Crainer (Co-founder of Thinkers 50), Catherine Butler (MBAAI Director), Alacoque McMenamin (MBAAI President), Jane Maher(TU Dublin) and Michael O’Connor (TU Dublin) Niamh Townsend (Leader of Microsoft EMEA’s Specialist Inside Sales teams) and Eamon DeBurca (Commercial Manager, Diageo)</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline175834en.html"><header>
+<img  src="/business/news/Ryan.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Marketing Student Ryan O' Carroll wins best poster award at the European Conference on Social Media 2019</h3>
+<p>Ryan O' Carroll presented his dissertation research 'The Uses and Gratifications of Generation Z within Social Networks: A Dialectical Investigation into the Facebook Domain' at the 6th European Conference of Social Media, University of Brighton, United Kingdom. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline175836en.html"><header>
+<img  src="/business/news/GPTW.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Lessons from Ireland's Most Trusted Leader 2019- Pamela Quinn, Managing Director- Kuehne + Nagel</h3>
+<p>Pictured (L-R): Cathal Divilly, Partner at Great Place to Work, Pamela Quinn, Managing Director- Kuehne + Nagel Ireland, Chris Paul, CEO- Avantcard and Colin Hughes, Head of Graduate Business School, TU Dublin. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline174614en.html"><header>
+<img  src="/business/news/Entrepreneurship.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Entrepreneurship for People with Disabilities</h3>
+<p>TU Dublin Professor Thomas Cooney is hosting a seminar on 'Entrepreneurship for People with Disabilities' on Thursday June 20th at the College of Business.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline174974en.html"><header>
+<img  src="/business/news/News story.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Interested in pursuing a career in Digital Marketing?</h3>
+<p>Join us on June 27th at 4pm and meet some of our current students and former graduates of our Full-Time Masters in Digital Marketing, learn all about the programme, work placement, industry visits, travel and career opportunities. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline174720en.html"><header>
+<img  src="/business/news/Focus Group 2.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Focus Group: Post-Brexit Implication on Irish Freight and Transport Sector</h3>
+<p>As we continue to prepare for Brexit, the 3S Group and FTA Ireland conducts a focus group on 'Post-Brexit Implication on Irish Freight and Transport Sector' at TU Dublin College of Business on Friday the 21st of June at 11.30am. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline174670en.html"><header>
+<img  src="/business/news/award.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Masters in Advertising Graduates win at The All Ireland Marketing Awards 2019</h3>
+<p>The All Ireland Marketing Awards programme, organised by The Marketing Institute of Ireland, is the nation's premier means of recognising the success of Irish marketing professionals and acknowledging their major contribution to the ongoing process of strengthening the economy of Ireland.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline175224en.html"><header>
+<img  src="/business/news/AD GRAD 2019.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin ADGRAD Showcase 2019</h3>
+<p>Students of the MSc in Advertising at Technological University Dublin are working to transform this year’s showcase into a reflection of our new university status. This year, the client is Google, and the campaign is Pride. An excellent brief to receive, but certainly a challenging one. Google has a brilliant reputation for corporate social responsibility and has been present at Dublin Pride since 2014.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline174374en.html"><header>
+<img  src="/business/news/Copy of PC 2019.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Calling Product Managers, Product Marketers and Developers- Product Camp Dublin Thursday June 6th 2019
+</h3>
+<p>Product Camp Dublin invites ambitious Product Management and Product Marketing professionals and those with aspirations to work in the area, to our largest Product Camp to date (over 400 registered so far) on 6th June 2019</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline174277en.html"><header>
+<img  src="/business/news/Pamela Quinn.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Lessons from Ireland's Most Trusted Leader 2019- Pamela Quinn, Managing Director- Kuehne + Nagel</h3>
+<p>TU Dublin Graduate Business School is delighted to invite you to join us at our Leadership Breakfast Briefing in association with Great Place to Work Ireland on Wednesday 5th June for Lessons in High Trust Leadership from Ireland's Most Trusted Leader 2019, Pamela Quinn of Kuehne + Nagel</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline174312en.html"><header>
+<img  src="/business/news/News Paul Flynn.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Driving Standards for High Performance, Lessons from the World of Sport with Paul Flynn</h3>
+<p>TU Dublin MBA invites you to an exclusive evening on Thursday 30th of May as we are joined by Paul Flynn, former All Star Dublin Footballer, six time All-Ireland Winner and CEO of the Gaelic Players Association. Paul will share his experience on driving standards for high performance from his professional career and as an elite sportsman, providing advice on personal performance and team performance.  </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline174276en.html"><header>
+<img  src="/business/news/IBEC MOVE ON UP.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Move On Up with an MSc in Applied Management and Leadership</h3>
+<p>Ibec collaborated with TU Dublin to develop this exciting new MSc programme, focused on developing the critical areas of management, HRM and leadership, with a particular focus on applying best practice in these areas, in the real world. 
+</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline174105en.html"><header>
+<img  src="/business/news/Simon Community.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Simon Communities Dublin, Cork and Galway graduate at TU Dublin</h3>
+<p>The Graduation Ceremony took place at TU Dublin on the 9th of May with 72 volunteers from Dublin, Cork and Galway Simon Communities receiving their Certificate in Volunteering and an additional 15 staff members received a Certificate in Digital Marketing Strategy.  
+
+</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline173858en.html"><header>
+<img  src="/business/news/CV Clinic.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Need help with your CV, Job hunting or Interviews? </h3>
+<p>Come along to lunch-time sessions this week as TU Dublin's Career Development Centre provide a CV review clinic to all business students at our Aungier Street Campus, Dublin 2 on Wednesday 8th and Thursday 9th of May.  </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline173857en.html"><header>
+<img  src="/business/news/LEARNUPON 2.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>MSc Marketing Students Live Learning with LearnUpon</h3>
+<p>Pictured: Roger Sherlock, Kathleen Hughes and Laura Cuddihy- (TU Dublin Academic Team) Brendan Noud, Des Anderson, Derek Kavanagh, Phily Hayes and Sarah Martin (LearnUpon) with students from the Masters in Marketing. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline173573en.html"><header>
+<img  src="/business/news/MSC Marketing.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin M.Sc Marketing teams collaborate with Microsoft in Online Advertising Challenge Event</h3>
+<p>Pictured- Edel Foley, Digital Marketing module co-ordinator and Alex Lahusen, Associate Advertising Manager, Microsoft EMEA with some of the Masters in Marketing participants.
+</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline173572en.html"><header>
+<img  src="/business/news/Copy of research1.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Business Research Publications Update- March 2019</h3>
+<p>The following lists recent journal and book publications by TU Dublin faculty- March 2019</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline172866en.html"><header>
+<img  src="/business/news/Barry O.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Barry O'Sullivan- Digital Producer BBDO- The Use of VR in promotion</h3>
+<p>All College of Business students are welcome to join our MSc. Strategic Management students in a talk from Barry O'Sullivan, Digital Producer BBDO on the use of Virtual Reality in promotion on Tuesday 9th April at 11am. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline172527en.html"><header>
+<img  src="/business/news/dECLAN.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>IRONMAN'S UK & Ireland Regional Director Declan Byrne- Tuesday 2nd April</h3>
+<p>All College of Business students are welcome to join our Strategic Management students in a talk from Declan Byrne, UK & Ireland Regional Director of Ironman on Tuesday 2nd at 11am and also 6pm.  Declan will focus on branding, positioning and marketing communications strategy of Ironman. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline172528en.html"><header>
+<img  src="/business/news/Katriona.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Lecturer Katriona Flynn features on RTE Brainstorm</h3>
+<p>Analysis: Just what does luxury mean in 2019? </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline172488en.html"><header>
+<img  src="/business/news/Copy of Copy of Fash Rev.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Join Us In The Join Us in the Fashion Revolution, Wednesday 3rd April</h3>
+<p>Fashion Revolution is a global movement raising awareness of the fashion industry’s most pressing issues and celebrating those who are on a journey to create a more ethical and sustainable future for fashion.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline172420en.html"><header>
+<img  src="/business/news/13 LOGISTICS SILVER-97522222.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Logistics Student wins Silver Medal at IrelandSkills Live</h3>
+<p>Final year Logistics and Supply Chain Management student, Megan Yeates, won the Silver Medal at IrelandSkills Live which took place from 21-23 March 2019 at the RDS. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline172526en.html"><header>
+<img  src="/business/news/TomCooney- headshot.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Professor Appointed to Government Advisory Group</h3>
+<p>Prof Tom Cooney, Professor of Entrepreneurship at TU Dublin- College of Business was recently appointed to the newly created SME and Entrepreneurship (SMEE) Consultation Group established by the Department of Business, Enterprise and Innovation.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline172320en.html"><header>
+<img  src="/business/news/career development.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Need help with your CV, Job hunting or Interviews? </h3>
+<p>Come along to lunch-time sessions this week as TU Dublin's Career Development Centre provide career workshops to all business students, in particular, 3rd and final year College of Business students at our Aungier Street Campus, Dublin 2 on the 26th, 27th and 28th March. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline172260en.html"><header>
+<img  src="/business/news/Goodbody.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin take 2nd Place at Goodbody Student Managed Fund Competition </h3>
+<p>TU Dublin- Student Managed Fund Team: (L-R) Sean Horgan, Brendan Hughes, Shaina Sutton, Alannah Carragher and Evin Comerford. 
+</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline172183en.html"><header>
+<img  src="/business/news/Copy of Virtual Workforce.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>The Future of Work – Management Strategies for the Virtual Workforce</h3>
+<p>Join us on Thursday 4th April at TU Dublin College of Business as we bring together leading industry experts and academics to explore the virtual worker, virtual teams, effective flexible work practices and management approaches. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline172230en.html"><header>
+<img  src="/business/news/Fullbright.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Fulbright Entrepreneurship Specialist Prof Weaver Visiting College of Business</h3>
+<p>Pictured at Student Pitch (L-R): Mark Hamilton (BDO), Conor Kilbride (TU Dublin student), Sean Gallagher (serial entrepreneur), Brian Lake (TU Dublin student),  Prof Weaver, Christopher Mc Nulty (TU Dublin student) and Prof. Thomas Cooney (Lecturer in Entrepreneurship, TU Dublin) </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline172163en.html"><header>
+<img  src="/business/news/FEA SS.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Finance Economics and Accounting Seminar Series 2019</h3>
+<p>Join us on Friday 12th April for the Finance, Economics and Accounting (FEA) Seminar Series in TU Dublin- College of Business organised by the School of Accounting & Finance. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline172166en.html"><header>
+<img  src="/business/news/Monika Huesmann2 .png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Visiting Professor Dr. Monika Huesmann shares key research at College of Business</h3>
+<p>Pictured: Marian Jennings (Lecturer in Law, TU Dublin- College of Business) Prof. Dr. Monika Huesmann (Berlin School of Economics and Law) and Dr. Mary Prendergast (Assistant Head, School of Management, TU Dublin)</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline172149en.html"><header>
+<img  src="/business/news/EIA 2019 news.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Exciting Opportunities available for TU Dublin College of Business Students</h3>
+<p>Turn an Idea into a start-up in just 15 days at the the European Innovation Academy 2019 this Summer. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline172153en.html"><header>
+<img  src="/business/news/smf 2019.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>JP Morgan host workshop for TU Dublin Accounting and Finance Students</h3>
+<p>Students from TU Dublin School of Accounting & Finance received a unique insight into JP Morgan, one of the world's largest financial services companies and investment banks, at a recent workshop organised by TU Dublin SMF (Student Managed Fund) in their new offices in Sir John Rogerson's Quay.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline171817en.html"><header>
+<img  src="/business/news/Main Image.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin at Global Engineering and Commerce Case Competition 2019</h3>
+<p>Pictured at the opening ceremony of ENGCOMM 2019: from left to right, Prof. David Kennedy, Lee Gibbons, William Tunstead, Dr. Eoghan O’Grady, Cathal Kinirons, and Brian King.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline170864en.html"><header>
+<img  src="/business/news/research4.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Business Research Publications Update- February 2019</h3>
+<p>The following lists recent journal and book publications by TU Dublin faculty- February 2019</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline171251en.html"><header>
+<img  src="/business/news/ESTEEM .png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Six College of Business Students participate in ESTeEm Mentoring Programme</h3>
+<p>Pictured: L-R- Sophie Davies (Accenture), Leslie Shoemaker (ESTeEm programme co-coordinator), Martha Sikwese (4th year Business Computing), Aleksandra Leonova (4th year Business Computing), Zoe Herbert (2nd year Business Analytics), Marie Cunney (SAP & ESTeEM Mentor), Xyrille Santos (2nd year Business Analytics) and Farrah Higgins (lecturer in Business Computing & Business Analytics).</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline171248en.html"><header>
+<img  src="/business/news/friel.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin welcomes Colm Friel, Analyst at Polar Capital</h3>
+<p>Pictured: Masters in Finance Students, Colm Friel and School of Accounting & Finance Faculty. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline170977en.html"><header>
+<img  src="/business/news/NIBS Bronze.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Take Home Bronze- NIBS Worldwide Case Competition 2019</h3>
+<p>College of Business is delighted to announce that four Marketing students have won bronze place in the the Network of International Business Schools (NIBS) International Case Study Competition 2019.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline170925en.html"><header>
+<img  src="/business/news/Ricardo Rodrigues 2.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>College of Business welcome Dr. Ricardo Rodrigues from King's College London. </h3>
+<p>Dr. Rodrigues will present on the topic “Self-Managing careers in the 21st Century: Challenges for workers and organisations”</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline170858en.html"><header>
+<img  src="/business/news/algae 2.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Dr Anushree Priyadarshini to participate in the Enhance MicroAlgae Acceleration Programme</h3>
+<p>Dr Anushree Priyadarshini from the School of Accounting and Finance is part of the project ‘EXCEL-ALGAE’ with UCD School of Agriculture and Food Science, selected as one of the five projects in Europe for the Enhance MicroAlgae Acceleration Programme.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline171261en.html"><header>
+<img  src="/business/news/jmucc19.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>College of Business Students in Montreal for the John Molson Undergraduate Case Competition 2019</h3>
+<p>The John Molson Undergraduate Case Competition (JMUCC) is an annual, week-long event that takes place in the heart of downtown Montreal, and challenges twenty-four international teams from renowned business schools.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline170720en.html"><header>
+<img  src="/business/news/LEARNUPON.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>MSc Marketing Students in collaboration with LearnUpon</h3>
+<p>Pictured: Centre- Phily Hayes and Sarah Martin, LearnUpon with students from the Masters in Marketing</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline170635en.html"><header>
+<img  src="/business/news/Morgan McKinley.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin- City Campus HRM Students welcome Morgan McKinley's Recruitment Experts</h3>
+<p>Pictured: Maria Suasti and Stephen Nagle, Morgan McKinley- centre with final year HRM degree students</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline170409en.html"><header>
+<img  src="/business/news/David Gluckman3.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin-  City Campus welcome David Gluckman to the College of Business </h3>
+<p>The internationally recognised product development and marketing guru, David Gluckman will share his insights and experience. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline170449en.html"><header>
+<img  src="/business/news/NIBS 2019.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Team arrive at the NIBS Case Competition 2019 </h3>
+<p>The competition is in full swing as the team arrive at the University of Prince Edward Island, Charlottetown, Canada. Among the snowdrifts and -13 temperature, NIBS 2019 is underway.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline170531en.html"><header>
+<img  src="/business/news/eoghan.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Team arrive in Montreal for EngComm 2019</h3>
+<p>The competition is underway as the team arrive at the Concordia University, Montreal, Canada.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline170667en.html"><header>
+<img  src="/business/news/Louise.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Irish Fashion, Travel & Lifestyle blogger Louise Cooney shares her experience of the Ibec Global Graduates programme</h3>
+<p>TU Dublin- City Campus Graduate Louise Cooney completed her Masters in Marketing here at the College of Business and went on to take part in the Ibec Global Graduates programme. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline171285en.html"><header>
+<img  src="/business/news/fASHION .png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Fashion Buying Students Study Trip takes in Amsterdam and Paris </h3>
+<p>Masters in Fashion Buying & Management Students were treated to two cities- Amsterdam and Paris, in this years' International Study Trip</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline170298en.html"><header>
+<img  src="/business/news/Orlagh Cramp.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin- City Campus Student Orlagh Cramp Wins Digital Student of the Year</h3>
+<p>Winner Orlagh Cramp pictured with Digital Media Awards Host- Newstalk’s Tom Dunne </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline169639en.html"><header>
+<img  src="/business/news/DIGI wEEK.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>International Digital Marketing Week at TU Dublin- City Campus</h3>
+<p>The School of Marketing are delighted to welcome students and staff from the Amsterdam University of Applied Sciences as they join us for International Digital Marketing Week. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline169517en.html"><header>
+<img  src="/business/news/CIPD.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Diversity and Inclusion - Pushing the Boundaries.</h3>
+<p>Left to right; Mary Connaughton (Director CIPD Ireland), Vivienne Kavanagh (Employee Development and Equality Executive, Dublin Bus), Avril Hutch (Head of EDI, Royal College of Surgeons in Ireland) and Dr. Mary Prendergast, Assistant Head of School, School of Management</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline169641en.html"><header>
+<img  src="/business/news/NIBS.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin- City Campus Students make it to the Final Round- NIBS Case Competition 2019</h3>
+<p>This is the final round of the NIBS case competition where students tackle real-world international business challenges in a best-on-best team tournament, benefiting from unique settings that immerse them in the culture of the host country.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline169313en.html"><header>
+<img  src="/business/news/TU Dublin Logistics Project Image 2.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Research Team in TU Dublin to assess post-Brexit implications in the logistics sector</h3>
+<p>Pictured: Left to Right: Aidan Flynn, General Manager FTA Ireland; Declan Allen, Assist Head, School of Management; Dr Katrina Lawlor Dean, College of Business; Professor David Fitzpatrick, President TU Dublin; Edward Tersmette, policy officer, European Commission, Secretariat General, Structural Reforms Support Service (SRSS); Martin Diskin, Road Transport and Freight Policy Division, DTTAS; Dr Deirdre McQuillan, Head of Research, College of Business; Dr Amr Mahfouz , Lecturer and Project Manager, School of Management; Paul O’Reilly Head, School of Management</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline169154en.html"><header>
+<img  src="/business/news/Digital Studnet.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin- City Campus Students Nominated for Digital Student of the Year</h3>
+<p>School of Marketing students Ryan O'Carroll and Orlagh Cramp recognised in the Digital Media Awards 2019.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline169142en.html"><header>
+<img  src="/business/news/Retail News.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Retail Symposium 2019- Thinking Outside the Box: Retail Formats for 21st Retailing</h3>
+<p>The 13th annual College of Business Retail Management Symposium, takes place the 5th to the 7th of February as part of the MBS in Retail Management with this year’s focus on the key issues pertaining to the development of new and imaginative retail formats for the 21st century consumer</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline168966en.html"><header>
+<img  src="/business/news/Austria 3.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>MSc International Business Seminar Series- Austria from an International Business Context</h3>
+<p>An integral part of the MSc International Business is the seminar series which runs in the 2nd Semester throughout January and February. The eclectic range of multi-disciplinary seminars is delivered by a range of visiting academics and practitioners, as well as TU Dublin College of Business faculty members, each seminar deals with a topic at the cutting edge of the discipline of International Business.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline168633en.html"><header>
+<img  src="/business/news/Discovery fund.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Dr Roisin Vize announced as the recipient of the DIT Hothouse Discovery Fund College Award</h3>
+<p>Dr Roisin Vize from the School of Marketing at DIT College of Business is the recipient of the college award from DIT Hothouse Discovery Fund. The competitive funding stream was established to support innovative early stage research that has significant impact potential.  </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline167680en.html"><header>
+<img  src="/business/news/Alocoque Collage.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Tune into Brainstorm on RTÉ Radio 1 Sundays at 6pm</h3>
+<p>The RTE Radio 1 programme Brainstorm on Sunday, 9 December at 6pm will feature an interview with Alacoque McAlpine, Lecturer and PhD researcher in Supply Chain Management in the School of Marketing at DIT.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline168675en.html"><header>
+<img  src="/business/news/ads 1.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Calling Ambitious Individuals Looking to Pursue a Career in the Communications Industry</h3>
+<p>TU Dublin School of Marketing are celebrating the ninth successful year of its Postgraduate Diploma in Advertising and Digital Communication and welcome ambitious individuals looking to pursue a career in the communications industry. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline167121en.html"><header>
+<img  src="/business/news/Maebh.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Trends for 2019 - Post Grad Exchange @ DIT College of Business </h3>
+<p>Meabh Quoirin joins us at the Post Grad Exchange at DIT College of Business.  </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline165207en.html"><header>
+<img  src="/business/news/sinead dublin.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>DIT College of Business Graduate Sinead Aherne leads Dublin to two-in-a-row victory at All-Ireland Final</h3>
+<p>DIT graduate Sinead Aherne captained Dublin during its win against Cork in the All-Ireland Ladies Senior Football Final on Sunday in Croke Park.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline164991en.html"><header>
+<img  src="/business/news/Project-man-FB2sml.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>MSc Project Management Information Evening</h3>
+<p>DIT is delighted to announce the launch of an exciting new part-time programme- MSc in Project Management, designed by a team of Project Management experts to meet the current and future needs of organisations in dealing with Project, Programme and Portfolio management initiatives.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline164987en.html"><header>
+<img  src="/business/news/Claire-Nicholl-LOT-Accenturesml.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>DIT students are leaders of tomorrow</h3>
+<p>DIT Students Claire Nicholl and Ciaran Conlon have won Accenture’s Leaders of Tomorrow summer accelerator programme. The pair were recognised for their work developing an app called Compensave which uses gamification to make saving money fun.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline164988en.html"><header>
+<img  src="/business/news/Freshers-Weekssml.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Getting the most out of your first few weeks at DIT</h3>
+<p>Starting college is an exciting time, but with some of your new-found freedoms, you may find college a difficult transition from school. Here is our guide to help you get the most out of those first few weeks in college.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline164989en.html"><header>
+<img  src="/business/news/Parents-Information-Eveningsml.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Book your place on a DIT Parent Orientation: 10/11/12 September</h3>
+<p>DIT is hosting a series of briefings for parents, guardians and families of students starting out on their college careers. Over 800 parents attended last year, with 100% agreeing in a feedback survey that they would recommend the event to another parent.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline164990en.html"><header>
+<img  src="/business/news/DIT-Aungier-Streetsml.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>DIT Orientation Schedule for first years - 10-14 September 2018</h3>
+<p>Excitement is building in DIT as we prepare to welcome first years embarking on their college careers. Before classes begin on Monday, 17 September, DIT will host a series of events to help you settle in, including your programme orientation.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline164751en.html"><header>
+<img  src="/business/news/Math.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Maths competency test for Business Analytics CAO applicants 2018</h3>
+<p>DIT is holding a Mathematics Competency Test (MCT) for applicants to its Level 8 (Honours) Degree Programmes which require Higher Level Maths.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline164747en.html"><header>
+<img  src="/business/news/Amanda.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>My career in Technology powered by an MSc in Strategic Management</h3>
+<p>DIT Strategic Management graduate, Amanda Halpin, shares with us her career choices and what led her to her current role as EMEA Business Development Manager at Genesys.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline164414en.html"><header>
+<img  src="/business/news/MBA Generic.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Transform your career with an MBA from Ireland's first Technological University</h3>
+<p>Find out how studying at Ireland's first Technological University could revitalise your career by registering for your place at the MBA Information Morning in DIT Aungier Street on Tuesday, 14 August at 8:30 am.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline164749en.html"><header>
+<img  src="/business/news/TU-Dublin2.jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>An Taoiseach announces Ireland?s first Technological University</h3>
+<p>The alliance of Dublin Institute of Technology, Institute of Technology Blanchardstown and Institute of Technology Tallaght is set to become the first Technological University (TU Dublin) in Ireland, as revealed by An Taoiseach Leo Varadkar TD in Grangegorman today.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline164206en.html"><header>
+<img  src="/business/news/Project man.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>New Part-time Masters in Project Management</h3>
+<p>DIT College of Business roll out new part-time Masters in Project Management for busy professionals, commencing this September </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline164070en.html"><header>
+<img  src="/business/news/bigstock--225011446 (1).jpg"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Future-proof your career with an MSc in Strategic Management from DIT</h3>
+<p>Expertise in strategic management and planning has never been more critical given the turbulent and challenging environments in which Irish businesses now operate.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline164099en.html"><header>
+<img  src="/business/news/BSc Logistics, Supply Chain.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>BSc in Logistics and Supply Chain Management- approved for Springboard+ Funding</h3>
+<p>DIT School of Management is delighted to announce that our part-time one year BSc in Logistics and Supply Chain Management has been approved for Springboard+ funding. This allows a 90% discount on the normal ?3,000 programme fee for eligible applicants.</p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline174719en.html"><header>
+<img  src="/business/news/Career.jpg"  width="1024"  height="768"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>TU Dublin Business Students- Looking for help with the next step of your career?? </h3>
+<p>Book an appointment with the career services team to discuss career options, effective job hunting, How to write a winning CV and cover letter, how to succeed in an interview, further study or any other career related items. </p>
+</div>
+</div></article>
+<article class="slide"><div class="wrap equal-height">
+<a href="/business/news/headline175855en.html"><header>
+<img  src="/business/news/Research July.png"  width="620"  height="350"  alt=""  />
+</header></a>
+<div class="summary">
+<h3>Business Research Publications Update- July 2019</h3>
+<p>The following lists recent journal and book publications by TU Dublin faculty- July 2019</p>
+</div>
+</div></article>
+  
+          
+                            </div>
+                            
+
+                  <div class="transparent transparent-left"></div><div class="transparent transparent-right"></div>
+                  <a href="#" id="prev" class="slider-arrow"><i class="fa fa-chevron-left"></i></a>
+                  <a href="#" id="next" class="slider-arrow"><i class="fa fa-chevron-right"></i></a>
+                    
+          			</div>
+		</div>
+	</div>
+</section>-->
+
+
+<footer id="footer">
+<!-- navigation object : 01 DIT Footer 2015 Roomthree --><footer id="footer">
+<div class="container">
+
+<div id="overview-links" class="row">
+<section class="col-sm-3 col-md-2 link-list">
+<h4>INFORMATION FOR</h4>
+<ul class="list-unstyled">
+<!-- navigation object : Study at DIT - NAV - Info for --><li><a href="/studyatdit/">Prospective Students</a></li><li><a href="../../international/index.html">International Students</a></li><li><a href="../../fyi/index.html">Incoming Students</a></li><li><a href="../index.html">Current Students</a></li><li><a href="../../forstaff/index.html">Staff</a></li><li><a href="../../graduatenetwork/index.html">Alumni</a></li><li><a href="../../hothouse.html">Business & Entrepreneurs</a></li><li><a href="../../ditfoundation/index.html">Donors</a></li><li><a href="../../about/organisation/offices/publicaffairsoffice/media/index.html">Media</a></li>
+</ul>
+</section>
+
+<section class="col-sm-3 col-md-2 link-list">
+<h4>INFORMATION ABOUT</h4>
+<ul class="list-unstyled">
+  <!-- navigation object : Study at DIT - NAV - Info about --><li><a href="../../about/index.html">The University</a></li><li><a href="/oifignagaeilge/">Oifig na Gaeilge</a></li><li><a href="../../ace/index.html">Access & Civic Engagement</a></li>
+</ul>
+</section>
+
+<section class="col-sm-3 col-md-2 link-list">
+<h4>PEOPLE &amp; PLACES</h4>
+<ul class="list-unstyled">
+   <!-- navigation object : Study at DIT - NAV - People and places --><li><a href="../../tools/contacts/index.html">Staff Contacts</a></li><li><a href="../../about/campusfacilities/locations/index.html">Location & Maps</a></li><li><a href="../../about/organisation/ourcollegesschools/index.html">Colleges & Schools</a></li><li><a href="/about/organisation/instituteoffices/">Offices & Departments</a></li><li><a href="../../library/index.html">Library</a></li><li><a href="../../aadlt/lttc/index.html">Learning, Teaching & Technology Centre</a></li>
+</ul>
+</section>
+
+<section class="col-sm-3 col-md-2 link-list">
+<h4>ONLINE SERVICES</h4>
+<ul class="list-unstyled">
+<!-- navigation object : Study at DIT - NAV - Online places --><li><a href="/">Arrow</a></li>
+</ul>
+</section>
+  
+  <div class="clearfix visible-sm"></div>  
+
+<section class="col-sm-3 col-md-2 link-list">
+<h4>A-Z Index</h4>
+<ul class="list-unstyled">
+<!-- navigation object : Study at DIT - NAV - A-Z index --><li><a href="https://tudublin.ie/study/find-a-course/search-results/?courseType=Undergraduate">A-Z Undergraduate Courses</a></li><li><a href="https://tudublin.ie/study/find-a-course/search-results/?courseType=Postgraduate">A-Z Postgraduate Courses</a></li><li><a href="https://tudublin.ie/study/part-time/">A-Z Part-time Courses</a></li><li><a href="../../dita-z/studentsa-z/index.html">A-Z for Students</a></li><li><a href="../../dita-z/staffa-z/index.html">A-Z for Staff</a></li>
+</ul>
+</section>
+</div>
+
+
+
+<section id="connect">
+<hr />
+<h5>Connect with TU Dublin</h5>
+<ul class="social-icons list-inline">
+  <li class="facebook"><a href="https://www.facebook.com/TechnologicalUniversityDublin.TUDublin/" target="_blank">
+<span class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa fa-facebook fa-inverse fa-stack-1x"></i>
+</span>
+</a></li>
+  <li class="twitter"><a href="https://twitter.com/WeAreTUDublin" target="_blank">
+	<span class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa fa-twitter fa-inverse fa-stack-1x"></i>
+</span>
+</a></li>
+  <li class="youtube"><a href="https://www.youtube.com/technologicaluniversitydublin" target="_blank">
+		<span class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa fa-youtube-play fa-inverse fa-stack-1x"></i>
+</span>
+</a></li>
+  <li class="instagram"><a href="https://www.instagram.com/tudublin" target="_blank">
+		<span class="fa-stack fa-lg">
+  <i class="fa fa-instagram fa-2x"></i>
+  <i class="fa fa-instagram fa-inverse fa-stack-1x"></i>
+</span>
+</a></li> 
+  <!--<li><a href="https://www.tu4dublin.ie/"><img style="width:100% !important;" src="/media/tu4dublin/img/TU Website Bar med.jpg"/></a>
+  </li>-->
+
+</ul>
+</section>
+
+
+<section id="siteinfo">
+<hr />
+<p><!-- navigation object : Study at DIT - Bottom footer menu --><a href="index.html#">Home</a><span class="divider">/</span><a href="/about/websitehelp/">Help</a><span class="divider">/</span><a href="../../tools/disclaimer/privacy/index.html">Cookie & Privacy Statement</a><span class="divider">/</span></p>
+
+<div class="row">
+<section class="col-sm-4">
+<p>Member of the European University Association<br />
+&copy; 1998<script>new Date().getFullYear()>1998&&document.write("-"+new Date().getFullYear());</script>, TU Dublin</p> 
+</section>
+<section class="col-sm-6">
+    <img src="../../media/studydit/images/template/eu_logo.gif" alt="ERDF Investing in your future" class="img-responsive">
+       
+</section>
+<section class="col-sm-2">
+      
+    <img src="../../media/images/Athena-Swan-Bronze-Winner-DIT-white-bg.png" alt="Athena Swan Bronze Award Winner DIT" class="img-responsive">
+       
+</section>
+</div>
+
+</section>
+ 
+</div>
+</footer>
+
+
+
+</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="../../media/2019reis/js/jquery.cycle2.min.js"></script>
+    <script src="../../media/2019reis/js/jquery.cycle2.carousel.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../../media/studydit/js/bootstrap.min.js"></script>
+    <script src="../../media/studydit/js/jquery.matchHeight-min.js"></script>
+   <script src="../../media/studydit/js/jquery.cookie.js"></script>
+    <script src="../../media/studydit/js/general.js"></script>
+<!-- navigation object : DIT Google Analytics code --><!--Plain code template-->
+<!--new DIT tracking code implemented 05 October 2009-->
+<script src="../../media/javascript/gataglinks.js" type="text/javascript"> </script>    
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4025580-1");
+pageTracker._setDomainName(".dit.ie");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!--new DIT tracking code implemented 05 October 2009-->
+<!--Plain code template-->
+
+  <script>
+    // Carousel Auto-Cycle
+  $(document).ready(function() {
+    
+var myCarousel = $(".carousel");
+myCarousel.append("<ol class='carousel-indicators'></ol>");
+var indicators = $(".carousel-indicators"); 
+myCarousel.find(".carousel-inner").children(".item").each(function(index) {
+    (index === 0) ? 
+    indicators.append("<li data-target='#myCarousel' data-slide-to='"+index+"' class='active'></li>") : 
+    indicators.append("<li data-target='#myCarousel' data-slide-to='"+index+"'></li>");
+});   
+    
+     $('.item').first().addClass('active');
+  $('.carousel-indicators > li').first().addClass('active');
+    $('.carousel').carousel({
+      interval: 6000
+    })
+  });
+    </script>
+</body>
+</html>

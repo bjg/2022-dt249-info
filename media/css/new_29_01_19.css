@@ -1,0 +1,27 @@
+#navigation ul {  margin: 0 0 0 100px !important; }
+
+
+#footer { padding-top: 2px !important; }
+#footer #connect { padding-top: 10px; }
+
+#info-links { width: 100%; margin: 0 auto; background: #fff; padding: 20px 0;  }
+#info-links .column { float: left; display: inline; width:180px; text-align: left; }
+#info-links .column.first { margin-left: 40px; }
+#info-links h3, #info-links a { color: #00aab8 !important }
+#info-links h3 { font-weight: bold; text-transform: uppercase; margin-bottom: 25px !important; font-size: 12px !important;  }
+#info-links ul, #info-links li { margin: 0; padding: 0; list-style-type: none; text-align: left; line-height: 20px; font-size: 12px; }
+#info-links a:hover { color: #00aab8 !important }
+
+#sitelinks { border-top: 1px solid #fff; margin-top: 15px; }
+#sitelinks p { line-height: 20px; margin: 0; padding: 8px 0; }
+#sitelinks a { margin: 0px 10px }
+#sitelinks a:hover { text-decoration: underline !important }
+#siteinfo { margin-top: 0 !important; }
+
+@media handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+#info-links ul { display: none; }
+#info-links ul.show { display: block; margin-bottom: 5px; }
+#info-links .column { margin: 0 3% !important; float: none; display: block; width: 94%  }
+#info-links .column.first { margin-left: auto; }
+#info-links .column h3 { cursor: pointer; margin-bottom: 10px !important; padding: 5px 0 0;  }
+}

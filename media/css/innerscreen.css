@@ -1,0 +1,307 @@
+
+/* Defaults Overwrites
+-------------------------------------------*/
+blockquote {line-height:20px;padding-left:75px;
+background-image:url('http://www.dit.ie/media/images/mba/quotes.jpg');
+background-repeat:no-repeat;}
+
+/* General Styles
+-------------------------------------------*/
+body {margin:0;padding:5px;font-size:62.5%;text-align:center;font-family:Verdana,Arial,sans-serif }
+
+a:link {color:#0099cc; text-decoration:underline;}
+a:active{color:#0099cc; text-decoration:underline;}
+a:hover {border:0; text-decoration:none}
+a:visited{color:#0099cc; text-decoration:underline;}
+
+/* Structure 
+-------------------------------------------*/
+body {text-align:center; background-color:#fff; }
+#container {margin:0; text-align:left; width:300px;}
+#header {height:130px;}
+
+#header #branding {margin:0px 0px 10px 0px; width:290px;
+background-image:url(http://www.dit.ie/media/images/logomobile.jpg);
+background-repeat:no-repeat;height:95px; }
+#branding #logo, #branding #sitename {display:none;}
+#branding a {border:0;}
+
+/* quicklinks form */
+#quicklinks select {display:none}
+
+/* top right utility links */
+#utility{display:none}
+
+/* Search form */
+#search input.submit {font-size:1em;color:#666;width:70px;}
+#search input#terms {width:210px;}
+
+/* Top horizontal navigation */
+#navigation {display:none}
+
+#secondary h2 {background-color:#0099cc;color:white;padding:5px;font-size:1.2em;margin:0}
+#secondary {width:290px;margin-top:30px;border:1px solid #0099cc;padding:0px}
+#secondary li {margin:5px;}
+#ditlinks {display:none}
+#content h1 {line-height: 30px;background-color: #e3e3e3;padding-left: 0px;
+font-size: 1.5em;color: #333333;margin-bottom: 10px;}
+#content h2 {font-weight:bold;font-size:1.5em;text-align:left;color:#ff9900;background-color:white}
+#content h3 {font-weight:bold;font-size:1.4em;text-align:left;color:#0099cc;background-color:white}
+#content h4 {font-weight:bold;font-size:1.3em;text-align:left;color:#ff9900;background-color:white}
+#content h5 {font-weight:bold;font-size:1.2em;text-align:left;color:#0099cc;background-color:white}
+
+/* Site breadcrumbs */
+#breadcrumbs {padding:0px;width:270px;float:left;display:inline;margin:5px}
+#breadcrumbs, #breadcrumbs a {color:#0099cc;}
+#breadcrumbs ul, #breadcrumbs li {margin:0px;padding:0px;list-style-type:none}
+#breadcrumbs li {float:left; display:inline; padding-left:8px; background:url(../styleimages/arrow_01.gif) center left no-repeat; margin-left:10px; color:#0099cc; }
+#breadcrumbs li.first {padding-left:4px; background:none;}
+#breadcrumbs a {color:#0099cc;  border-bottom:1px dotted #0099cc; text-decoration:none;}
+#breadcrumbs a:hover { border-bottom:0;}
+
+/* Print and Text Size Action */
+#actions {display:none}
+
+#main {width:300px;}
+#primary {width:300px;}
+#content {width:290px;margin:0px;padding:0px}
+.wrapper {margin:0px;overflow:visible;}
+
+/* Footer, Site links, Copyright details */
+#footer {margin-top:20px;}
+#footer ul{line-height:22px;background:none;margin:0;padding:0;list-style-type:none; 
+text-align:left}
+#footer, #footer a { color:#666; }
+#footer a { border:0; }
+#footer a:hover { color:#0099cc; }
+ul#sitelinks li {margin:0px 2px;display:inline}
+ul#sitedetails {text-align:left;margin:0;padding:0;clear:both}
+ul#sitedetails li {margin:10px;}
+#browsealoud {margin:0;padding:0}
+p#browsealoud a img{clear:both;float:left;margin:5px 0px;border:0px none}
+table ul{list-style-type:none;padding:0;margin:0}
+
+/* Shared Or Common Element Styles
+-------------------------------------------*/
+ul.links, ul.links li {margin:0px; padding:0px; list-style-type:none}
+
+/* Unique Elements 
+-------------------------------------------*/
+
+/* Faculties */
+#colleges h2 { color:#fff; line-height:24px; padding-left:13px; font-weight:bold; font-size:1.2em; margin-bottom:10px; }
+#colleges .business h2 { background-color:#990033 }
+#colleges .business h2 a{color:#fff}
+#colleges .business a {color:#990033}
+#colleges .applied-arts h2 {background-color:#ffcc00}
+#colleges .applied-arts a {color:#666}
+#colleges .engineering h2 {background-color:#ff6600}
+#colleges .engineering h2 a{color:#fff}
+#colleges .engineering a {color:#ff6600}
+#colleges .science h2 {background-color:#009999}
+#colleges .science h2 a{color:#fff; }
+#colleges .science a { color:#009999 }
+#colleges .research h2 { background-color:#b7db94; }
+#colleges .research a { color:#fff; text-decoration:none;}
+#colleges .college { float:left; display:inline; width:268px; margin:0; padding:0; }
+#colleges .row { clear:both; }
+#colleges .applied-arts, #colleges .engineering{ margin-right:10px; clear:left; }
+#colleges ul, #faculties li { margin:0; padding:0; list-style-type:none; background:none; background:0; }
+#colleges ul { margin:0 0 10px 5px; }
+#colleges li { background:url(../styleimages/arrow_05.gif) top left no-repeat; padding-left:8px; padding-bottom:2px; margin-bottom:2px; }
+#colleges li a { font-weight:bold; border:0; }
+#colleges li a:hover { border-bottom:1px dotted; }
+
+/* Themes
+Sets the colour changes for the Faculty pages
+---------------------------------------------------------------*/
+
+/* Faculty Headings are styled slightly differently to rest of site */
+.applied-arts #secondary h2, .tourism-food #secondary h2, 
+.engineering #secondary h2, .business #secondary h2,
+.built-environment #secondary h2, .science #secondary h2  { margin-left:0; margin-right:0; padding-left:13px; }
+
+.applied-arts #secondary h2 { background-color:#ffcc00 }
+.applied-arts #secondary { background-color:#FFDF66; background-image: url(../styleimages/aa-left-nav-border-bottom.gif); background-repeat:no-repeat; }
+.applied-arts #secondary ul.links li a, .applied-arts #secondary ul.links li span.currentsection { color:#333; }
+.applied-arts #secondary ul.links ul.multilevel-linkul-0 li a, .applied-arts #secondary ul.links ul.multilevel-linkul-0 li span.currentsection { background-color:#FFEB9A; }
+.applied-arts #secondary ul.links li a:hover, 
+.applied-arts #secondary ul.links li.current a, 
+.applied-arts #secondary ul.links ul.multilevel-linkul-0 li a:hover { background-color:#ffcc00; }
+.applied-arts #secondary ul.links ul.multilevel-linkul-3 li a, .applied-arts #secondary ul.links ul.multilevel-linkul-3 li span.currentsection {text-indent: 7px;}
+	
+.tourism-food #secondary h2 { background-color:#0060a9 }
+.tourism-food #secondary { background-color:#4C8FC3; background-image: url(../styleimages/tf-left-nav-border-bottom.gif) }
+.tourism-food #secondary ul.links ul.multilevel-linkul-0 li a, .tourism-food #secondary ul.links ul.multilevel-linkul-0 li span.currentsection { background-color:#7FAFD5; color:#333; }
+.tourism-food #secondary ul.links li a:hover, 
+.tourism-food #secondary ul.links li.current a, 
+.tourism-food #secondary ul.links ul.multilevel-linkul-0 li a:hover { background-color:#0060a9; color:#fff; }
+.tourism-food #secondary ul.links ul.multilevel-linkul-3 li a, .tourism-food #secondary ul.links ul.multilevel-linkul-3 li span.currentsection {text-indent: 7px;}
+
+.engineering #secondary h2 { background-color:#ff6600 }
+.engineering #secondary { background-color:#FF944C; background-image: url(../styleimages/eng-left-nav-border-bottom.gif) }
+.engineering #secondary ul.links ul.multilevel-linkul-0 li a, .engineering #secondary ul.links ul.multilevel-linkul-0 li span.currentsection { background-color:#FFB27E; color:#333; }
+.engineering #secondary ul.links li a:hover, 
+.engineering #secondary ul.links li.current a, 
+.engineering #secondary ul.links ul.multilevel-linkul-0 li a:hover { background-color:#ff6600; }
+.engineering #secondary ul.links ul.multilevel-linkul-3 li a, .engineering #secondary ul.links ul.multilevel-linkul-3 li span.currentsection {text-indent: 7px;}
+
+.business #secondary h2 { background-color:#990033 }
+.business #secondary { background-color:#B84C70; background-image: url(../styleimages/bus-left-nav-border-bottom.gif) }
+.business #secondary ul.links ul.multilevel-linkul-0 li a, .business #secondary ul.links ul.multilevel-linkul-0 li span.currentsection { background-color:#CB7F99; color:#330030; }
+.business #secondary ul.links li a:hover, 
+.business #secondary ul.links li.current a, 
+.business #secondary ul.links ul.multilevel-linkul-0 li a:hover { background-color:#990033; color:#fff;}
+.business #secondary ul.links ul.multilevel-linkul-3 li a, .business #secondary ul.links ul.multilevel-linkul-3 li span.currentsection {text-indent: 7px;}
+
+.built-environment #secondary h2 { background-color:#0096d7 }
+.built-environment #secondary { background-color:#4CB5E4; background-image: url(../styleimages/built-left-nav-border-bottom.gif) }
+.built-environment #secondary ul.links ul.multilevel-linkul-0 li a, .built-environment #secondary ul.links ul.multilevel-linkul-0 li span.currentsection { background-color:#96D7ED; }
+.built-environment #secondary ul.links li a:hover, 
+.built-environment #secondary ul.links li.current a, 
+.built-environment #secondary ul.links ul.multilevel-linkul-0 li a:hover { background-color:#0096d7; }
+.built-environment #secondary ul.links ul.multilevel-linkul-3 li a, .built-environment #secondary ul.links ul.multilevel-linkul-3 li span.currentsection {text-indent: 7px;}
+
+.science #secondary h2 { background-color:#009999 }
+.science #secondary { background-color:#4BB7B7; background-image: url(../styleimages/science-left-nav-border-bottom.gif) }
+.science #secondary ul.links li a, .science #secondary ul.links li span.currentsection { color:#033; }
+.science #secondary ul.links ul.multilevel-linkul-0 li a, .science #secondary ul.links ul.multilevel-linkul-0 li span.currentsection { background-color:#9ACCCD; }
+.science #secondary ul.links li a:hover, 
+.science #secondary ul.links li.current a, 
+.science #secondary ul.links ul.multilevel-linkul-0 li a:hover { background-color:#009999; }
+.science #secondary ul.links ul.multilevel-linkul-3 li a, .science #secondary ul.links ul.multilevel-linkul-3 li span.currentsection {text-indent: 7px;}
+
+
+/* The following overwrites the side nav 
+3rd level default bullet with a white bullet */
+.applied-arts #secondary ul.links ul.multilevel-linkul-1 li a, .applied-arts #secondary ul.links ul.multilevel-linkul-1 li span.currentsection, .applied-arts  #secondary ul.links ul.multilevel-linkul-1 li a:hover,
+.tourism-food #secondary ul.links ul.multilevel-linkul-1 li a, .tourism-food #secondary ul.links ul.multilevel-linkul-1 li span.currentsection, .tourism-food #secondary ul.links ul.multilevel-linkul-1 li a:hover,
+.engineering #secondary ul.links ul.multilevel-linkul-1 li a, .engineering #secondary ul.links ul.multilevel-linkul-1 li span.currentsection, .engineering #secondary ul.links ul.multilevel-linkul-1 li a:hover,
+.business #secondary ul.links ul.multilevel-linkul-1 li a, .business #secondary ul.links ul.multilevel-linkul-1 li span.currentsection, .business #secondary ul.links ul.multilevel-linkul-1 li a:hover,
+.built-environment #secondary ul.links ul.multilevel-linkul-1 li a, .built-environment #secondary ul.links ul.multilevel-linkul-1 li span.currentsection, .built-environment #secondary ul.links ul.multilevel-linkul-1 li a:hover, 
+.science #secondary ul.links ul.multilevel-linkul-1 li a, .science #secondary ul.links ul.multilevel-linkul-1 li span.currentsection, .science #secondary ul.links ul.multilevel-linkul-1 li a:hover { 
+background-image: url(../styleimages/side-nav-level3-bullet-white.gif); background-repeat:no-repeat; background-position: 24px 0;  }
+
+.applied-arts #secondary ul.links ul.multilevel-linkul-2 li a, .applied-arts #secondary ul.links ul.multilevel-linkul-2 li span.currentsection, .applied-arts  #secondary ul.links ul.multilevel-linkul-2 li a:hover,
+.tourism-food #secondary ul.links ul.multilevel-linkul-2 li a, .tourism-food #secondary ul.links ul.multilevel-linkul-2 li span.currentsection, .tourism-food #secondary ul.links ul.multilevel-linkul-2 li a:hover,
+.engineering #secondary ul.links ul.multilevel-linkul-2 li a, .engineering #secondary ul.links ul.multilevel-linkul-2 li span.currentsection, .engineering #secondary ul.links ul.multilevel-linkul-2 li a:hover,
+.business #secondary ul.links ul.multilevel-linkul-2 li a, .business #secondary ul.links ul.multilevel-linkul-2 li span.currentsection, .business #secondary ul.links ul.multilevel-linkul-2 li a:hover,
+.built-environment #secondary ul.links ul.multilevel-linkul-2 li a, .built-environment #secondary ul.links ul.multilevel-linkul-2 li span.currentsection, .built-environment #secondary ul.links ul.multilevel-linkul-2 li a:hover,
+.science #secondary ul.links ul.multilevel-linkul-2 li a, .science #secondary ul.links ul.multilevel-linkul-2 li span.currentsection, .science #secondary ul.links ul.multilevel-linkul-2 li a:hover { 
+background-image: none;  }
+
+/* Manage logo display on Research Centres page */
+div.research-logo  {float: left; margin-left: 0px; margin-right: 14px; margin-bottom: 15px;}
+div.research-logo a:link {border-bottom:none;}
+
+/* Specific styles for Staff Directory result pages */
+.phone-results table {border:0px;}
+.phone-results td {border:0px;}
+
+/* Specific styles Newsroom pages */
+.news-title {clear:both; padding-top: 25px; width: 290px;}
+.news {border-style: none dotted dotted none; border-color: rgb(204, 204, 204); border-width: medium 1px 1px medium; padding: 5px; float: left; width: 290px; height: 220px;}
+.news p {padding-left: 15px; font-size: 1em;}
+.news img {width: 165px; height: 123px;}
+
+/* For turning off borders on tables */
+.noborder td, th{border:0;border-style:none;}
+
+/* For turning on borders on tables */
+.yesborder td, th{border:1;border-style:solid;}
+
+/* For turning off borders on tables */
+a #link{border:0px none;border-style:none;}
+
+/* For campus life logon table */
+.bgslight {background-color: #efefef;padding:10px;}
+.bgslight tr, .bgslight td, .bgslight th{border:0;border-style:none;}
+
+/*For right-hand nav*/
+.right-menu {width:140px;}
+
+/*For image-rotator links*/
+ul#imagerotate p a{color:black;}
+
+/* Hacks 
+-------------------------------------------*/
+.clear { clear:both;}
+
+/* CAO page
+-------------------------------------------*/
+#cao a{color:white;border-bottom:none 0px;}
+
+/* For delicious tag cloud on library subject gateway pages
+-------------------------------------------*/
+.delicious-tags ul li a{line-height:30px;border:0px none;}
+
+/* Library Opening Hours table
+-------------------------------------------*/
+#openinghours td {border:0;padding:10px;}
+#openinghours th {text-align:center;font-size:1.2em;font-weight:bold;padding:5px 0;background-color:#ffaf53;color:white;}
+#openinghours {border-bottom:1px solid grey;border-top:1px solid grey;padding:0;background-color:#eeeeee;}
+
+table#libraryhours {text-align:center;}
+table#libraryhours th{text-align:center;font-weight:bold;padding:20px;}
+table#libraryhours td{text-align:center;border:1px solid #999;
+vertical-align:middle;}
+
+/* Upskill badge positioning
+------------------------------------------*/
+#upskill {float:left;z-index:300;margin-left:-175px;margin-top:350px;}
+
+/* New library menu
+-------------------------------------------*/
+#librarycorner {width:180px;background-image:url(http://dit.ie/media/images/library/corner.jpg);background-repeat:no-repeat;background-color:#fdd76a;color:white;padding:0px;margin:0px;height:37px;}
+
+#librarymenu1 {font-size:1.2em;width:290px;background-color:#ffcc33;color:white;padding:10px;border-bottom:1px solid black;}
+#librarymenu1 ul {list-style-type:none;margin:0;padding:0;}
+#librarymenu1 li {margin-bottom:5px;background-image:none;}
+#librarymenu1 li a  {border:0px none;font-weight:bold;text-decoration:none;color:white;}
+
+#librarymenu2 {font-size:1.2em;width:290px;background-color:#fdd76a;color:#333333;padding:10px;border-bottom:1px solid black;border-top:1px solid white;}
+#librarymenu2 ul {list-style-type:none;margin:0;padding:0;}
+#librarymenu2 li {margin-bottom:5px;background-image:none;}
+#librarymenu2 li a  {border:0px none;font-weight:bold;text-decoration:none;color:#333333;}
+
+#librarymenu3 {font-size:1.2em;width:290px;background-color:#ffcc33;color:white;padding:10px;border-bottom:1px solid black;border-top:1px solid white;}
+#librarymenu3 ul {list-style-type:none;margin:0;padding:0;}
+#librarymenu3 li {margin-bottom:5px;background-image:none;}
+#librarymenu3 li a  {border:0px none;font-weight:bold;text-decoration:none;color:white;}
+
+#librarymenu4 {font-size:1.2em;width:290px;background-color:#fdd76a;color:#333333;padding:10px;border-top:1px solid white;}
+#librarymenu4 ul {list-style-type:none;margin:0;padding:0;}
+#librarymenu4 li {margin-bottom:5px;background-image:none;}
+#librarymenu4 li a  {border:0px none;font-weight:bold;text-decoration:none;color:#333333;}
+
+#sitelist {text-align:center;}
+#sitelist ul {list-style-type:none;background-image:none;}
+#sitelist li {width:500px;background-color:#fdd76a;padding:10px;
+font-size:1.4em;background-image:none;}
+#sitelist li a:link{text-decoration:none;;color:grey;font-weight:bold;
+border-bottom:1px solid grey;}
+#sitelist li:hover,  #sitelist li a:hover {background-color:#ffcc33;color:black;}
+#sitelist li a:visited {color:grey;border-bottom:none;}
+#sitelist li a:active{background-color:#ffcc33;color:black;}
+
+/* DIT Small Top Banner for non-DIT-style sites 
+------------------------------------------------*/
+.toplogo {padding: 5px;margin:0;float:left;margin-right:10px; }
+div#top div#ditlinks {background:#fff;float:left;display:inline;margin-bottom:5px;}
+div#top div#ditlinks span a {padding:0px 11px;}
+div#top div#ditlinks a { display:block; float:left; line-height:23px; text-decoration:none; 
+color:#006699; background:#fff url(../styleimages/nav-divider-blue.gif) center right no-repeat; 
+text-align:center; border:0; }
+div#top div#ditlinks li a:hover, #navigation li.highlight a { color:#fff; background-color:#50B1CE; }
+#top fieldset { padding: 0; margin: 0; border: 0; display: inline; }
+#ditmenu { margin:  5px 0 5px 61px; text-align: left; height: 21px; }
+#ditmenu li { float: left; }
+div#toplinks {text-align: left; color: #0099CC; margin-left:10px; float:left;}
+div#toplinks a { font-size: 10px; color: #666; }
+div#toplinks a:hover { border-bottom: 1px dashed #666; }
+div#dit_forms { padding: 0; margin: 0; float: right; }
+div#dit_forms select {color: #0067AC; height: 17px; width: 140px; font-size: 11px; margin-right: 20px; border: 1px solid #0067ac; }
+div#dit_forms select option { padding: 5px 1px; }
+div#dit_forms1 { padding: 0px; margin: 0px; float: right; margin-right: 15px; }
+div#dit_forms1 .searchboxhm { border: 1px solid #0067ac; height: 15px; margin-bottom:7px; color: #0067AC; font-size: 11px; width: 100px; }
+#dit-search-button { border: 0 none; width: 100px; height: 19px; }

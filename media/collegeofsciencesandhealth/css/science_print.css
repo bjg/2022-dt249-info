@@ -1,0 +1,16 @@
+/* DIT printer friendly styles */
+
+/*Hide irrelevant areas*/
+#tagline, #utility, #quicklinks, #navigation, #actions, #secondary, #sitelinks, #homepage ul.quicklinks, #homepage #breadcrumbs, p.back-to-top { display: none; }
+
+/*Print enhancements*/
+body { font-size: 9pt; }
+#container, #header #branding { width: 100%; margin: 0; float: none; }
+#main, body.three-column #main { background: none; }
+#primary { width: 100%; margin-left: 0; }
+body.three-column #primary { width: 67%; }
+#tertiary { width: 23%; }
+a, #breadcrumbs a, #tertiary a { border: 0; }
+
+
+blockquote, .intro, .faqs { width:540px;}

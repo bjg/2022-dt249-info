@@ -1,0 +1,2541 @@
+@charset "utf-8";
+/*ttp://www.dit.ie/media/css/screen.css*/
+/* CSS Document - Main DIT Stylesheet */
+/* Defaults Overwrites-------------------------------------------*/
+body,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,ul,li,input,textarea,form {
+	margin:0px;
+	padding:0px
+}
+address {
+	font-style:normal
+}
+a:focus {
+	outline:none
+}
+img,a img {
+	border:0px none
+}
+.noborder {
+	display:block;
+	border:0px none
+}
+td {
+	text-align:left;
+	font-weight:normal;
+	vertical-align:top;
+	font-size:1em
+}
+th {
+	text-align:left;
+	font-weight:bold;
+	vertical-align:top;
+	font-size:1em
+}
+table {
+	empty-cells:show
+}
+div#delicious-tags-ainfo li {
+	line-height:35px
+}
+blockquote {
+	line-height:20px;
+	padding-left:75px;
+	min-height:60px;
+	background-image:url('../styleimages/quotes.jpg');
+	background-repeat: no-repeat
+}
+/* General Styles-------------------------------------------*/
+body,input,address,textarea,select {
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	color:#333
+}
+body {
+	font-size:70%;
+	/*font-size:11px;
+	*/
+}
+#content {
+	font-size:1.1em
+}
+#content h1,#homepage h1 {
+	background-color:#E3E3E3;
+	padding:10px;
+	font-size:1.5em;
+	color:#333;
+	font-weight:normal;
+	margin-bottom:10px
+}
+#content h1 a:link,#content h1 a:visited {
+	background-color:#E3E3E3;
+	color:#333;
+}
+#content h1 a:hover,#content h1 a:active {
+	background-color:#E3E3E3;
+	color:#333;
+}
+#content h2,#secondary h2 {
+	font-size:1.5em;
+	color:#004C6C;
+	font-weight:bold;
+	padding:10px 0;
+}
+#content h2.highlight {
+	background-color:#DCEFF5;
+	line-height:2em
+}
+#content h3 {
+	font-size:1.2em;
+	color:#0099cc;
+	margin:0px 0 10px 0px;
+	font-weight:bold
+}
+#content h4 {
+	font-size:1.1em;
+	color:#000;
+	margin:10px 0
+}
+#content h5 {
+	font-size:1.1em;
+	color:#666;
+	margin:10px 0
+}
+ul,li {
+	margin:0;
+	margin:0;
+	list-style-type:none
+}
+ul {
+	margin:0 0 15px 15px
+}
+li {
+	/*background:url(http://www.dit.ie/media/styleimages/bullet-yellow.gif) no-repeat; */
+	padding-left:14px;
+	margin-bottom:3px;
+	margin-top:3px;
+	background-position:0px 6px
+}
+p,li,label,input {
+	line-height:1.45em
+}
+p,h2,table {
+	margin-bottom:15px
+}
+a {
+	color:#004C6C;
+	text-decoration:underline
+}
+a:hover {
+	border:0;
+	text-decoration:none;
+	background-color:transparent;
+	color:#333
+}
+#content a {
+}
+#branding #logo a:hover {
+	background-color:transparent;
+}
+#content img {
+	background-color:white
+}
+td,tr th {
+	padding:4px;
+	margin:0px;
+	border:solid 1px #ccc
+}
+table {
+	border-collapse:collapse
+}
+iframe {
+	border: 0px none
+}
+/* Structure -------------------------------------------*/
+body {
+	text-align:center;
+	background-color:#fff
+}
+#container {
+	margin:0 auto;
+	text-align:left;
+	width:750px
+}
+#header {
+	height:120px;
+	position:relative
+}
+#header #branding {
+	float:left;
+	display:inline;
+	margin:11px 0 0 14px;
+	width:528px;
+}
+#branding #logo,#branding #sitename {
+	float:left;
+	display:inline
+}
+#branding #sitename {
+	margin-top:20px
+}
+#branding a,#branding a:hover {
+	border:0px;
+	border-bottom:0px;
+	text-decoration: none
+}
+/* quicklinks form */
+#quicklinks {
+	width:250px;
+	text-align:right;
+	float:right;
+	margin-top:50px
+}
+#quicklinks select {
+	width: 200px
+}
+/* top right utility links */
+#utility {
+	/*background:#f0f0f0 url(http://www.dit.ie/media/styleimages/utility-bg.gif) bottom left no-repeat;*/
+	position:absolute;
+	top:0;
+	right:0;
+	padding:0 11px 0 13px
+}
+#utility ul.links li {
+	display:inline;
+	float:left;
+	/*background:url(http://www.dit.ie/media/styleimages/arrow_01.gif) left center no-repeat;*/
+	padding-left:7px;
+	line-height:25px;
+	margin-left:10px
+}
+#utility li a {
+	color:#333;
+	text-decoration:none;
+	border:0
+}
+#utility li a:hover {
+	color:#39c;
+	background-color:transparent;
+	text-decoration: underline
+}
+/* Search form */
+#search {
+	width:250px;
+	text-align:right;
+	float:right;
+	margin-top:5px
+}
+#search form {
+	margin:0;
+	padding:0
+}
+#search input.submit {
+	font-size:1em;
+	color:#666;
+	width:70px
+}
+#search input#terms {
+	width: 120px
+}
+
+
+/* Top horizontal navigation */
+#navigation {
+	background:#00a9b7;
+	width:100%;
+	float:left;
+	display:inline;
+	text-align:center
+}
+#navigation ul {
+	text-align:center;
+}
+#navigation ul,#navigation li {
+	padding:0px;
+	list-style-type:none;
+	background:none
+}
+#navigation li {
+	display:inline
+}
+#navigation a {
+	display:block;
+	float:left;
+	line-height:23px;
+	text-decoration:none;
+	color:#fff;
+	background:#00a9b7;
+	text-align:center;
+	border:0;
+    padding:0px 15px
+}
+#navigation li:last-of-type a{
+	background-image:none;
+}
+
+#navigation li a:hover,#navigation li.highlight a {
+	color:#fff;
+	background-color: #0099A8;
+}
+/* Student Services Top horizontal navigation */
+#ssnavigation {
+	background:##00a9b7;
+	width:100%;
+	display:inline;
+	text-align:center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float:right;
+
+}
+#ssnavigation ul {
+	text-align:center;
+}
+#ssnavigation ul,#ssnavigation li {
+	padding:0px;
+	list-style-type:none;
+	background:none
+}
+#ssnavigation li {
+	display:inline
+}
+#ssnavigation a {
+	display:block;
+	float:left;
+	line-height:40px;
+	text-decoration:none;
+	color:#fff;
+	background:#0061aa;
+	text-align:center;
+	border:0;
+  padding:0px 20px;
+  font-size:14px;
+  text-transform: uppercase;
+}
+#ssnavigation li:last-of-type a{
+	background-image:none;
+}
+
+#ssnavigation li a:hover,#ssnavigation li.highlight a {
+	color:#fff;
+	background-color: transparent;
+}
+/* Site breadcrumbs */
+#breadcrumbs {
+	padding:18px 0 18px;
+	width:470px;
+	float:left;
+	display:inline;
+}
+#breadcrumbs,#breadcrumbs a {
+	color:#0099cc;
+}
+#breadcrumbs ul,#breadcrumbs li {
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+#breadcrumbs li {
+	float:left;
+	display:inline;
+	padding-left:8px;
+	/*background:url(http://www.dit.ie/media/styleimages/arrow_01.gif) center left no-repeat; */
+	margin-left:10px;
+	color:#00a9b7;
+}
+#breadcrumbs li.first {
+	padding-left:4px;
+	background:none;
+}
+#breadcrumbs aY {
+	color:#00a9b7;
+	border-bottom:1px dotted #00a9b7;
+	text-decoration:none;
+}
+#breadcrumbs a:hover {
+	border-bottom:0;
+	color: #333
+}
+/* Print and Text Size Action */
+#actions ul,#actions li {
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+#actions {
+	width:270px;
+	float:right;
+	display:inline;
+	margin-right:10px;
+	text-align:right;
+	text-transform:uppercase;
+	margin-top:20px;
+}
+#actions li {
+	float:right;
+	display:inline;
+	font-size:0.9em
+}
+#actions a {
+	color:#0099cc;
+	text-decoration:underline;
+	padding-left:26px;
+	text-align:right;
+	display:block;
+	border:0;
+	font-weight:bold;
+}
+#actions li.size {
+	background-image:none;
+	padding-right:0px;
+	color:#0099cc;
+}
+#actions li.separator {
+	margin-left:6px;
+	border-left:1px dotted;
+	text-indent:-10px;
+	color:#0099cc;
+}
+#actions li.print {
+	margin-left:6px;
+}
+#actions li.size a {
+	padding-left:3px;
+	display:inline;
+}
+#actions li.print a {
+	/*background:url(http://www.dit.ie/media/styleimages/icon_print.gif) center left no-repeat */
+}
+#actions li.print a:hover,#actions li.size a:hover {
+	color:#333;
+}
+#smallA {
+	font-size:0.9em;
+}
+#mediumA {
+	font-size:1.2em;
+}
+#largeA {
+	font-size:1.4em;
+}
+#main {
+	clear:both;
+	float:left;
+	width:100%;
+	padding-bottom:5px;
+	margin-bottom:20px
+}
+.one-column #main {
+	width:750px
+}
+#primary,#secondary,#tertiary {
+	float:left;
+	display:inline;
+}
+#primary {
+	width:560px;
+	margin-left:10px;
+}
+.one-column #primary {
+	width:750px;
+	margin:0;
+	padding:0;
+}
+#tertiary {
+	margin-left:10px;
+	width:160px;
+	padding:10px 10px 5px;
+}
+#tertiary2 {
+	float:left;
+	display:inline;
+	margin-left:10px;
+	width:160px;
+	padding:10px 0px;
+}
+#secondary {
+	width:180px;
+	background-color:#00a9b7;
+	/*background-image:url(http://www.dit.ie/media/styleimages/side_nav_border_bottom.jpg); */
+	background-position:bottom right;
+	background-repeat:no-repeat;
+	padding-bottom:40px;
+	margin-bottom:20px;
+}
+#content {
+	margin:0px 0 1px 0px;
+}
+.one-column #content {
+	width:750px;
+	margin:0;
+	padding:0;
+}
+.wrapper {
+	margin:0px;
+	overflow:visible;
+}
+.one-column .wrapper {
+	width:750px;
+	margin:0px;
+	padding: 0;
+}
+/* body class to specify page is a 3 column layout */
+body.three-column #main {
+/*	background-image:url(http://www.dit.ie/media/styleimages/right_column_bg.gif);
+	background-position:top right;
+	background-repeat:repeat-y */
+}
+body.three-column #mainnobg {
+	clear:both;
+	float:left;
+	width:100%;
+	padding-bottom:5px;
+	margin-bottom:20px;
+}
+body.three-column #primary {
+	width:370px;
+	float: left
+}
+/* body class to specify page is a 1 column layout */
+body.one-column #primary {
+	width:730px;
+	float:left;
+}
+#secondary h2 {
+	line-height:23px;
+	margin:0px 10px 15px 10px;
+	padding-left:3px;
+	padding-right:3px;
+	border-bottom:1px dotted #fff;
+	color:#fff;
+	font-size:17px;
+	font-weight: normal;
+}
+/* Sidebar Nav Section. Lots of styles for defining the different colours,paddings,bulletsDefault colour options are set here. Faculty colours are set in the Themes section */
+#secondary ul,#secondary li {
+	margin:0;
+	padding:0;
+	width:180px;
+}
+#secondary ul.links,#secondary ul.links ul,#secondary ul.links li {
+	margin:0;
+	padding:0;
+}
+#secondary ul.links li {
+	float:left;
+	width:100%;
+	margin-bottom:4px;
+	line-height:20px;
+	background:none;
+}
+#secondary ul.links li a {
+	float:left;
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	border:0;
+/*	background-image:url(http://www.dit.ie/media/styleimages/arrow_side_nav_level1.gif); */
+	background-position:center left;
+	background-repeat:no-repeat;
+	padding-left:14px;
+	width:166px;
+}
+#secondary ul.links li a:hover {
+	background-color:#fdb728
+}
+#secondary ul.links li span.currentsection {
+	float:left;
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	border:0;
+	/*background-image:url(http://www.dit.ie/media/styleimages/arrow_side_nav_level1.gif); */
+	background-position:center left;
+	background-repeat:no-repeat;
+	padding-left:14px;
+	width:166px;
+	font-weight: bold;
+}
+/* level 2 */
+#secondary ul.links ul.multilevel-linkul-0 li,#secondary ul.links ul.multilevel-linkul-0 li span.currentsection {
+	margin-bottom:0;
+	line-height:23px;
+}
+#secondary ul.links ul.multilevel-linkul-0 li a,#secondary ul.links ul.multilevel-linkul-0 li span.currentsection {
+	color:#036;
+	background:#9ed8d5;
+	padding-left:24px;
+	width:156px;
+	/*background-image:url(http://www.dit.ie/media/styleimages/arrow_side_nav_level1.gif); */
+	background-position:9px 9px;
+	background-repeat:no-repeat;
+}
+#secondary ul.links ul.multilevel-linkul-0 li a:hover {
+	background-color: #fdb728;
+}
+/*level 3 */
+#secondary ul.links ul.multilevel-linkul-1 li a,#secondary ul.links ul.multilevel-linkul-1 li span.currentsection {
+	background-color:#cae8f0;
+	padding-left:34px;
+	width:146px;
+}
+#secondary ul.links ul.multilevel-linkul-1 li a,#secondary ul.links ul.multilevel-linkul-1 li span.currentsection,#secondary ul.links ul.multilevel-linkul-1 li a:hover {
+	/*background-image:url(http://www.dit.ie/media/styleimages/side-nav-level3-bullet.gif); */
+	background-repeat:no-repeat;
+	background-position: 24px 0;
+}
+/*level 4 */
+#secondary ul.links ul.multilevel-linkul-2 li a,#secondary ul.links ul.multilevel-linkul-2 li span.currentsection {
+	background:#e5f4f8;
+	background-image:none;
+}
+#secondary ul.links ul.multilevel-linkul-2 li a:hover {
+	background-image: none;
+}
+/*level 5 */
+#secondary ul.links ul.multilevel-linkul-3 li a,#secondary ul.links ul.multilevel-linkul-3 li span.currentsection {
+	background:#f5fbfc;
+	background-image:none;
+}
+#secondary ul.links ul.multilevel-linkul-3 li a:hover {
+	background-image: none;
+}
+/*General*/
+#secondary ul.links li span.currentsection a,#secondary ul.links ul.multilevel-linkul-0 a,#secondary ul.links ul.multilevel-linkul-1 a,#secondary ul.links ul.multilevel-linkul-2 a,#secondary ul.links ul.multilevel-linkul-3 a {
+	font-weight:bold;
+}
+#secondary ul.links li span.currentsection li a,#secondary ul.links ul.multilevel-linkul-0 li a,#secondary ul.links ul.multilevel-linkul-1 li a,#secondary ul.links ul.multilevel-linkul-2 li a,#secondary ul.links ul.multilevel-linkul-3 li a {
+	font-weight:normal;
+}
+#secondary ul.links li span.currentsection ul,#secondary ul.links li span.currentsection li span.currentsectionul,#secondary ul.links li span.currentsection li span.currentsectionli span.currentsectionul,#secondary ul.links li span.currentsection li span.currentsection li span.currentsection li span.currentsection ul {
+	display: block;
+}
+/* Footer,Site links,Copyright details */
+#footer {
+	margin-top:30px;
+	clear:both;
+	padding:7px 0;
+	border-top:1px solid #ccc;
+	text-align:center;
+}
+#footer ul,#footer li {
+	line-height:22px;
+	background:none;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	text-align:center;
+}
+#footer,#footer a {
+	color:#666;
+}
+#footer a {
+	border:0;
+}
+#footer a:hover {
+	color:#0099cc;
+}
+#homepage #footer {
+	 background-color: #3d4143; 
+	 color: #fff; 
+	 padding-top: 5px;
+}
+#homepage #footer a { color: #fff; text-decoration: none }
+#homepage #footer a:hover { background: none; border: 0; }
+#homepage #footer a:hover img { opacity: 0.7; }
+#homepage #footer h3 { font-size: 14px; margin-bottom: 5px }
+#homepage #siteinfo { border-top: 1px solid #fff; padding: 5px 0 5px; font-size: 10px;  }
+#homepage #siteinfo .membership { font-size: 11px; }
+#homepage #siteinfo p { margin-bottom: 0px; }
+
+#innerpage #footer {
+	 background-color: #3d4143; 
+	 color: #fff; 
+	 padding-top: 5px;  
+}
+#innerpage #footer a { color: #fff; text-decoration: none }
+#innerpage #footer a:hover { background: none; border: 0; }
+#innerpage #footer a:hover img { opacity: 0.7; }
+#innerpage #footer h3 { font-size: 14px; margin-bottom: 5px }
+#innerpage #siteinfo { border-top: 1px solid #fff; padding: 5px 0 5px; font-size: 10px;  }
+#innerpage #siteinfo .membership { font-size: 11px; }
+#innerpage #siteinfo p { margin-bottom: 0px; }
+
+ul.inline { text-align: center }
+ul.inline li { display: inline; }
+ul.inline li a { margin: 0 6px; }
+
+ul#sitelinks li {
+	margin:0 8px 0 0;
+	padding-left:11px;
+	display:inline;
+	font-size:0.9em;
+	/*background:url(http://www.dit.ie/media/styleimages/footer_links_divider.gif) center left no-repeat*/
+}
+ul#sitelinks li.first {
+	background:none;
+}
+ul#sitedetails {
+	text-align:center;
+	list-style-type:none;
+	background:none;
+}
+ul#sitedetails li {
+	margin:0 5px;
+	list-style-type:none;
+	background:none;
+	display:block;
+	font-size:0.8em;
+}
+ul#sitelinks li a:hover {
+	color: #333;
+}
+/* Homepage Specific Styles-------------------------------------------*/
+#homepage img,a img {
+	border:0px none;
+}
+#homepage #secondary {
+	margin-bottom:20px;
+	margin-top:10px;
+	padding-bottom:0;
+	float:left;
+}
+#homepage #secondary {
+	background:#50B1CE;
+	padding-bottom:65px
+}
+#homepage #secondary ul li {
+	line-height:20px;
+	background-image:none;
+	width:100%;
+	margin:4px 0px;
+}
+#homepage #secondary h2 {
+	font-size:1.2em;
+	font-weight:bold;
+	margin-bottom:15px;
+	line-height:23px;
+}
+#homepage #secondary ul li a:link,#homepage #secondary ul li a:visited {
+	background-color:transparent;
+	color:white;
+	text-decoration:none;
+/*	background-image:url(http://www.dit.ie/media/styleimages/arrow_side_nav_level1.gif); */
+	background-position:center left;
+	background-repeat:no-repeat;
+	padding-left:14px;
+	width:166px;
+	float:left;
+	text-decoration:none;
+	display:block;
+	border:0;
+}
+#homepage #secondary ul li a:hover,#homepage #secondary ul li a:active {
+	background-color:transparent;
+	color:#333;
+}
+#homepage #secondary h2.informationfor {
+	padding-top:190px;
+}
+#homepage h1 {
+	margin-top:10px;
+}
+#homepage ul {
+	list-style-type:none;
+	background:none;
+}
+#browsealoud {
+	text-align:center;
+}
+#homepage #container {
+	margin:0 auto;
+	text-align:left;
+	width:960px;
+	padding:0;
+}
+#homepage #primary {
+	float:left;
+	margin-bottom:-20px;
+	margin-left:20px;
+}
+#homepageright {
+	background-color:#9ed8d5;
+	float:left;
+	margin:10px 0px 0px 20px;
+	width:180px;
+}
+#homepage #eventcalendar {
+	font-size:1.2em;
+	font-weight:bold;
+}
+#studyatdit {
+	background-color:#00a9b7;
+	color:white;
+	text-align:center;
+	padding:25px 10px;
+/*	background:#0096d7 url(http://dit.ie/media/images/homepage-right-corner1.jpg) bottom left no-repeat; */
+}
+
+#studyatdit a:link,#studyatdit a:visited,#spotlight a:link,#spotlight a:visited {
+	text-decoration:none;
+	color:white;
+}
+#studyatdit a:hover,#studyatdit a:active {
+	color:#333;
+	background-color:transparent;
+}
+#spotlight a:hover,#spotlight a:active {
+	color:#333;
+	background-color:transparent;
+}
+#spotlight {
+	color:#fff;
+	text-align:center;
+	padding:25px 2px;
+	background:#0099cc;
+}
+#spotlight p {
+	font-size:1em;
+}
+#spotlight h2,#studyatdit h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 15px;
+  line-height: 23px;
+}
+#studyatdit p {
+	font-size:1.2em;
+}
+#ditlinks {
+	color:#000033;
+	background:#9ed8d5;
+	padding-bottom:25px
+}
+#ditlinks h1 {
+	margin:0px 10px;
+	padding-bottom:10px;
+	border-bottom:1px dotted #000033;
+	background-color:#9ed8d5;
+	color:#000033;
+	font-size:1.3em;
+	font-weight:bold;
+
+	margin-bottom:5px;
+	line-height:23px;
+}
+#ditlinks a {
+	color:#000033;
+	background-color:#9ed8d5;
+	text-decoration:none;
+}
+#rightlogos {
+	text-align:center;
+	margin-top:0px;
+	clear:both;
+}
+#homepage #main {
+	clear:both;
+	float:left;
+	width:960px;
+	padding:0px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+#ditlinks ul,#ditlinks li {
+	margin:0;
+	padding:0;
+	width:100%;
+}
+#ditlinks ul,#secondary ul li {
+	margin:0;
+	padding:0;
+}
+#ditlinks ul li {
+	float:left;
+	width:100%;
+	margin-bottom:4px;
+	line-height:20px;
+	background:none;
+}
+#ditlinks ul li a {
+	float:left;
+	text-decoration:none;
+	color:#000033;
+	display:block;
+	border:0;
+	background-position:center left;
+	background-repeat:no-repeat;
+	padding-left:14px;
+	width:166px;
+}
+#ditlinks ul li a:hover {
+	background-color:#000033;
+	color:#fff;
+}
+#ditlinks ul li span.currentsection {
+	float:left;
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	border:0;
+	background-position:center left;
+	background-repeat:no-repeat;
+	padding-left:14px;
+	width:166px;
+	font-weight: bold;
+}
+/* Top horizontal navigation */
+#homepage #navigation {
+	width:960px;
+	background:#00a9b7;
+	display:inline;
+	text-align:center;
+}
+#homepage #navigation ul {
+	text-align:center;
+	margin: 0px 120px;
+}
+/* New homepage jquery image rotator -------------------------------------------*/
+ul#imagerotate {
+	margin-bottom:30px;
+}
+ul#imagerotate,ul#imagerotate li {
+	list-style-type:none;
+	padding:0px;
+	margin:0px 0px 10px 0px;
+}
+ul#imagerotate p {
+	text-align:right;
+	margin-right:10px;
+	margin-top:-30px;
+}
+ul#imagerotate a:link {
+	border-bottom:0px none;
+	text-decoration:none;
+}
+ul#imagerotate a:hover {
+	border-bottom:0px none;
+	text-decoration:none;
+}
+ul#imagerotate a:visited {
+	border-bottom:0px none;
+	text-decoration:none;
+}
+ul#imagerotate a:active {
+	border-bottom:0px none;
+	text-decoration:none;
+}
+ul#imagerotate3col {
+	margin-bottom:30px;
+}
+ul#imagerotate3col,ul#imagerotate3col li {
+	list-style-type:none;
+	padding:0px;
+	margin: 0px 0px 0px 1px;
+}
+/* main featured image area */
+#main-feature {
+	margin-bottom:30px;
+}
+#membership-details {
+	color:#999;
+	float:left;
+	clear:both;
+}
+#membership-details p {
+	margin-bottom:8px;
+}
+#membership-details a,a img {
+	border-bottom:none;
+}
+ul.quicklinks {
+	float:right;
+	width:230px;
+	z-index:200;
+}
+ul.quicklinks,ul.quicklinks li {
+	list-style-type:none;
+	margin-left:0;
+	margin-right:0;
+}
+ul.quicklinks li {
+	/*background:url(http://www.dit.ie/media/styleimages/arrow_04.gif) center left no-repeat; */
+	padding-left:17px;
+	margin-bottom:5px;
+}
+ul.quicklinks li a {
+	border:0;
+	text-decoration:none;
+}
+ul.quicklinks li a:hover {
+	border-bottom: 1px dotted #0099cc;
+}
+/* Shared Or Common Element Styles-------------------------------------------*/
+ul.links,ul.links li {
+	margin:0px;
+	padding:0px;
+	list-style-type: none;
+}
+/* back to top links */
+.back-to-top {
+	clear:both;
+	/*background:url(http://www.dit.ie/media/styleimages/arrow_back_to_top.gif) 0 7px no-repeat;*/
+	padding-left:10px;
+	font-size:0.9em;
+	margin-top:30px;
+}
+.back-to-top a {
+	border-bottom:1px dotted #00a9b7;
+	color:#0099cc;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+.back-to-top a:hover {
+	border:0;
+	color: #333;
+}
+/* pdf icon class */
+.pdf {
+	color:#666;
+	/*background:url(../images/icons/pdf.gif) center left no-repeat;*/
+	padding-left:18px;
+	margin-left:10px;
+	height:14px;
+	overflow: visible;
+}
+
+
+
+/* right sidebar feature boxes */
+.RightBoxEnd {
+	margin-bottom:30px;
+}
+.RightBox a {
+	color:#666;
+	border-bottom-color:#666;
+}
+.RightBox .more a {
+	color:#0099cc;
+	border-bottom:1px dotted #00a9b7;
+}
+.RightBox .more a:hover {
+	color:#0099cc;
+	border-bottom:0;
+}
+.RightBoxTitle {
+	color:#69c;
+	text-transform:uppercase;
+	font-weight:bold;
+	border-bottom:1px dashed #ccc;
+	padding:0 3px;
+	line-height:20px;
+	margin-bottom:15px;
+}
+/*.feature h4 {
+	font-weight:normal;
+	margin:0 0 3px;
+	color:#666;
+	font-size: 1em;
+}
+*/
+.RightBox ul,.feature p,.feature h4 {
+	margin-left:3px;
+}
+.RightBox li {
+	background:none;
+	list-style-type:disc;
+	padding-left:0px;
+	margin-left:15px;
+}
+.RightBox .pdf {
+	display:block;
+	margin-top:3px;
+	margin-left:0;
+	color: #999;
+}
+/* Unique Elements -------------------------------------------*/
+/* Colleges */
+#colleges h2 {
+	color:#fff;
+	line-height:24px;
+	padding-left:13px;
+	font-weight:bold;
+	font-size:1.3em;
+	margin-bottom:10px;
+
+}
+#colleges .business h2 {
+	background-color:#990033;
+}
+#colleges .business a {
+	color:#990033
+}
+#colleges .business h2 a:link,#colleges .business h2 a:visited,#colleges .business h2 a:active {
+	background-color:#990033;
+	color:#ffffff;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+#colleges .business h2 a:hover{
+	background-color: #990033;
+	color:#6a747c;
+	border-bottom:1px dotted;
+
+}
+
+#colleges .built-environment h2 {
+	background-color:#00a9b7;
+}
+#colleges .built-environment a {
+	color:#00a9b7;
+}
+#colleges .applied-arts h2 {
+	background-color:#ffcc00;
+	color:#ffffff;
+}
+#colleges .applied-arts a {
+	color:#666;
+}
+#colleges .applied-arts h2 a:link,#colleges .applied-arts h2 a:visited,#colleges .applied-arts h2 a:active {
+	background-color:#ffcc00;
+	color:#ffffff;;
+	text-decoration:underline;
+	font-weight:bold;
+}
+#colleges .applied-arts h2 a:hover{
+	background-color:#ffcc00;
+	color:#6a747c;
+	border-bottom:1px dotted;
+	}
+#colleges .engineering h2 {
+	background-color:#ff6600;
+}
+#colleges .engineering a {
+	color:#ff6600;
+}
+#colleges .engineering h2 a:link,#colleges .engineering h2 a:visited,#colleges .engineering h2 a:active {
+	background-color:#ff6600;
+	color:#fff;
+	text-decoration:underline;
+	font-weight:bold;
+}
+#colleges .engineering h2 a:hover{
+	background-color:#ff6600;
+	color:#6a747c;
+	border-bottom:1px dotted;
+	}
+#colleges .science h2 {
+	background-color:#009999;
+}
+#colleges .science a {
+	color:#009999
+}
+#colleges .science h2 a:link,#colleges .science h2 a:visited,#colleges .science h2 a:active {
+	background-color:#009999;
+	color:#fff;
+	text-decoration:underline;
+	font-weight:bold;
+}
+#colleges .science h2 a:hover{
+	background-color:#009999;
+	color:#6a747c;
+	border-bottom:1px dotted;
+	}
+#colleges .research h2 {
+	background-color:#b7db94;
+}
+#colleges .research a {
+	color:#fff;
+	text-decoration:none;
+}
+#colleges .college {
+	float:left;
+	display:inline;
+	width:330px;
+	margin:0;
+	padding:0;
+}
+#colleges .row {
+	clear:both;
+}
+#colleges .applied-arts,#colleges .engineering {
+	margin-right:10px;
+	clear:left;
+}
+#colleges ul,#faculties li {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	background:none;
+	background:0;
+}
+#colleges ul {
+	margin:0 0 10px 5px;
+}
+#colleges li {
+	/*background:url(http://www.dit.ie/media/styleimages/arrow_05.gif) top left no-repeat;*/
+	padding-left:8px;
+	padding-bottom:2px;
+	margin-bottom:2px;
+}
+#colleges li a {
+	font-weight:bold;
+	border:0;
+}
+#colleges li a:hover {
+	border-bottom:1px dotted;
+	background-color: transparent;
+}
+
+/* ThemesSets the colour changes for the College pages---------------------------------------------------------------*/
+/* College Headings are styled slightly differently to rest of site */
+.applied-arts #secondary h2,.tourism-food #secondary h2,.engineering #secondary h2,.business #secondary h2,.built-environment #secondary h2,.science #secondary h2 {
+	margin-left:0;
+	margin-right:0;
+	padding-left:13px;
+}
+.applied-arts #secondary h2 {
+	background-color:#ffcc00;
+	color:#333;
+}
+.applied-arts #secondary {
+	background-color:#FFDF66;
+	/*background-image:url(http://www.dit.ie/media/styleimages/aa-left-nav-border-bottom.gif);*/
+	background-repeat:no-repeat;
+}
+.applied-arts #secondary ul.links li a,.applied-arts #secondary ul.links li span.currentsection {
+	color:#333;
+}
+.applied-arts #secondary ul.links ul.multilevel-linkul-0 li a,.applied-arts #secondary ul.links ul.multilevel-linkul-0 li span.currentsection {
+	background-color:#FFEB9A;
+	color: #333;
+}
+.applied-arts #secondary ul.links li a:hover,.applied-arts #secondary ul.links li.current a,.applied-arts #secondary ul.links ul.multilevel-linkul-0 li a:hover {
+	background-color:#ffcc00;
+}
+.applied-arts #secondary ul.links ul.multilevel-linkul-3 li a,.applied-arts #secondary ul.links ul.multilevel-linkul-3 li span.currentsection {
+	text-indent:7px;
+}
+.tourism-food #secondary h2 {
+	background-color:#0060a9;
+}
+.tourism-food #secondary {
+	background-color:#4C8FC3;
+	/*background-image:url(http://www.dit.ie/media/styleimages/tf-left-nav-border-bottom.gif)*/
+}
+.tourism-food #secondary ul.links ul.multilevel-linkul-0 li a,.tourism-food #secondary ul.links ul.multilevel-linkul-0 li span.currentsection {
+	background-color:#7FAFD5;
+	color:#333;
+}
+.tourism-food #secondary ul.links li a:hover,.tourism-food #secondary ul.links li.current a,.tourism-food #secondary ul.links ul.multilevel-linkul-0 li a:hover {
+	background-color:#0060a9;
+	color:#fff;
+}
+.tourism-food #secondary ul.links ul.multilevel-linkul-3 li a,.tourism-food #secondary ul.links ul.multilevel-linkul-3 li span.currentsection {
+	text-indent:7px;
+}
+.engineering #secondary h2 {
+	background-color:#ff6600;
+}
+.engineering #secondary {
+	background-color:#FF944C;
+/*	background-image:url(http://www.dit.ie/media/styleimages/eng-left-nav-border-bottom.gif)*/
+}
+.engineering #secondary ul.links ul.multilevel-linkul-0 li a,.engineering #secondary ul.links ul.multilevel-linkul-0 li span.currentsection {
+	background-color:#FFB27E;
+	color:#333;
+}
+.engineering #secondary ul.links li a:hover,.engineering #secondary ul.links li.current a,.engineering #secondary ul.links ul.multilevel-linkul-0 li a:hover {
+	background-color:#ff6600;
+}
+.engineering #secondary ul.links ul.multilevel-linkul-3 li a,.engineering #secondary ul.links ul.multilevel-linkul-3 li span.currentsection {
+	text-indent:7px;
+}
+.business #secondary h2 {
+	background-color:#990033;
+}
+.business #secondary {
+	background-color:#B84C70;
+/*	background-image:url(http://www.dit.ie/media/styleimages/bus-left-nav-border-bottom.gif) */
+}
+.business #secondary ul.links ul.multilevel-linkul-0 li a,.business #secondary ul.links ul.multilevel-linkul-0 li span.currentsection {
+	background-color:#CB7F99;
+	color:#330030;
+}
+.business #secondary ul.links li a:hover,.business #secondary ul.links li.current a,.business #secondary ul.links ul.multilevel-linkul-0 li a:hover {
+	background-color:#990033;
+	color:#fff;
+}
+.business #secondary ul.links ul.multilevel-linkul-3 li a,.business #secondary ul.links ul.multilevel-linkul-3 li span.currentsection {
+	text-indent:7px;
+}
+.built-environment #secondary h2 {
+	background-color:#00a9b7;
+}
+.built-environment #secondary {
+	background-color:#4CB5E4;
+/*	background-image:url(http://www.dit.ie/media/styleimages/built-left-nav-border-bottom.gif)*/
+}
+.built-environment #secondary ul.links ul.multilevel-linkul-0 li a,.built-environment #secondary ul.links ul.multilevel-linkul-0 li span.currentsection {
+	background-color:#00a9b7;
+}
+.built-environment #secondary ul.links li a:hover,.built-environment #secondary ul.links li.current a,.built-environment #secondary ul.links ul.multilevel-linkul-0 li a:hover {
+	background-color:#00a9b7;
+}
+.built-environment #secondary ul.links ul.multilevel-linkul-3 li a,.built-environment #secondary ul.links ul.multilevel-linkul-3 li span.currentsection {
+	text-indent:7px;
+}
+.science #secondary h2 {
+	background-color:#009999;
+}
+.science #secondary {
+	background-color:#4BB7B7;
+	/*background-image:url(http://www.dit.ie/media/styleimages/science-left-nav-border-bottom.gif)*/
+}
+.science #secondary ul.links li a,.science #secondary ul.links li span.currentsection {
+	color:#fff;
+}
+.science #secondary ul.links ul.multilevel-linkul-0 li a,.science #secondary ul.links ul.multilevel-linkul-0 li span.currentsection {
+	background-color:#9ACCCD;
+}
+.science #secondary ul.links li a:hover,.science #secondary ul.links li.current a,.science #secondary ul.links ul.multilevel-linkul-0 li a:hover {
+	background-color:#009999;
+}
+.science #secondary ul.links ul.multilevel-linkul-3 li a,.science #secondary ul.links ul.multilevel-linkul-3 li span.currentsection {
+	text-indent: 7px;
+}
+/* The following overwrites the side nav 3rd level default bullet with a white bullet */
+.applied-arts #secondary ul.links ul.multilevel-linkul-1 li a,.applied-arts #secondary ul.links ul.multilevel-linkul-1 li span.currentsection,.applied-arts #secondary ul.links ul.multilevel-linkul-1 li a:hover,.tourism-food #secondary ul.links ul.multilevel-linkul-1 li a,.tourism-food #secondary ul.links ul.multilevel-linkul-1 li span.currentsection,.tourism-food #secondary ul.links ul.multilevel-linkul-1 li a:hover,.engineering #secondary ul.links ul.multilevel-linkul-1 li a,.engineering #secondary ul.links ul.multilevel-linkul-1 li span.currentsection,.engineering #secondary ul.links ul.multilevel-linkul-1 li a:hover,.business #secondary ul.links ul.multilevel-linkul-1 li a,.business #secondary ul.links ul.multilevel-linkul-1 li span.currentsection,.business #secondary ul.links ul.multilevel-linkul-1 li a:hover,.built-environment #secondary ul.links ul.multilevel-linkul-1 li a,.built-environment #secondary ul.links ul.multilevel-linkul-1 li span.currentsection,.built-environment #secondary ul.links ul.multilevel-linkul-1 li a:hover,.science #secondary ul.links ul.multilevel-linkul-1 li a,.science #secondary ul.links ul.multilevel-linkul-1 li span.currentsection,.science #secondary ul.links ul.multilevel-linkul-1 li a:hover {
+/*	background-image:url(http://www.dit.ie/media/styleimages/side-nav-level3-bullet-white.gif); */
+	background-repeat:no-repeat;
+	background-position:24px 0;
+
+}
+.applied-arts #secondary ul.links ul.multilevel-linkul-2 li a,.applied-arts #secondary ul.links ul.multilevel-linkul-2 li span.currentsection,.applied-arts #secondary ul.links ul.multilevel-linkul-2 li a:hover,.tourism-food #secondary ul.links ul.multilevel-linkul-2 li a,.tourism-food #secondary ul.links ul.multilevel-linkul-2 li span.currentsection,.tourism-food #secondary ul.links ul.multilevel-linkul-2 li a:hover,.engineering #secondary ul.links ul.multilevel-linkul-2 li a,.engineering #secondary ul.links ul.multilevel-linkul-2 li span.currentsection,.engineering #secondary ul.links ul.multilevel-linkul-2 li a:hover,.business #secondary ul.links ul.multilevel-linkul-2 li a,.business #secondary ul.links ul.multilevel-linkul-2 li span.currentsection,.business #secondary ul.links ul.multilevel-linkul-2 li a:hover,.built-environment #secondary ul.links ul.multilevel-linkul-2 li a,.built-environment #secondary ul.links ul.multilevel-linkul-2 li span.currentsection,.built-environment #secondary ul.links ul.multilevel-linkul-2 li a:hover,.science #secondary ul.links ul.multilevel-linkul-2 li a,.science #secondary ul.links ul.multilevel-linkul-2 li span.currentsection,.science #secondary ul.links ul.multilevel-linkul-2 li a:hover {
+	background-image: none;
+}
+/* Manage logo display on Research Centres page */
+div.research-logo {
+	float:left;
+	margin-left:0px;
+	margin-right:14px;
+	margin-bottom:15px;
+}
+div.research-logo a:link {
+	border-bottom: none;
+}
+/* Specific styles for Undergraduate Programmes List */
+div.undergrad-course {
+	clear:both;
+	padding-top:3px;
+	border-top:solid 1px gray;
+}
+div.undergrad-course p.title {
+	width:248px;
+	clear:left;
+	float:left;
+	padding:2px;
+}
+div.undergrad-course p.type {
+	width:145px;
+	float:left;
+	padding:2px;
+}
+div.undergrad-course p.code {
+	width:68px;
+	float:left;
+	padding:2px;
+}
+div.letter {
+	border-top:0px none;
+	clear:both;
+	padding-top:3px;
+	font-weight: bold;
+}
+/* Specific styles for Postgraduate Programmes List */
+div.postgrad-course {
+	border-top:1px solid gray;
+	clear:both;
+	padding-top:3px;
+}
+div.postgrad-course p.title {
+	padding:2px;
+	width:348px;
+	clear:left;
+	float:left;
+}
+div.postgrad-course p.code {
+	padding:2px;
+	width:68px;
+	float: left;
+}
+/* Specific styles for Staff Directory result pages */
+.phone-results table {
+	border:0px
+}
+.phone-results td {
+	border: 0px
+}
+/* Specific styles Newsroom pages */
+.news-title {
+	clear:both;
+	padding-top:25px;
+	width:465px
+}
+.news-date{
+	width:465px;
+}
+.news {
+	border:1px dotted #eee;
+	padding:5px;
+	float:left;
+	width:205px;
+	height:240px
+}
+.news p {
+	padding-left:5px;
+	font-size:1em
+}
+.news img {
+	padding-top:10px;
+	width:165px;
+	height: 123px
+}
+/* For turning off borders on tables */
+.noborder td,th,.noborder th,.noborder tr {
+	border:0;
+	padding:0;
+	margin:0;
+	border-style: none
+}
+/* For turning on borders on tables */
+.yesborder td,th {
+	border:1;
+	border-style: solid
+}
+/* For turning off borders on tables */
+a #link {
+	border:0px none;
+	border-style: none
+}
+/* For campus life logon table */
+.bgslight {
+	background-color:#efefef;
+	padding:10px
+}
+.bgslight tr,.bgslight td,.bgslight th {
+	border:0;
+	border-style: none
+}
+/*For HR table*/
+div.month {
+	float:left;
+	width:150px;
+	/*background-image:url(http://www.dit.ie/media/styleimages/background-calendar.jpg);*/
+	background-color:#6699ff;
+	margin:5px;
+	padding:25px;
+	background-repeat:repeat-x;
+	text-align:center;
+	border:0px;
+	height:150px
+}
+div.month p {
+	color:white;
+	text-decoration:none;
+	border-bottom:0px
+}
+div.month a:link {
+	color:white;
+	text-decoration:none;
+	border-bottom:0px
+}
+div.month a:visited {
+	color:blue;
+	text-decoration:none
+}
+div.month a:hover {
+	color:blue;
+	text-decoration:none
+}
+div.month a:active {
+	color:blue;
+	text-decoration: none
+}
+/*For right-hand nav*/
+.right-menu {
+	width: 140px
+}
+/*For image-rotator links*/
+ul#imagerotate p a {
+	color: black
+}
+/* Hacks -------------------------------------------*/
+.clear {
+	clear: both
+}
+/* CAO page-------------------------------------------*/
+#cao a {
+	color:white;
+	border-bottom: none 0px
+}
+/* For delicious tag cloud on library subject gateway pages-------------------------------------------*/
+.delicious-tags ul li a {
+	line-height:30px;
+	border: 0px none
+}
+/* Library Opening Hours table-------------------------------------------*/
+#openinghours td {
+	border:0;
+	padding:10px
+}
+#openinghours th {
+	text-align:center;
+	font-size:1.2em;
+	font-weight:bold;
+	padding:5px 0;
+	background-color:#ffaf53;
+	color:white
+}
+#openinghours {
+	border-bottom:1px solid grey;
+	border-top:1px solid grey;
+	padding:0;
+	background-color:#eeeeee
+}
+table#libraryhours {
+	text-align:center
+}
+table#libraryhours th {
+	text-align:center;
+	font-weight:bold;
+	padding:20px
+}
+table#libraryhours td {
+	text-align:center;
+	border:1px solid #999;
+	vertical-align: middle
+}
+/* Upskill badge positioning------------------------------------------*/
+#upskill {
+	float:left;
+	z-index:300;
+	margin-left:-175px;
+	margin-top: 350px
+}
+/* Forms styling-------------------------------------------*/
+div.form_col1,div.form_col2 {
+	float:left;
+	margin-bottom:9px;
+	height:auto
+}
+div.form_col1 {
+	width:35%
+}
+div.form_col2 {
+	width:64%
+}
+div.form_col1 p {
+	margin:0px;
+	font-weight: bold
+}
+/* New library menu-------------------------------------------*/
+#librarycorner {
+	width:180px;
+/*	background-image:url(http://dit.ie/media/library/otherimages/corner.jpg);*/
+	background-repeat:no-repeat;
+	background-color:#fdd76a;
+	color:white;
+	padding:0px;
+	margin:0px;
+	height:37px
+}
+#librarymenu1 {
+	width:160px;
+	background-color:#ffcc33;
+	color:white;
+	padding:10px;
+	border-bottom:1px solid black
+}
+#librarymenu1 ul {
+	list-style-type:none;
+	margin:0;
+	padding:0
+}
+#librarymenu1 li {
+	margin-bottom:5px;
+	background-image:none
+}
+#librarymenu1 li a {
+	border:0px none;
+	font-weight:bold;
+	text-decoration:none;
+	color:white
+}
+#librarymenu2 {
+	width:160px;
+	background-color:#fdd76a;
+	color:#333333;
+	padding:10px;
+	border-bottom:1px solid black;
+	border-top:1px solid white
+}
+#librarymenu2 ul {
+	list-style-type:none;
+	margin:0;
+	padding:0
+}
+#librarymenu2 li {
+	margin-bottom:5px;
+	background-image:none
+}
+#librarymenu2 li a {
+	border:0px none;
+	font-weight:bold;
+	text-decoration:none;
+	color:#333333
+}
+#librarymenu3 {
+	width:160px;
+	background-color:#ffcc33;
+	color:white;
+	padding:10px;
+	border-bottom:1px solid black;
+	border-top:1px solid white
+}
+#librarymenu3 ul {
+	list-style-type:none;
+	margin:0;
+	padding:0
+}
+#librarymenu3 li {
+	margin-bottom:5px;
+	background-image:none
+}
+#librarymenu3 li a {
+	border:0px none;
+	font-weight:bold;
+	text-decoration:none;
+	color:white
+
+}
+#librarymenu4 {
+	width:160px;
+	background-color:#fdd76a;
+	color:#333333;
+	padding:10px;
+	border-top:1px solid white
+}
+#librarymenu4 ul {
+	list-style-type:none;
+	margin:0;
+	padding:0
+}
+#librarymenu4 li {
+	margin-bottom:5px;
+	background-image:none
+}
+#librarymenu4 li a {
+	border:0px none;
+	font-weight:bold;
+	text-decoration:none;
+	color:#333333
+}
+#sitelist {
+	text-align:center
+}
+#sitelist ul {
+	list-style-type:none;
+	background-image:none
+}
+#sitelist li {
+	width:500px;
+	background-color:#fdd76a;
+	padding:10px;
+	font-size:1.4em;
+	background-image:none
+}
+#sitelist li a:link {
+	text-decoration:none;
+	;
+	color:grey;
+	font-weight:bold;
+	border-bottom:1px solid grey
+}
+#sitelist li:hover,#sitelist li a:hover {
+	background-color:#ffcc33;
+	color:black
+}
+#sitelist li a:visited {
+	color:grey;
+	border-bottom:none
+}
+#sitelist li a:active {
+	background-color:#ffcc33;
+	color: black
+}
+/* DIT Small Top Banner for non-DIT-style sites ------------------------------------------------*/
+.toplogo {
+	padding:5px;
+	margin:0;
+	float:left;
+	margin-right:10px
+}
+div#top div#ditlinks {
+	background:#fff;
+	float:left;
+	display:inline;
+	margin-bottom:5px
+}
+div#top div#ditlinks span a {
+	padding:0px 11px
+}
+div#top div#ditlinks a {
+	display:block;
+	float:left;
+	line-height:23px;
+	text-decoration:none;
+	color:#004C6C;
+	background:#fff;
+	text-align:center;
+	border:0
+}
+div#top div#ditlinks li a:hover,#navigation li.highlight a,#ssnavigation li.highlight a {
+	color:#fff;
+	background-color:#50B1CE
+}
+#top fieldset {
+	padding:0;
+	margin:0;
+	border:0;
+	display:inline
+}
+#ditmenu {
+	margin:5px 0 5px 61px;
+	text-align:left;
+	height:21px
+}
+#ditmenu li {
+	float:left
+}
+div#toplinks {
+	text-align:left;
+	color:#0099CC;
+	margin-left:10px;
+	float:left
+}
+div#toplinks a {
+	font-size:10px;
+	color:#666
+}
+div#toplinks a:hover {
+	border-bottom:1px dashed #666
+}
+div#dit_forms {
+	padding:0;
+	margin:0;
+	float:right
+}
+div#dit_forms select {
+	color:#0067AC;
+	height:17px;
+	width:140px;
+	font-size:11px;
+	margin-right:20px;
+	border:1px solid #0067ac
+}
+div#dit_forms select option {
+	padding:5px 1px
+}
+div#dit_forms1 {
+	padding:0px;
+	margin:0px;
+	float:right;
+	margin-right:15px
+}
+div#dit_forms1 .searchboxhm {
+	border:1px solid #0067ac;
+	height:15px;
+	margin-bottom:7px;
+	color:#0067AC;
+	font-size:11px;
+	width:100px
+}
+#dit-search-button {
+	border:0 none;
+	width:100px;
+	height:19px
+}
+#greyrounded {
+	text-align:center;
+	background-color:#666666;
+	color:white;
+	width:400px;
+	padding:10px;
+	margin:10px auto;
+	font-weight:bold;
+	border:5px solid #4fb1ce;
+	-webkit-box-shadow:10px 10px 25px #ccc;
+	-moz-box-shadow:10px 10px 25px #ccc;
+	box-shadow:10px 10px 25px #ccc;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px
+}
+#greyrounded h1 {
+	text-align:center;
+	background-color:#666666;
+	color:white
+}
+#greyrounded p {
+	text-align:center;
+	font-size: 1.4em
+}
+/*Registrations*/
+ul#imagerotatereg {
+	text-align:left;
+	list-style-type:none;
+	margin:0;
+	padding:0
+}
+ul#imagerotatereg li {
+	list-style-type:none;
+	background-image:none;
+	margin:0;
+	padding:0
+}
+ul#imagerotatereg li span {
+	display:none;
+	font-size:2em;
+	margin:0px;
+	color:#3366cc;
+	padding:10px;
+	text-align:center
+}
+#mbaevent,#isbox {
+	padding:20px 20px 0px 20px;
+	margin:20px 0px;
+	background-color:#eee;
+	-webkit-border-radius:40px;
+	-moz-border-radius:40px;
+	border-radius:40px;
+	border:1px solid #ddd;
+	-moz-box-shadow:3px 3px 4px #999;
+	-webkit-box-shadow:3px 3px 4px #999;
+	box-shadow:3px 3px 4px #999
+}
+#isbox{
+	text-align:center;
+	font-size:1.6em	;
+  padding:20px;
+  background-color:#990000;
+  color:white
+}
+#isbox p{
+	margin:0;
+}
+#imagerotatemba {
+	margin:0px 135px;
+	padding:0;
+	text-align:center
+}
+ul#imagerotatemba {
+	text-align:center
+}
+ul#imagerotatemba li {
+	list-style-type:none;
+	background-image:none;
+	margin:0;
+	padding:0
+}
+#imagerotatemba p {
+	display:none
+}
+#imagerotateseminars {
+	margin:0px;
+	padding:0;
+	text-align:center
+}
+ul#imagerotateseminars {
+	text-align:center
+}
+ul#imagerotateseminars li {
+	list-style-type:none;
+	background-image:none;
+	margin:0;
+	padding:0
+}
+#imagerotateseminars p {
+	display:none
+}
+#languageswitcher {
+	clear:both;
+	background-color:#ffcc33;
+	font-weight:bold;
+	padding:3px;
+	margin-bottom:3px;
+	text-align:right;
+  height:20px;
+  line-height:20px
+}
+#languageswitcher a:link {
+	font-weight:bold;
+	color:#996600;
+	text-decoration:none
+}
+#languageswitcher a:visited {
+	font-weight:bold;
+	color:#996600;
+	text-decoration:none
+}
+#languageswitcher a:hover {
+	font-weight:bold;
+	color:#996600;
+	text-decoration:underline
+}
+#languageswitcher a:active {
+	font-weight:bold;
+	color:#996600;
+	text-decoration:underline
+}
+.button {
+	display:block;
+	width:100px;
+	height:20px;
+	text-indent:-9999px;
+	padding-left:20px
+}
+.button a {
+	display:block;
+	width:100%;
+	height:100%;
+	/*background:transparent url(http://www.dit.ie/media/images/apply_now_button.png) no-repeat top center;*/
+	outline:none
+}
+.button a:hover {
+	background-position:0 -20px
+}
+.buttonlabel {
+	float:right;
+	clear:both;
+	margin-top:-15px;
+	font-weight:bold;
+	text-align:center
+}
+.fulltimebutton {
+	display:block;
+	width:200px;
+	height:40px;
+	text-indent:-9999px;
+	padding-left:20px
+}
+.fulltimebutton a {
+	display:block;
+	width:100%;
+	height:100%;
+	/*background:transparent url(http://www.dit.ie/media/images/applynowfulltimebutton.jpg) no-repeat top center;*/
+	outline:none
+}
+.fulltimebutton a:hover {
+	background-position:0 -40px
+}
+.parttimebutton {
+	display:block;
+	width:200px;
+	height:40px;
+	text-indent:-9999px;
+	padding-left:20px;
+	clear:both
+}
+.parttimebutton a {
+	display:block;
+	width:100%;
+	height:100%;
+	/*background:transparent url(http://www.dit.ie/media/images/applynowparttimebutton.jpg) no-repeat top center;*/
+	outline:none
+}
+.parttimebutton a:hover {
+	background-position:0 -40px
+}
+.septemberbutton {
+	display:block;
+	width:200px;
+	height:40px;
+	text-indent:-9999px;
+	padding-left:20px;
+	clear:both
+}
+.septemberbutton a {
+	display:block;
+	width:100%;
+	height:100%;
+	/*background:transparent url(http://www.dit.ie/media/images/applynowseptember.jpg) no-repeat top center;*/
+	outline:none
+}
+.septemberbutton a:hover {
+	background-position:0 -40px
+}
+.januarybutton {
+	display:block;
+	width:200px;
+	height:40px;
+	text-indent:-9999px;
+	padding-left:20px;
+	clear:both
+}
+.januarybutton a {
+	display:block;
+	width:100%;
+	height:100%;
+	/*background:transparent url(http://www.dit.ie/media/images/applynowjanuary.jpg) no-repeat top center;*/
+	outline:none
+}
+.januarybutton a:hover {
+	background-position:0 -40px
+}
+.marchbutton {
+	display:block;
+	width:200px;
+	height:40px;
+	text-indent:-9999px;
+	padding-left:20px;
+	clear:both
+}
+.marchbutton a {
+	display:block;
+	width:100%;
+	height:100%;
+	/*background:transparent url(http://www.dit.ie/media/images/applynowmarchbutton.jpg) no-repeat top center;*/
+	outline:none
+}
+.marchbutton a:hover {
+	background-position:0 -40px
+}
+.advancedentrybutton {
+	display:block;
+	width:200px;
+	height:40px;
+	text-indent:-9999px;
+	padding-left:20px;
+	clear:both
+}
+.advancedentrybutton a {
+	display:block;
+	width:100%;
+	height:100%;
+	/*background:transparent url(http://www.dit.ie/media/images/applynowadvancedentrybutton.png) no-repeat top center;*/
+	outline:none
+}
+.advancedentrybutton a:hover {
+	background-position:0 -40px
+}
+.applynowbutton {
+	display:block;
+	width:200px;
+	height:40px;
+	text-indent:-9999px;
+	padding-left:20px
+}
+.applynowbutton a {
+	display:block;
+	width:100%;
+	height:100%;
+	/*background:transparent url(http://www.dit.ie/media/images/justapplynow.jpg) no-repeat top center;*/
+	outline:none
+}
+.applynowbutton a:hover {
+	background-position:0 -40px
+}
+.fetacbutton {
+	display:block;
+	width:200px;
+	height:40px;
+	text-indent:-9999px;
+	padding-left:20px
+}
+.fetacbutton a {
+	display:block;
+	width:100%;
+	height:100%;
+	/*background:transparent url(http://www.dit.ie/media/images/fetacentrydetails.jpg) no-repeat top center;*/
+	outline:none
+}
+.fetacbutton a:hover {
+	background-position:0 -40px
+}
+.undergradadvancedentrybutton {
+	display:block;
+	width:200px;
+	height:40px;
+	text-indent:-9999px;
+	padding-left:20px;
+	clear:both
+}
+.undergradadvancedentrybutton a {
+	display:block;
+	width:100%;
+	height:100%;
+	/*background:transparent url(http://www.dit.ie/media/images/applynowadvancedentrybuttonundergrad.jpg) no-repeat top center; */
+	outline:none
+}
+.undergradadvancedentrybutton a:hover {
+	background-position:0 -40px
+}
+
+.undergradadvancedentrybuttonint {
+	display:block;
+	width:200px;
+	height:40px;
+	text-indent:-9999px;
+	padding-left:20px;
+	clear:both
+}
+
+.undergradadvancedentrybuttonint a {
+	display:block;
+	width:100%;
+	height:100%;
+	/*background:transparent url(http://www.dit.ie/media/images/applynowinternationalbutton.jpg) no-repeat top center; */
+	outline:none
+}
+.undergradadvancedentrybuttonint a:hover {
+	background-position:0 -40px
+}
+.undergradfulltimebutton {
+	display:block;
+	width:200px;
+	height:40px;
+	text-indent:-9999px;
+	padding-left:20px
+}
+.undergradfulltimebutton a {
+	display:block;
+	width:100%;
+	height:100%;
+	/*background:transparent url(http://www.dit.ie/media/images/applynowfulltimebuttonundergrad.jpg) no-repeat top center; */
+	outline:none
+}
+.undergradfulltimebutton a:hover {
+	background-position:0 -40px
+}
+.noneuapplicantsjanintakebutton {
+	display:block;
+	width:200px;
+	height:40px;
+	text-indent:-9999px;
+	padding-left:20px
+}
+.noneuapplicantsjanintakebutton a {
+	display:block;
+	width:100%;
+	height:100%;
+	/*background:transparent url(http://www.dit.ie/media/images/noneuapplicantsjanintake.jpg) no-repeat top center; */
+	outline:none
+}
+.noneuapplicantsjanintakebutton a:hover {
+	background-position:0 -40px;}
+.requestabrochure {
+	display:block;
+	width:200px;
+	height:40px;
+	text-indent:-9999px;
+	padding-left:20px
+}
+.requestabrochure a {
+	display:block;
+	width:100%;
+	height:100%;
+	/*background:transparent url(http://www.dit.ie/media/images/requestabrochure.jpg) no-repeat top center; */
+	outline:none
+}
+.requestabrochure a:hover {
+	background-position:0 -40px
+}
+.downloadbrochure {
+	display:block;
+	width:200px;
+	height:40px;
+	text-indent:-9999px;
+	padding-left:20px
+}
+.downloadbrochure a {
+	display:block;
+	width:100%;
+	height:100%;
+	/*background:transparent url(http://www.dit.ie/media/images/downloadbrochure.png) no-repeat top center;*/
+	outline:none
+}
+.downloadbrochure a:hover {
+	background-position:0 -40px
+}
+.coursewise {
+	display:block;
+	width:200px;
+	height:40px;
+	text-indent:-9999px;
+	padding-left:20px
+}
+.coursewise a {
+	display:block;
+	width:100%;
+	height:100%;
+/*	background:transparent url(http://www.dit.ie/media/images/viewoncoursewisebutton.jpg) no-repeat top center; */
+	outline:none
+}
+.coursewise a:hover {
+	background-position:0 -40px
+}
+.programmeenquiry {
+	display:block;
+	width:200px;
+	height:40px;
+	text-indent:-9999px;
+	padding-left:20px
+}
+.programmeenquiry a {
+	display:block;
+	width:100%;
+	height:100%;
+	/*background:transparent url(http://www.dit.ie/media/images/enquireaboutthisprogrammebutton.png) no-repeat top center;*/
+	outline:none
+}
+.programmeenquiry a:hover {
+	background-position:0 -40px
+}
+.internationalstudentsbutton {
+	display:block;
+	width:200px;
+	height:40px;
+	text-indent:-9999px;
+	padding-left:20px
+}
+.internationalstudentsbutton a {
+	display:block;
+	width:100%;
+	height:100%;
+	/*background:transparent url(http://www.dit.ie/media/images/internationalstudentsbutton.jpg) no-repeat top center;*/
+	outline:none
+}
+.internationalstudentsbutton a:hover {
+	background-position:0 -40px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bluebg {
+	background-color:#50b1ce;
+	font-weight:bold;
+	font-size:1.4em;
+	padding:10px
+}
+#bluebg a:link,#bluebg a:visited {
+	color:white;
+	font-weight:bold;
+	text-decoration:none
+}
+#bluebg a:hover,#bluebg a:active {
+	border-bottom: 3px dotted white
+}
+/* Arts and Tourism April 2011 */
+
+.applied-arts #container #main #secondary h3 {
+	margin:10px;
+	padding:10px 0px;
+	clear:both;
+	font-size:1.3em;
+	color:#333;
+	border-bottom:1px dotted #333
+}
+#artsandtourismnews h1 {
+	display:none
+}
+#artsandtourismnews p {
+	display:none
+}
+#artsandtourismnews hr {
+	display:none
+}
+.newscaption {
+	font-size:.9em;
+	text-align:center;
+	font-style: italic
+}
+/* Programme links Nov 2011 */
+.applylink {
+}
+.applylink a:link,.applylink a:visited {
+	color:white;
+	background-color:#004C6C;
+	padding:20px;
+	width:260px;
+	float:left;
+	margin:10px;
+	border-radius:15px;
+	text-align:center
+}
+.applylink a:hover,.applylink a:active {
+	background-color:#ffcc33;
+	color:#333;
+	text-decoration:underline
+}
+.azletter {
+	width:300px;
+	padding:0px;
+	height:540px;
+	margin:10px;
+	background-color:#eee;
+	overflow:auto;
+	float:left;
+	position:relative;
+	min-height:580px;
+	padding-bottom:25px
+}
+span.aztop {
+	position:absolute;
+	bottom:0;
+	height:25px;
+	font-size:.8em;
+	margin-left:10px
+}
+.azletter p {
+	margin:0px 10px 5px 10px;
+	font-size:1em
+}
+#content .azletter h2 {
+	background-color:#0099cc;
+	padding:10px;
+	color:white
+}
+#content .azletter a:link {
+	color:#003366;
+}
+#content .azletter a:visited {
+	color:#0099cc
+}
+#content .azletter a:hover {
+	background-color:#ffcc33;
+	color:#333;
+	text-decoration:underline
+}
+#content .azletter a:active {
+	color:#003366
+}
+#content .mostpopular h2 {
+	background-color:#ffcc33;
+	color:#000
+}
+#content .azletter h4 {
+	margin-left:10px
+}
+#content .wrapper .azletter h2 a,#content .wrapper .azletter h2 a:visited,#content .wrapper .azletter h2 a:hover,#content .wrapper .azletter h2 a:active {
+	color:#0099cc;
+	background-color:#0099cc;
+	border-bottom:0px none;
+	text-decoration:none;
+	border-bottom: 3px solid #0099cc
+}
+/* retail slideshow */
+ul#retailimagerotate {
+	margin-bottom:50px;
+}
+ul#retailimagerotate,ul#retailimagerotate li {
+	list-style-type:none;
+	padding:0px;
+	margin:0px 0px 10px 0px
+}
+ul#retailimagerotate img {
+	width:570px;
+	min-width:570px;
+	max-width:570px
+}
+ul#retailimagerotate p {
+	margin-right:10px;
+	margin-top:-5px;
+	background-color:#0099cc;
+	color:#fff;
+	width:550px;
+	padding:10px
+}
+ul#retailimagerotate a:link {
+	border-bottom:0px none;
+
+	text-decoration:underline;
+	color:#fff;
+	background-color:#0099cc;
+	font-weight:bold
+}
+ul#retailimagerotate a:hover {
+	border-bottom:0px none;
+	color:#fff;
+	background-color:#0099cc
+}
+ul#retailimagerotate a:visited {
+	border-bottom:0px none;
+	color:#fff;
+	background-color:#0099cc
+}
+ul#retailimagerotate a:active {
+	border-bottom:0px none;
+	color:#fff;
+	background-color: #0099cc
+}
+/* part-time tables */
+table.parttime p {
+	margin:0;
+	padding:0
+}
+table.parttime tr:nth-child(odd) {
+	background-color:#eee;
+	border:0;
+	border-style:none
+}
+.hsbox {
+	background-color:#6666cc;
+	color:white;
+	padding:10px;
+	margin:5px;
+	width:580px%;
+	text-align:center;
+	font-size:1.4em;
+	height:
+}
+.hsbox:nth-child(even) {
+	background:#993399
+}
+.hsbox a:link,.hsbox a:visited {
+	color:white;
+	text-decoration:none;
+	border-bottom:1px dotted white
+}
+.hsbox a:hover,.hsbox a:active {
+	color:auto;
+	background-color:transparent;
+	text-decoration:underline;
+	border-bottom: 0px dotted white
+}
+
+table.columns tr:nth-child(even){
+  background-color:#eee;
+}
+table.columns tr:nth-child(odd){
+  background-color:#fffee5;
+}
+table.columns {
+  line-height:20px
+}
+table.columns td{
+padding:10px;
+}
+#socialmedia{
+  height:50px;
+clear:both;
+}
+#sharetwitter,#sharefacebook{
+float:left;
+ width:auto:
+}
+#sharetwitter{
+	margin-left:290px
+}
+
+table.padding td {
+  padding:10px;
+}
+
+#hrexternal, #hrinternal,#hrpresident{
+	float:left;
+  width:310px;
+  padding:10px;
+  font-size:1.6em;
+	font-weight:normal;
+  text-align:center;
+  border-radius:15px;
+  drop-shadow:5px 5px 5px #000;
+}
+#hrexternal{
+	background-color:#3399cc;
+  margin-right:10px
+}
+#hrinternal{
+	background-color:#99cc33;
+}
+#hrpresident{
+	background-color:#FDB827;
+  width:650px;
+  margin-top:10px;
+  padding-bottom:0px;
+  margin-bottom:20px;
+}
+#center{
+	text-align:center;
+  margin:0px auto;
+  width:700px;
+  padding:10px 0px 60px 0px;
+}
+#center a:link,#center a:visited{
+	color:white;
+  background-color:transparent;
+  text-decoration:none;
+}
+#center a:hover,#center a:active{
+	color:white;
+  background-color:transparent;
+  text-decoration:underline;
+}
+
+
+#cookies-info{
+	position: absolute;
+	top:0px;
+	width:300px;
+	height: 60px;
+	background-color: #00a9b7;
+	color: #fff;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	-moz-border-bottom-right-radius: 15px;
+	-moz-border-bottom-left-radius: 15px;
+	padding: 5px;
+}
+
+#cookies-info a{
+	color:#fff;
+	text-decoration:underline;
+	}
+
+.closeThis{
+	float:right;
+	margin-top:5px;
+	margin-right:5px;
+}
+
+.closeThis:hover{
+	float:right;
+	margin-top:5px;
+	margin-right:5px;
+	cursor: hand; 
+	cursor: pointer;
+}
+
+
+#fullDescContentId a:hover{text-decoration:none;background-color:transparent}
+
+
+
+
+
+/* CSS Document */
+

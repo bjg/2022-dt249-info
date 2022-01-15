@@ -1,0 +1,326 @@
+/* Defaults Overwrites
+-------------------------------------------*/
+body, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ul, li, input, textarea { margin:0px; padding:0px; }
+address { font-style:normal; }
+a:focus { outline:none }
+img, a img { border:0px; }
+th, td { text-align:left; font-weight:normal; vertical-align:top; }
+table { empty-cells:show;  }
+
+
+/* General Styles
+-------------------------------------------*/
+body, input, address, textarea, select { font-family:Verdana, Arial, Helvetica, sans-serif; color:#333; }
+body { font-size:70%; /*font-size:11px;*/  }
+
+h1 { font-size:1.8em; color:#003366; font-weight:normal; margin-bottom:20px; }
+h2 { font-size:1.6em; color:#336699; font-weight:normal; margin:0px 0 20px; padding-top:10px; font-family:"Times New Roman", Times, serif }
+#sidebar h2 { font-family:Verdana, Arial, Helvetica, sans-serif; padding-top:0; }
+h2.highlight { background-color:#DCEFF5; line-height:2em; padding-left:10px; }
+h3 { font-size:1.1em; color:#336699; margin-bottom:15px; }
+h4 { font-size:1.1em; color:#B6A998; margin-bottom:10px; }
+h5 { font-size:1.1em; color:#666; margin-bottom:5px; }
+
+ul, li { margin:0; margin:0; list-style-type:none }
+ul { margin:0 0 15px 20px; }
+li { background:url(../images/bullet.gif) top left no-repeat; padding-left:14px; margin-bottom:1px; }
+
+p, li, label, input { line-height:1.45em; }
+
+p, h2, table { margin-bottom:15px; }
+
+a { color:#336699; text-decoration:none;  }
+a:hover { text-decoration:underline }
+
+td, th { padding-bottom:8px; }
+
+table {border-collapse:collapse;}
+
+hr { border:0; border-top:1px dotted #ccc; height:1px; margin:10px 0 10px; }
+
+/* Structure 
+-------------------------------------------*/
+body { text-align:center; background:#003263 url(../images/body_bg.jpg) top left repeat-x; }
+
+#outer { background:url(../images/shadow_bg.jpg) top center no-repeat; float:left; display:inline; width:100%; }
+#container { margin:0 auto; text-align:left; width:927px; background-color:#fff;  }
+#header { height:121px; position:relative; }
+
+#header #branding { float:left; display:inline; margin:11px 0 0 14px; width:428px; }
+#branding #logo, #branding #sitename { float:left; display:inline;  }
+#branding #sitename { margin-top:44px; }
+#branding a { border:0; }
+
+#logo { float:left; display:inline; width:98px; margin-left:21px; margin-top:9px; }
+#tagline { position:absolute; bottom:10px; right:17px; width:284px; }
+#utility { position:absolute; top:10px; right:250px;  }
+
+#cse-search-box {float:right;margin-top:10px;margin-right:10px;}
+
+/* quicklinks form */
+#quicklinks { position:absolute; bottom:18px; right:10px; width:230px; text-align:right }
+#quicklinks select { width:180px; }
+
+/* top right utility links */
+#utility ul.links li { display:inline; float:left; background:url(https://www.dit.ie/ditfoundation/media/ditfoundation/images/divider_utility.gif) left center no-repeat; padding-left:10px; line-height:25px; margin-left:11px; text-transform:uppercase; font-size:0.9em; color:#999 } 
+#utility ul.links li.first { background:none }
+#utility li a { color:#999; text-decoration:none; border:0; }
+#utility li a:hover { color:#003366 }
+#cse {float:right;height:20px;padding:0;margin-top:10px;margin-right:10px;width:250px;}
+
+/* Top horizontal navigation*/
+#navigation {margin-top:10px; background:#fff; width:100%; float:left; display:inline; border-top:4px solid #B6A89B; background: #387BB2 url(https://www.dit.ie/ditfoundation/media/ditfoundation/images/template/nav_bg.jpg) bottom left repeat-x; }
+#navigation ul, #navigation li { margin:0px; padding:0px; list-style-type:none; background:none; }
+#navigation li { display:inline; }
+#navigation a { display:block; float:left; line-height:37px; text-decoration:none; color:#fff; text-align:center; border:0; border-right:1px solid #fff; text-transform:uppercase; font-weight:bold; }
+#navigation li.funding a { width:159px }
+#navigation li.give a { width:126px }
+#navigation li.results a { width:137px }
+#navigation li.graduate a { width:171px }
+#navigation li.news a { width:137px }
+#navigation li.about a { width:80px }
+#navigation li.contact a { width:111px; border-right:0px; }
+#navigation li a:hover, #navigation li.current a { color:#fff; background:#A59683 url(https://www.dit.ie/ditfoundation/media/ditfoundation/images/template/nav_bg_on.jpg) center left repeat-x }
+
+
+#banner { width:100%; float:left; display:inline; }
+
+
+/* Site breadcrumbs */
+#breadcrumbs {padding:0 18px; margin-bottom:15px; }
+#breadcrumbs, #breadcrumbs a { color:#B6A89B; }
+/*#breadcrumbs ul, #breadcrumbs li { margin:0px; padding:0px; list-style-type:none }
+#breadcrumbs ul { margin-left:17px; }
+#breadcrumbs li { float:left; display:inline; line-height:20px; background:url(https://www.dit.ie/ditfoundation/media/ditfoundation/images/template/arrow_01.gif) center left no-repeat; margin-left:5px; }
+#breadcrumbs li.first { padding-left:4px; background:none; }
+#breadcrumbs a { text-decoration:none; border:0;  }
+#breadcrumbs a:hover { text-decoration:underline; }*/
+
+/* Print Action */
+#actions ul, #actions li { margin:0px; padding:0px; list-style-type:none }
+#actions { width:130px; float:right; display:inline; margin-right:10px; text-align:right; text-transform:uppercase; margin-top:20px; }
+#actions li { float:right; display:inline; font-size:0.9em; }
+#actions a { color:#0099cc; text-decoration:none; padding-left:26px; text-align:right; display:block; border:0;  }
+#actions li.print a { background: url(https://www.dit.ie/ditfoundation/media/ditfoundation/images/template/icon_print.gif) center left no-repeat; }
+#actions li.print a:hover { border-bottom:1px dotted; }
+
+
+#main { clear:both; float:left; display:inline; background-color:#fff; width:100%; padding-top:15px; padding-bottom:25px; }
+#content, #extra, #sidebar { float:left; display:inline; }
+#content {width:430px; margin-left:42px; background-color:#fff;}
+#content p img {text-align:center;;margin:0px auto}
+#sidebar {  width:179px; margin-left:15px;  }
+
+#extra { float:right; margin-right:10px; width:211px; min-height: 500px; height: auto; }
+* html #extra { height: 500px; }
+
+
+/* Sidebar Nav Section. */
+#sidebar h2 {  margin:0 10px 10px 2px;  font-size:17px; font-weight:normal }
+#sidebar ul.links, #sidebar ul.links li { margin:0; padding:0;  }
+#sidebar ul.links { border-top:1px solid #d5d5d5; }
+#sidebar ul.links, #sidebar ul.links li { width:180px;  }
+#sidebar ul.links li {background:none; border-bottom:1px solid #d5d5d5; }
+#sidebar ul.links li li { border:0; }
+#sidebar ul.links li a {text-decoration:none; color:#666; display:block; padding:3px 0 3px 14px; 
+background-color:#fff;background-image:url(../images/nav_arrow.gif); 
+background-position:center left; background-repeat:no-repeat;}
+#sidebar ul.links li span.currentsection  {text-decoration:none; color:#336699; display:block; padding:3px 0 3px 14px; 
+background-color:#fff;background-image:url(../images/nav_arrow.gif); 
+background-position:center left; background-repeat:no-repeat;}
+
+#sidebar ul.links li a:hover, #sidebar ul.links ul.links li a:hover {color:#336699}
+#sidebar ul.links li span.currentsection {color:#336699;}
+
+/* level 2 */
+#sidebar ul ul {padding:0;margin-bottom:0;}
+#sidebar ul.links li li { margin-bottom:0;line-height:23px;margin-left:-20px; }
+#sidebar ul.links li li li{ margin-bottom:0;line-height:23px;}
+#sidebar ul.links li li a {background-color:#EDEAE5; background-position:12px 13px; padding-left:20px; }
+#sidebar ul.links li li span.currentsection {background-color:#EDEAE5; background-position:12px 13px; padding-left:20px;color:#336699;}
+	
+/* Showing Active Links */
+#sidebar ul.links li.current a, #sidebar ul.links li.current li.current a { color:#336699 }
+#sidebar ul.links li.current li a, #sidebar ul.links li.current li.current li a { color:#666 }
+
+
+/* Footer, Site links, Copyright details */
+#footer { clear:both; float:left; display:inline; width:100%; padding:20px 0 0px; background-color:#022A4D; font-family:Arial, Helvetica, sans-serif; }
+
+
+#footer #partner, #footer #address, #footer #sitelinks { float:left; display:inline; }
+#footer #partner { width:279px; margin-left:20px; }
+#footer #address { width:280px; margin-left:38px; }
+#footer #address, #footer #address a { color:#99ccff; }
+#footer #sitelinks { width:260px; float:right; display:inline; }
+#footer #sitelinks ul { float:left; display:inline; width:105px; margin-right:5px; }
+#footer #sitelinks ul.first { margin-right:40px; }
+#footer #sitelinks ul, #footer #sitelinks ul li { list-style-type:none; background:none; border:0; padding:0; margin:0; }
+#footer #sitelinks ul li { padding-bottom:1px; }
+#footer #sitelinks ul li a { color:#fff; border:0; }
+
+
+/* Sidebar Feature Banners */
+ul#features, ul#features li { margin:0; padding:0; list-style-type:none; background:none }
+ul#features li { border:7px solid #EDEAE5; margin-bottom:10px; padding:0px 5px 0px 68px; background-color:#DBD4CA; background-position:15px 15px; background-repeat:no-repeat; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; min-height: 83px; height: auto; }
+* html ul#features li { height: 83px; }
+ul#features li h4 { text-transform:uppercase; font-size:1em; color:#333; margin:8px 0 5px; }
+ul#features li p { margin:0 0 5px; line-height:1.2em; }
+ul#features li a { color:#333; border:none; }
+ul#features li a:hover { text-decoration:underline }
+ul#features li.gift { background-image:url(../images/make_gift_online.gif) }
+ul#features li.campus { background-image:url(../images/new_campus.gif) }
+ul#features li.links { background-image:url(../images/community_links.gif) }
+
+/* Homepage Banner Buttons */
+ul#buttons { position:absolute; top:183px; left:20px; }
+ul#buttons, ul#buttons li { margin:0; padding:0; list-style-type:none; background:none }
+ul#buttons li { width:220px; float:left; display:inline; margin-right:2px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; min-height: 100px; height: auto; background:url(../images/homepage/banner_buttons_bg.png) top left repeat; }
+* html ul#buttons li { height: 100px; }
+
+
+ul#buttons li h3 { text-transform:uppercase; font-size:1em; color:#333; margin:0 0 5px; }
+ul#buttons li p { margin:0px; line-height:1.2em; }
+ul#buttons li a { color:#333; border:none; }
+ul#buttons li .wrapper { padding:15px 5px 10px 70px; background-position:15px 20px; background-repeat:no-repeat  }
+
+ul#buttons li.support .wrapper { background-image:url(../images/student_support.gif); background-position:15px 30px;padding-left:75px; }
+ul#buttons li.campus .wrapper { background-image:url(../images/new_campus.gif) }
+ul#buttons li.links .wrapper { background-image:url(../images/community_links.gif) }
+
+
+
+/* Homepage Specific Styles
+-------------------------------------------*/
+#homepage #banner { height:292px; position:relative; background-color:#024476 }
+#homepage #donate { position:absolute; width:180px; height:66px; top:70px; right:40px; }
+
+#homepage #breadcrumbs, #homepage #breadcrumbs a { color:#B6A998 }
+
+#homepage #main, #homepage #sidebar { background-color:#024476; color:#fff; }
+#homepage #sidebar { background:#B6A998 url(https://www.dit.ie/ditfoundation/media/ditfoundation/images/homepage/primary_bg_bottom.gif) bottom left no-repeat; width:412px; margin-left:15px;}
+#homepage #sidebar .wrapper { background:url(https://www.dit.ie/ditfoundation/media/ditfoundation/images/homepage/primary_bg_top.gif) top left no-repeat; padding:10px 13px; }
+
+
+#homepage #content { width:480px; background:url(https://www.dit.ie/ditfoundation/media/ditfoundation/images/homepage/content_bg.gif) 220px 0 repeat-y; margin-left:20px }
+#homepage #content .column { width:200px; margin-right:40px; float:left; display:inline; }
+
+#homepage #content h2, #homepage #content h3, #homepage #content a { color:#B6A998 }
+#homepage #content h2 { margin-top:0; padding-top:0; }
+#homepage #content h4 { color:#fff; margin-bottom:0; }
+
+#homepage #content a.more { background:url(../images/homepage/bullet_link.gif) top left no-repeat; padding-left:10px; }
+
+
+/* Sidebar Feature Banners */
+ul#overview, ul#overview li { margin:0; padding:0; list-style-type:none; }
+ul#overview li { clear:both; background-position:15px 15px; background-repeat:repeat; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; background:url(https://www.dit.ie/ditfoundation/media/ditfoundation/images/homepage/primary_divider.gif) top center no-repeat; padding:10px 0 10px; min-height: inherit; height: auto; overflow: hidden; width: 100%; color:#FFF4E3; }
+* html ul#overview li { height: inherit; }
+ul#overview li img { border:5px solid #D8D5CE; float:left; display:inline; width:119px; }
+ul#overview li h2, ul#overview li p { float:right; display:inline; width:240px; margin-top:0; padding-top:0; }
+ul#overview li p { margin-bottom:5px; }
+ul#overview li h2 { font-size:1.5em; color:#003366; margin:0px 0 5px; font-family:"Times New Roman", Times, serif;  text-transform:capitalize; font-weight:normal; }
+ul#overview li a.more { color:#003366; border:none; padding-left:13px; background:url(https://www.dit.ie/ditfoundation/media/ditfoundation/images/homepage/overview_bullet_more.gif) center left no-repeat; }
+ul#overview li a:hover { text-decoration:underline }
+ul#overview li.first { background:none; padding-top:4px; }
+
+
+
+#homepage .comment { font-size:1.1em; margin:0; }
+#homepage .meta { font-size:0.9em; color:#B6A998 }
+#homepage .meta a { color:#B6A998; border-bottom:1px dotted #B6A998 }
+#homepage .meta a:hover { border-bottom:0px; text-decoration:none }
+
+/* Shared Or Common Element Styles
+-------------------------------------------*/
+
+p.intro { font-size:1.1em; }
+
+em.cite { color:#336699; font-style:normal }
+
+ul.links, ul.links li  { margin:0px; padding:0px; list-style-type:none }
+
+ul.inline, ul.inline li { margin:0; padding:0; list-style-type:none }
+ul.inline { margin-bottom:15px; }
+ul.inline li { display:inline; margin-right:10px; }
+
+ul.more, ul.more li { margin:0; padding:0; list-style-type:none }
+ul.more { margin-bottom:15px; }
+ul.more li { background:url(../images/homepage/bullet_link.gif) center left no-repeat; padding-left:10px; }
+ul.more li a { border-bottom:1px dotted #B6A998; }
+ul.more li a:hover { border-bottom:0px; text-decoration:none }
+
+
+/* right sidebar feature boxes */
+.feature { margin-bottom:30px; }
+.feature a { color:#666; border-bottom-color:#666 }
+.feature .more a { color:#0099cc; border-bottom:1px dotted #0099cc; }
+.feature .more a:hover { color:#0099cc; border-bottom:0; }
+.feature h3 { color:#69c; text-transform:uppercase; font-weight:bold; border-bottom:1px dashed #ccc; padding:0 3px; line-height:20px; margin-bottom:15px; }
+.feature h4 { font-weight:normal; margin:0 0 3px; color:#666; font-size:1em;  }
+.feature  ul, .feature p, .feature h4 { margin-left:3px; }
+.feature li { background:none; padding-left:0; }
+.feature .pdf { display:block; margin-top:3px; margin-left:0; color:#999; }
+
+ul.further-info, ul.further-info li { margin:0; padding:0; list-style-type:none }
+ul.further-info { margin-bottom:25px; }
+ul.further-info li { margin:0 0 1px; padding:0; padding-left:13px; background-image:url(../images/bullet_more.gif) }
+ul.further-info li a { font-weight:bold; }
+
+#homepage #content  ul.further-info li { background:url(../images/homepage/bullet_link.gif) center left no-repeat; padding-left:10px; }
+#homepage #content ul.further-info li a { border-bottom:1px dotted #B6A998; color:#fff; font-weight:normal; }
+#homepage #content ul.further-info li a:hover { border-bottom:0px; text-decoration:none }
+
+.summary { margin-bottom:15px; }
+.summary h2 { color:#333; padding:0; margin:0 0 2px; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:1em; }
+.summary .meta { font-style:italic; color:#666; }
+.summary p { margin-bottom:0; }
+
+div.more { background:url(../images/bullet_more.gif) top left no-repeat; padding-left:10px; }
+div.more a { border-bottom:1px dotted #003366; color:#003366 }
+div.more a:hover { border-bottom:0px; text-decoration:none }
+
+ul.videos, ul.videos li { margin:0; padding:0; list-style-type:none; background:none }
+ul.videos li { width:150px; float:left; display:inline; margin-right:50px; margin-bottom:25px; }
+ul.videos li.row { clear:left; }
+ul.videos li a { display:block; }
+ul.videos li img { margin-bottom:3px; }
+ul.videos li a:hover { text-decoration:none; color:#000; }
+
+.testimonial-photo { margin:0 0 10px 10px }
+
+/* Unique Elements 
+-------------------------------------------*/
+
+
+
+/* Themes
+Sets the colour changes for the Faculty pages
+---------------------------------------------------------------*/
+
+
+
+/* Forms
+================================================================*/
+form.standard { padding-top: 1em; }
+form.standard label { float: left; display: inline; width: 105px; }
+form.standard label.inline { float:none; width:auto; margin-right:50px; }
+form.standard input.text, form.standard select, form.standard textarea { font-family: arial,verdana,sans-serif; font-size: 1em; color: #686868; width: 205px; border:1px solid #ccc; padding:1px; }
+form.standard textarea { height:105px; }
+form.standard button { font-family: arial,verdana,sans-serif; font-size: 1em; color: #003366; border: 0; cursor: pointer; overflow: visible; padding-left: 12px; background: url(../images/bullet_more.gif) top left no-repeat; }
+/*overflow needed for ie*/
+form.standard button span { border-bottom:1px dotted #003366; }
+form.standard p { margin-bottom:8px; }
+form.standard p.button { margin-left:105px; }
+
+
+.alert { font-weight:bold; color:#0066CC; font-size:1.1em; }
+em.error { font-weight:bold; color:#0066CC; font-style:normal; margin-left:5px; font-size:0.9em  }
+
+
+
+
+/* Hacks 
+-------------------------------------------*/
+.clear { clear:both; }
+

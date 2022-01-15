@@ -1,0 +1,163 @@
+.pika-wrap {
+	width:100%;
+	margin:0px;
+}
+.pika-image {
+	position:relative;
+	height:auto;
+	width:100%;
+  display:block;
+	background:#fafafa;
+	border:1px solid #e5e5e5;
+	padding:0px;
+	margin: 0px
+}
+/*position image holders */
+.pika-image .animation,.pika-image .main-image {
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+.pika-image .animation {
+	display:none;
+	z-index:2;
+}
+.pika-image img {
+	border:0;
+  width:100%;
+}
+.pika-image .caption {
+	width:100%;
+	position:relative;
+	background-color:#006699;
+	opacity:1;
+	filter:alpha(opacity = 100);
+	border:1px solid #006699;
+	font-size:15px;
+	color:#fafafa;
+	padding:10px;
+	text-align:left;
+	bottom:30px;
+	right:10px;
+}
+.pika-image .caption p {
+	padding:0;
+	margin:0;
+	line-height:14px;
+}
+.pika-imgnav a {
+	position:absolute;
+	text-indent:-5000px;
+	display:block;
+	z-index:3;
+}
+.pika-imgnav a.previous {
+  display:none;
+	background:url(	http://www.dit.ie/media/aahomepage/images/prev.png) no-repeat left 50%;
+	height:340px;
+	width:50px;
+	top:10px;
+	left:10px;
+	cursor:pointer;
+}
+.pika-imgnav a.next {
+  display:none;
+	background:url(http://www.dit.ie/media/aahomepage/images/next.png) no-repeat right 50%;
+	height:340px;
+	width:50px;
+	top:10px;
+	right:10px;
+	cursor:pointer;
+}
+.pika-imgnav a.play {
+  display:none;
+	background:url(http://www.dit.ie/media/aahomepage/images/play.png) no-repeat 50% 50%;
+	height:0px;
+	width:0px;
+	top:0;
+	left:50%;
+	display:none;
+}
+.pika-imgnav a.pause {
+  display:none;
+	background:url(http://www.dit.ie/media/aahomepage/images/pause.png) no-repeat 50% 50%;
+	height:0px;
+	width:0px;
+	top:0;
+	left:50%;
+	display:none;
+}
+.pika-textnav {
+	overflow:hidden;
+	margin:0px;
+	width:100%;
+}
+.pika-textnav a {
+	font-size:11px;
+	text-decoration:none;
+	font-family:helvetica,arial,sans-serif;
+	color:#333;
+	padding:04px;
+}
+.pika-textnav a:hover {
+	background:#e5e5e5;
+	color:#0065B2;
+}
+.pika-textnav a.previous {
+	float:left;
+	width:auto;
+	display:block;
+}
+.pika-textnav a.next {
+	float:right;
+	width:auto;
+	display:block;
+}
+.pika-thumbs {
+	margin:10px 0 0 22px;
+	padding:0;
+	overflow:hidden;
+	height:82px;
+}
+.pika-thumbs li {
+	float:left;
+	list-style-type:none;
+	width:40px;
+	padding:3px;
+	margin:0 2px;
+	background:#fafafa;
+	border:1px solid #e5e5e5;
+	cursor:pointer;
+}
+.pika-thumbs li:last {
+	margin:0;
+}
+.pika-thumbs li .clip {
+	width:40px;
+	height:40px;
+	text-align:center;
+	vertical-align:center;
+	overflow:hidden;
+	position: relative;
+}
+/*changes to DIT homepage*/
+#homepage #container {
+	margin:0px;
+	text-align:left;
+	width:100%;
+	padding:0;
+}
+#homepage #secondary #info-for ul.links li a:hover {
+	background-color:#84c8dd;
+}
+
+.pikachoose a:link,.pikachoose a:visited {
+	color:white;
+	background-color:transparent;
+	text-decoration:none;
+}
+.pikachoose a:hover,.pikachoose a:active {
+	color:white;
+	background-color:transparent;
+	text-decoration: underline
+}

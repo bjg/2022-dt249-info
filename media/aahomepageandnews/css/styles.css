@@ -1,0 +1,42 @@
+.pika-wrap {width: 520px; margin: 0 auto;}
+
+.pika-image {position: relative; height: 390px; width: 520px; 
+background: #fafafa; border: 1px solid #e5e5e5; padding: 10px;margin:0px 0px 0px 9px}
+/*position image holders */
+.pika-image .animation, .pika-image .main-image {position: absolute; top: 10px; left: 10px;}
+.pika-image .animation {display: none;z-index:2;}
+.pika-image img {border:0;}
+
+.pika-image .caption {width:498px;position: absolute; background-color:#006699; opacity:1; filter: alpha(opacity = 100); border: 1px solid #006699; 
+font-size: 15px; color: #fafafa; padding: 10px; text-align: left; bottom: 30px; right: 10px;}
+.pika-image .caption p {padding: 0; margin: 0; line-height: 14px;}
+
+.pika-imgnav a {position: absolute; text-indent: -5000px; display: block;z-index:3;}
+.pika-imgnav a.previous {background: url(display:none;http://www.dit.ie/media/aahomepage/images/prev.png) no-repeat left 50%; height: 340px; width: 50px; top: 10px; left: 10px;cursor:pointer;}
+.pika-imgnav a.next {background: url(display:none;http://www.dit.ie/media/aahomepage/images/next.png) no-repeat right 50%; height: 340px; width: 50px; top: 10px; right: 10px;cursor:pointer;}
+.pika-imgnav a.play {background: url(http://www.dit.ie/media/aahomepage/images/play.png) no-repeat 50% 50%; height: 0px; width:0px;top:0;left:50%;display: none;}
+.pika-imgnav a.pause {background: url(http://www.dit.ie/media/aahomepage/images/pause.png) no-repeat 50% 50%; height: 0px; width:0px;top:0;left:50%;display:none;}
+
+.pika-textnav {overflow: hidden; margin: 10px 0 0 -10px;width:540px}
+.pika-textnav a {font-size: 11px; text-decoration: none; font-family:  helvetica, arial, sans-serif; color: #333; padding: 04px;}
+.pika-textnav a:hover {background: #e5e5e5; color: #0065B2 !important;}
+.pika-textnav a.previous {float: left; width: auto; display: block;}
+.pika-textnav a.next {float: right; width: auto; display: block;}
+	
+.pika-thumbs {margin: 10px 0 0 22px; padding: 0; overflow: hidden;height:82px; }
+.pika-thumbs li {float: left; list-style-type: none; width: 40px; padding: 3px; margin: 0 2px; background: #fafafa; border: 1px solid #e5e5e5; cursor: pointer;}
+.pika-thumbs li:last {margin: 0;}
+.pika-thumbs li .clip {width: 40px; height: 40px; text-align: center; vertical-align: center; overflow: hidden;position:relative;}
+
+
+/*changes to DIT homepage*/
+#homepage #container {margin:0px auto;text-align: left;width: 960px;padding: 0;}
+#homepage #secondary #info-for ul.links li a:hover {background-color:#84c8dd;}
+
+/*#homepage {background-image:url(http://dit.ie/media/upskill/upskillwallpaper.jpg);
+background-repeat:repeat;}
+#homepage #container {background-color:white}*/
+
+.pikachoose a:link,.pikachoose a:visited {color:white;background-color:transparent;text-decoration:none;}
+.pikachoose a:hover,.pikachoose a:active{color:white;background-color:transparent;
+text-decoration:underline}

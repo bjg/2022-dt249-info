@@ -1,0 +1,16 @@
+/* CSS Document */
+
+/* DIT printer friendly styles */
+
+/*Hide irrelevant areas*/
+#utility, #tagline, #navigation, #sidebar, #extra, #footer #sitelinks, #banner { display: none; }
+
+#breadcrumbs { padding:0; }
+
+/*Print enhancements*/
+body { font-size: 9pt; }
+
+#content { margin: 0; float: none; }
+
+#content ul { margin-left:20px; }
+#content ul, #content li { list-style-type:disc }

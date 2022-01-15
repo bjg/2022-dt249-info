@@ -1,0 +1,56 @@
+.gsc-input-box {height:0px !important; background:none !important; border:none !important; margin:0px !important; padding:0px !important}
+   #gsc-i-id1{border: 1px solid #79c7ec !important}
+    form.gsc-search-box {
+    margin-top: 0px !important;
+}
+    
+form.gsc-search-box table.gsc-search-box td.gsc-input input#gsc-i-id1 {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    border-color: #79c7ec !important;
+    color: #fff !important;
+    float: right !important;
+    font-size: 14px !important;
+    height: 34px !important;
+    padding: 6px 12px !important;
+    width: 210px !important;
+}
+form.gsc-search-box table.gsc-search-box td.gsc-search-button input.gsc-search-button {
+    background: rgba(0, 0, 0, 0) url("http://dit.ie/media/dre/img/searchbtn.PNG") no-repeat scroll 0 0 !important;
+    border: medium none !important;
+    height: 24px !important;
+    text-indent: -9999px D;
+    width: 24px !important;
+}
+form.gsc-search-box table.gsc-search-box td.gsc-input input#gsc-i-id1:focus {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6) !important;
+}
+td.gsc-clear-button {
+    display: none !important;
+}
+td.gsc-search-button i.fa.fa-search {
+    color: #fff !important;
+    font-size: 22px !important;
+}
+.gsc-search-button > button {
+    background: transparent none repeat scroll 0 0 !important;
+    border: medium none !important;
+}
+div#search-mobile form.gsc-search-box table.gsc-search-box td.gsc-input input#gsc-i-id2 {
+    background: transparent none repeat scroll 0 0 !important;
+    border: medium none !important;
+    color: #fff !important;
+    font-size: 3em !important;
+    height: 60px !important;
+    outline: medium none !important;
+    padding: 6px 12px !important;
+}
+#search-mobile form.gsc-search-box {
+    margin-top: 0 !important;
+}
+
+    
+#search-mobile td.gsc-search-button {
+    display: none !important;
+}
+table.gsc-search-box td {vertical-align:top !important;} 
+table.gsc-search-box{height:60px !important}     

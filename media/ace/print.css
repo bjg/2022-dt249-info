@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+body {background: #fff; font: 13px/1.45em Verdana, Tahoma, arial, sans-serif; color: #000; text-align: left; padding: 7px;}
+
+#topnavigation,
+#search, 
+#sidenavwrapper, 
+#programmesflash,
+#media,
+.youtubeobject,
+h1#logo{display: none;}
+
+.printit{display: block;}
+
+#maincontent h2{float: none; clear: both; margin: 10px 0px 10px 0px; padding: 0;}
+#projectsnav{padding: 5px; border-bottom: 1px dashed #555; border-top: 1px dashed #777;}

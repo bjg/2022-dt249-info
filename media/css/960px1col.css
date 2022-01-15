@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*960px pages*/
+
+#container {margin:0px auto;text-align:left;width:960px;padding:0;}
+.one-column .wrapper,#wrapper,#content,#primary {width:960px}
+#breadcrumbs {width:650px;}
+#navigation ul{width:720px;margin:0px auto;}
+
+
+#links p{
+  margin:0px;
+  border:3px solid white;
+  padding:0px;
+  float:left;
+  background-color:none;
+}
+#links a:link,#links a:visited {
+  color:#333;
+  background-color:#ffcc33;
+  padding:7px;
+  border-radius:15px;
+  width:300px;
+  font-size:1em;
+  font-weight:bold;
+  text-decoration:none;
+  margin:0px
+}
+#links a:hover,#links a:active {
+	background-color:#ff9900;
+    color:white
+}

@@ -1,0 +1,244 @@
+/* CSS Document - Research & Enterprise (2015) */
+
+
+
+/* General, Fonts, Overrides
+---------------------------*/
+.box-square h3, .contacts h4, h5 { font-family:arial, sans-serif; }
+h1, h2, h4, .news h2 { font-family: 'KlavikaBasic-Medium', arial, sans-serif; }
+.profile h1.page { font-family: 'KlavikaBasic-Medium', arial, sans-serif; } 
+
+
+  
+h1,  { color: #333; }
+
+#main h1 { color: #00a9b7; font-size: 39px; line-height: 47px; }
+
+#main .row .text-wrapper h1 { color: #333; }
+
+h2 { margin-top: 0; line-height: 1.5em; }
+h5 { font-weight: bold; margin-bottom: 0; }
+
+p  { margin-bottom: 20px  }
+
+img { height: auto; max-width: 100%; }
+
+#main .wrapper { padding-left: 20px; padding-right: 20px; }
+.box .text-wrapper { padding-left: 0; }
+
+.panel h5 { font-size: 14px; }
+.panel ul { margin-bottom: 30px; }
+
+#main h1:nth-child(1) { margin-top: 0; }
+	
+.box { margin-bottom: 10px; }
+article.box { margin-bottom: 20px }
+
+figure figcaption { font-style: italic; color: #666; padding-top: 5px; font-size: 14px; line-height: 1.3em; margin-bottom: 15px; }
+
+#mobile-actions { padding-right: 0; border-bottom: 1px solid #fff;  }
+#mobile-actions button.mobile-action {  width: 78px; border-top: 0; z-index: 900; }
+#mobile-actions li { margin: 0; padding: 0; display: inline; }
+#mobile-actions .mobile-action { padding-bottom: 1px; background: #004C6C url(https://www.dit.ie/media/2019reis/images/template/mobile_cross.jpg) center center no-repeat;  }
+#mobile-actions .mobile-action .fa { visibility: hidden }
+#mobile-actions .mobile-action.collapsed {  padding-bottom: 0px; background: none}
+#mobile-actions .mobile-action.collapsed .fa { visibility: visible }
+
+#mobile-global { background: #004C6C;   }
+#mobile-global a { background: #004C6C; border: 0; border-bottom: 1px solid #004C6C; color: #fff; }
+#mobile-global a:hover { background: #004C6C }
+#mobile-global .navlinks { border-bottom: 0; }
+#mobile-global .navlinks-minor { padding-top: 20px; font-size: 14px; }
+
+#mobile-section a.toggle { background: #666; color: #fff; }
+#mobile-section a.toggle button { background: none; float: right; width: 78px; height: 54px; font-size: 32px; margin:-15px -10px 0 0; padding: 0; border: 0; border-left: 1px solid #fff; color: #fff; }
+#mobile-section ul.level-1 > li.parent > a { display: none }
+
+
+/* New Classes & Ids
+---------------------------*/
+#sidebar .news-list { margin-left: -15px; margin-right: -15px; border-top: 1px solid #999ea1; }
+#sidebar .news-list li { border-bottom: 1px solid #999ea1; margin-bottom: 0; }
+#sidebar .news-list li a { padding: 15px; display: block  }
+#sidebar .more { margin: 0; font-size: 14px; }
+#sidebar .more a { background: none; padding-left: 0; }
+
+/* Group Listings */
+h5.group { margin-left: -20px; margin-right:-20px; padding: 10px 20px; border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; font-weight: bold }
+ul.list-spaced li { margin: 20px 0}
+ul.list-profiles li img { margin-bottom: 5px;  }
+ul.list-profiles li { font-size: 14px; padding: 10px 0; }
+.box-divider { margin-left: -20px; margin-right: -20px; height: 0; border-top: 20px solid #f7f7f7 }
+.equal-height iframe { width: 100%; height: 100%; min-height: 400px; }
+
+/* Staff Profile Page */
+.profile h1.page { margin: 0; color: #333; }
+.profile h3 { color: #00a9b7; font-size: 21px;  }
+.profile figure.pull-right { margin: 0 0 20px 20px; }
+h2.position { font-weight: normal; color: #666; font-size: 24px; line-height: 1.25em }
+
+/* Headings used on entry pages */
+h1.entry { color: #333; margin-bottom: 30px; }
+
+/* Box listings */
+.box-square .wrapper { border-bottom: 4px solid #ccc; min-height: 135px; margin-bottom: 20px; }
+.box-square .wrapper h3 {  margin: 10px 0 0; font-size: 1em; line-height: 1.4em; color: #333; font-weight: normal !important; }
+.box-square .wrapper a { color: #333; }
+.box-institute .wrapper { border-color: #aed8eb; }
+.box-centre .wrapper { border-color: #ddecf1; }
+.box-group .wrapper { border-color: #e6eaed; }
+
+/* Used for Box Listings */
+h2.category { font-size: 28px; color: #333; margin-bottom: 5px; padding-left: 10px; }
+
+/* News Listings */
+h1.news-h1 { border-bottom: 4px solid #ebecee; padding: 0 0 10px 30px; margin-bottom: 20px; margin-left: -20px; margin-right: -20px; color: #00a9b7; }
+.news-summary:nth-child(1) { border-top: 4px solid #ebecee; }
+.news-summary { border-bottom: 4px solid #ebecee; padding: 0 0 20px; margin-bottom: 20px; margin-left: -20px; margin-right: -20px; }
+.news-summary figure { padding-left: 30px; }
+.news-summary h2 { color: #333; font-size: 24px; line-height: 1.4em; }
+.news-summary h2 a { color: #333; }
+
+/* News Downloads */
+.news-downloads { max-width: 800px; margin-left: 0px; padding-top: 30px; }
+.news-download { text-align: center; font-weight: bold; color: #666; margin-bottom: 30px; }
+.news-download a { color: #666; }
+.news-download img { margin-bottom: 10px; text-decoration: none }
+
+/* Back link used in news section */
+.back { margin: 30px -20px 0; padding: 15px 30px 0;  border-top: 4px solid #ebecee; }
+.back p { margin-bottom: 10px; }
+.back a { background: #eaebed url(https://www.dit.ie/media/2019reis/images/gre_images/back_arrow.gif) left center no-repeat;  color: #fff; padding: 8px 30px 8px 50px; font-size: 13px; color: #333 }
+
+/* Contact Listings */
+.contacts { border-bottom: 4px solid #ebecee; padding-bottom: 0; padding-top: 0; }
+.contacts h2 { margin: 0 0 0 10px; color: #004C6C; font-size: 32px; padding-top:5px }
+.contacts h3 { border-top: 4px solid #ebecee; margin: 0 -20px; padding: 10px 30px; cursor: pointer; font-size: 24px; line-height: 1.3em; }
+.contacts h4 { font-size: 1em; line-height: 1.3em; margin: 0; padding: 10px 0 0; font-weight: bold; }
+.contacts .details { padding: 0 10px 10px; }
+ 
+/* News date */
+.date { color: #666; margin: 40px 0 20px; font-size: 14px; line-height: 1.3em; }
+
+/* Paging links */
+.paging li { background-color: #999; text-align: center; line-height: 35px; width: 35px; padding: 0; margin-right: 10px;  }
+.paging a { background-color: #ebecee;  color: #333;  width: 100%; display:inline-block; text-align: center; line-height: 35px; width: 35px; padding: 0; margin-right: 10px; }
+.paging span {background-color: #999; display: inline-block; text-align: center; line-height: 35px; width: 35px; padding: 0; margin-right: 10px; }
+.paging a:hover { background-color: #999; text-decoration: none }
+
+
+
+/* Share links, placed top right of main content */
+.share-page li strong { text-transform: uppercase; font-weight: normal; color: #666 }
+.share-page a { background: #fe673e; color: #fff; margin-left: 2px; cursor: pointer }
+.share-page .addthis_button_facebook { background: #225c97 }
+.share-page .addthis_button_twitter { background: #199fd5 }
+.share-page a:hover { background: #666; }
+
+/* Listings with border and different heading */
+.grouping { background-color: #ebecee; color: #333; margin: 30px 0 0; padding:5px 15px; font-size: 26px; }
+ul.list-groupings li { border-top: 4px solid #ebecee; padding: 15px 30px }
+ul.list-groupings li:nth-child(1) { border-top: 0; }
+
+#intro #slider, #intro .feature { margin-bottom: 20px }
+#intro .feature a { color: #fff; }
+#intro .feature li { margin-bottom: 10px; }
+#intro .feature h3 { margin-top: 0; }
+#feature1 .wrapper { background: #005eab; color: #fff; }
+#feature2 .wrapper { background: #6e7476; color: #fff; }
+.alt3 li a { color: #000; }
+
+/*.list-arrow li a::before { content: "\00bb\00a0";}*/ /*» */
+.list-arrow li { margin-bottom: 10px;  }
+.list-arrow a { color: #00a9b7 }
+
+/* closing action link */
+.closing-action { text-align: center; border-top: 4px solid #ebecee; padding: 15px 30px;  }
+.closing-action a.btn { padding: 15px 30px; font-size: 16px; }
+
+a.invert { color: #333; }
+
+#pageHome { max-height:410px; }
+
+.expertisestaff a {display:block; height:240px; width:100%; overflow:hidden;}
+
+.expertisestaff .summary {display:none;}
+
+.expertisestaff article.box header {width:100%; height:100%; overflow:hidden; position:relative}
+
+.expertisestaff .box.col-sm-4 {padding-left:0; padding-right:0; margin-bottom:0;}
+
+.expertisestaff article.box header h3 {display:block; width:100%; height:100%; top:0; visibility:hidden;  padding-top: 35%; text-align: center;}
+
+.expertisestaff article.box header:hover h3 {visibility:visible;}
+
+.expertisestaff article.box header img { min-height:100%; width:auto; min-width:100%; max-width:none; position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto; }
+
+
+/* Responsive
+---------------------------*/
+@media (max-width: 767px) {
+.text-wrapper { padding-left: 0; }
+#breadcrumbs { display: block }	
+.box-square .wrapper { min-height: 80px !important }
+}
+
+@media (min-width: 767px) and (max-width: 959px ) {
+#logo .text { font-size: 15px; }	
+}
+
+
+/* Print
+---------------------------*/
+@media print {
+#overview-links, #connect, #primary, #quicklinks, #cookies-warning, #search-form, #banner, #mobile-actions { display: none }
+#header { min-height: none }
+a[href]:after { content: ""; }
+.more a { background: none; padding-left: 0; }
+#logo a { padding-left: 0; background: none; }
+.wrapper { padding-left: 0; }
+}
+
+/* rc: fix research themes content type */
+#main .row .box .wrapper.equal-height.theme-intro {
+ 	min-height:400px; 
+}
+
+#main .row .box .wrapper.equal-height.research-theme ul li {
+ 	color:#00a9b7;
+	list-style:none;
+}
+
+/* rc: research theme pages */
+
+.wrapper.equal-height.research-theme > ul {
+ 	padding-left:0; 
+}
+
+.wrapper.equal-height.research-theme > ul li {
+ 	margin:20px 0; 
+}
+
+#cookies-warning {display:none;}
+
+.news-articles article.box {display:none;}
+
+/*CSER Additions for Clickable logo */
+#logo.logooverride{background:none !important; padding: 10px 0 30px 0px !important;}
+#logoarea{padding: 0px 20px 0px 0px !important;display:inline-block !important}
+#logoarea a{padding:0px !important}
+.textoverride{display:inline-block !important;padding: 22px 0px !important}
+.textoverride a{padding:0px !important}
+
+@media (min-width: 767px) and (max-width: 1220px ) {
+.textoverride { padding: 10px 0px !important; }	
+  #logo.logooverride{background:none !important; padding: 30px 0 30px 0px !important;}
+}
+@media (min-width: 767px) and (max-width: 959px ) {
+#logoarea{padding: 10px 20px 0px 0px !important;display:inline-block !important}
+}

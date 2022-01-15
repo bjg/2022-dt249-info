@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--Force browser cache refresh-->  
+<META HTTP-EQUIV="refresh" CONTENT="600">
+
+     <title>News Articles - School of Computer Science</title>
+    
+    <link href="../../../../media/llss/css/bootstrap.css" rel="stylesheet">       <!-- base bootstrap style -->
+    <link href="../../../../media/llss/css/Bootstrap&#32;Custom&#32;StylesheetV01.css" rel="stylesheet">  <!-- custom styles -->
+    <link href="../../../../media/llss/css/menu.css" rel="stylesheet"> <!--menu-->
+    <link href="../../../../media/llss/css/font.awesome.css" rel="stylesheet">      <!-- bootstrap social icons -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!-- Favicon -->
+<link rel="icon" href="../../../../favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="../../../../favicon.ico" type="image/x-icon" />
+
+<style>  
+<!-- Start Table Style on academy page -->
+  table { 
+	width: 750px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+	background: #eee; 
+	}
+
+th { 
+	background: #3498db; 
+	color: white; 
+	font-weight: bold; 
+	}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: center; 
+	font-size: 18px;
+	}
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	table { 
+	  	width: 100%; 
+	}
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 5%; 
+	}
+
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		/* Label the data */
+		content: attr(data-column);
+
+		color: #000;
+		font-weight: bold;
+	}
+
+}
+  <!-- END Table Style on academy page -->
+/* unvisited link */
+p a:link {
+    color: #428bca !important;
+}
+
+/* visited link */
+p a:visited {
+    color: #428bca !important;
+}
+
+/* mouse over link */
+p a:hover {
+    color: red !important;
+}
+
+/* selected link */
+p a:active {
+    color: yellow !important;
+} 
+div.panel-body p a:link {
+color: #428bca !important;
+}
+
+/* visited link */
+div.panel-body p a:visited {
+color: #428bca !important;
+}
+
+/* mouse over link */
+div.panel-body p a:hover {
+color: red !important;
+}
+
+/* selected link */
+div.panel-body p a:active {
+color: yellow !important;
+}
+.margin-bottom-white a:link { color:#428bca !important;}
+.margin-bottom-white a:visited { color:#428bca !important;}
+.margin-bottom-white a:hover { color:red !important;}
+.margin-bottom-white a:active { color:yellow !important;}
+div.row.school-header{
+    padding-top:10px !important;
+    }
+<!-- new styles -->
+.news a:hover {opacity:1;}
+.margin-bottom-white a:hover {opacity:0;}
+.image-hover-overlay {opacity:0;}
+.text-hover-overlay{opacity:0;}
+.resources.text-hover-overlay {opacity:0;}  
+<!-- End New Styles -->  
+</style>
+</head>
+  <body>
+    <!-- START  WELCOME --> 
+    <div class="container">
+        <div class="row">
+              <div class="col-md-12 dit_topmenu">
+				<ul class="ditmand-menu">   
+                        <!-- navigation object : COMP16 - NAV - DIT BAR --><li><i class="fa fa-angle-right"></i> <a href="../../../../index.html">DIT Home</a></li><li><i class="fa fa-angle-right"></i> <a href="/about/organisation/contacts/">Contacts</a></li>       
+                </ul>
+          </div>
+        </div><!-- end DIT Mandatory Menu row -->
+      <div class="row school-header">
+            <div class="col-md-3 col-sm-3">
+              <a href="../../../../index.html"><img style="height:100px !important;" src="../../../../media/tudublin/images/TUD_RGB-blu-logo-587x323-svg.svg" alt="TU Dublin Logo"/> </a>
+            </div>
+               <div class="col-md-9 col-sm-9">
+               <div class="innerpadding-left">
+                    <a href="../../../index.html">  <h1 class="irish">Scoil na Ríomheolaíochta</h1>
+                      <h1 class="english">School of Computer Science</h1></a>
+               </div>
+            </div>
+        </div> <!-- end header-row -->
+        <!--end welcome-->
+                 
+      <!-- navigation object : COMP16 - Temp Nav --><style>
+  /*
+  .menu-item{
+  width:160px;
+  }*/
+</style>
+<div class="menucontainer">
+<div class="flat-menu flat-menu-fixed flat-menu-dit flat-menu-slide-up">
+		    <input type="checkbox" id="toggle-one" name="toggle" class="toggle-menu-input">
+            <label for="toggle-one" class="toggle-menu-label"><span class="three-line-menu"></span>Menu</label>
+			<ul class="flat-responsive-menu">
+            <li class="menu-item">
+					<input type="checkbox" id="menu-one" name="menu" class="menu-1">
+                      <label for="menu-one"><a href="../../../findacourse/index.html">Find<br/> a Course</a></label>
+                   
+                      
+                      <!-- navigation object : Computing - Find a course Sub-Menu --><ul class="menu-dropdown-one"> <li><a href="../../../findacourse/undergraduate/index.html">Undergraduate</a></li><li><a href="../../../findacourse/postgraduate/index.html">Postgraduate</a></li><li><a href="../../../findacourse/conversioncourses/index.html">Conversion Courses</a></li><li><a href="../../../findacourse/cpd/index.html">CPD</a></li></ul>
+                   
+                     				</li>
+  <li class="menu-item">
+					<input type="checkbox" id="menu-two" name="menu" class="menu-2">
+                      <label for="menu-one"><a href="../../../aboutourschool/index.html">About<br/> our School</a></label>
+                   
+                      <ul class="menu-dropdown-one">
+                        <!-- navigation object : Computing - About our school Sub-Menu  --><li><a href="../../../aboutourschool/internationalisation/index.html">Internationalisation</a></li><li><a href="../../../aboutourschool/industryengagement/index.html">Industry Engagement</a></li><li><a href="../../../aboutourschool/contactus/index.html">Contact Us</a></li><li><a href="/intranet/computing/">Staff Intranet</a></li></ul>
+                   
+                     				</li>
+              
+				<li class="menu-item">
+					<input type="checkbox" id="menu-three" name="menu" class="menu-3">
+                                          <label for="menu-two"><a href="../../../people/index.html">People<br/>&nbsp;</a></label> <ul class="menu-dropdown-one">
+					<!-- navigation object : Computing - People Sub-Menu --><li><a href="../../../people/academicstaff/index.html">Academic Staff</a></li><li><a href="../../../people/administrativetechnical/index.html">Administrative &amp; Technical</a></li><li><a href="../../../people/researchstaff/index.html">Research Staff</a></li><li><a href="../../../people/staffalumni/index.html">Staff Alumni</a></li>
+				</ul></li>
+                  <!--
+					<li class="menu-item">
+					<input type="checkbox" id="menu-four" name="menu" class="menu-4">
+                                          <label for="menu-five"><a href="/computing/research/"> Student Life</a></label> <ul class="menu-dropdown-one">
+                     <li><a href="/computing/newsevents/newspress/">News &amp; Press</a></li><li><a href="/computing/newsevents/eventscompetitions/">Events &amp; Competitions</a></li><li><a href="/computing/newsevents/inthenews/">In the News</a></li><li><a href="/computing/newsevents/archive/">Archive </a></li>
+                      
+                   
+				</ul></li>
+              -->
+
+				<li class="menu-item">
+					<input type="checkbox" id="menu-five" name="menu" class="menu-5">
+                                          <label for="menu-three"><a href="../../../research/index.html">Research<br/>&nbsp;</a></label> <ul class="menu-dropdown-one">
+                    <!-- navigation object : Computing - Research Sub-Menuh --><li><a href="../../../research/phdopportunities/index.html">PhD Opportunities</a></li><li><a href="../../../research/researchgroups/index.html">Research Groups</a></li><li><a href="../../../research/researchprojects/index.html">Research Projects</a></li>
+				</ul></li>
+				<li class="menu-item">
+					<input type="checkbox" id="menu-six" name="menu" class="menu-6">
+                      <label for="menu-four"><!-- navigation Object : Computing - 2018 - Link to Student Resources New --><a href="../../../studentresources/index.html">Student<br/> Resources</a></label> <ul class="menu-dropdown-one">
+                  <!-- navigation object : Computing - Student Resources Sub-Menu --><li><a href="../../../studentresources/coursementors/index.html">Course Mentors</a></li><li><a href="../../../studentresources/erasmusopportunities/index.html">Erasmus Opportunities</a></li><li><a href="../../../studentresources/computerlaboratories/index.html">Computer Laboratories</a></li><li><a href="../../../studentresources/brightspace/index.html">Brightspace</a></li><li><a href="../../../studentresources/datacamp/index.html">DataCamp</a></li><li><a href="../../../studentresources/studentservices/index.html">Student Services</a></li><li><a href="../../../studentresources/chaplaincy/index.html">Chaplaincy</a></li><li><a href="../../../studentresources/disabilityservice/index.html">Disability Service</a></li><li><a href="../../../studentresources/learningsupport/index.html">Learning Support</a></li><li><a href="../../../studentresources/generalassessmentregulations/index.html">General Assessment Regulations</a></li><li><a href="../../../studentresources/studentcounsellingservices/index.html">Student Counselling Services</a></li><li><a href="../../../studentresources/accessibilityresources/index.html">Accessibility Resources</a></li><li><a href="../../../studentresources/accessiblelearningmaterials/index.html">Accessible Learning Materials</a></li>
+                      
+                 </ul>
+				</li>
+			       
+                 <li class="menu-item">
+					<input type="checkbox" id="menu-seven" name="menu" class="menu-7">
+                      <label for="menu-seven"><!-- navigation Object : Computing - 2018 - Link to News and Events --><a href="../../index.html">News<br/> &amp; Events</a></label>
+                      
+                       <ul class="menu-dropdown-one">
+                     <!-- navigation object :Coomputing7 - Sub-Menu News & Events --><li><a href="../index.html">News &amp; Press</a></li><li><a href="../../eventscompetitions/index.html">Events &amp; Competitions</a></li><li><a href="../../inthenews/index.html">In the News</a></li><li><a href="../../archive/index.html">Archive </a></li> 
+                 </ul>
+                      </li>
+                   
+                 <!--<li class="menu-item">
+					<input type="checkbox" id="menu-eight" name="menu" class="menu-8">
+                      <label for="menu-eight"><a href="#">Staff<br/> Internet</a></label>
+                      </li>-->
+                  </ul>
+		</div>
+</div><!-- end Menu -->
+
+
+
+          
+     <div class="row profilepage white">
+            <div class="col-md-8 col-sm-8">
+                <div class="row">
+                <div class="innerpadding-profile">
+                  
+                  
+  
+                  <div class="breadcrumbs"><strong>You are here:&nbsp;</strong> <!-- navigation object : COMP16 - NAV - Breadcrumbs --><ul><li><a href="../../../index.html">Computing</a>&nbsp;&gt;&nbsp;<a href="../../index.html">News &amp; Events</a>&nbsp;&gt;&nbsp;<a href="../index.html">News &amp; Press</a>&nbsp;&gt;&nbsp;<a href="/computing/newsevents/newspress/newsarticles/">News Articles</a></li></ul></div>                    <h1 class="dk-grey">Co-Design partnership shortlisted for an AONTAS STAR Award</h1>
+                        <p dir="ltr" style="text-align: justify;"><img src="../../../../media/computing/images/Aontas_Awards_600x400" alt="" style="width : 600px; height : 400px;     " /></p>
+<p dir="ltr" style="text-align: justify;">The School of Computer Science, TU Dublin City Campus, along with our partners Saint John of God Community Services, Liffey Services have been shortlisted for an AONTAS STAR Award for Adult Learning Initiatives that Support Third Level Access &amp; Engagement. The Winners will be announced at The STAR Awards ceremony in The Law Society, Dublin on Monday, 2nd March. Aontas is the National Adult Learning Organization advocating for the right of all adults in Ireland for the right to quality lifelong learning.</p>
+<p>Since 2016, a unique co-design partnership has grown between the School of Computer Science Technological University Dublin, City Campus and St John of God, Liffey Services who support the lifelong learning opportunities for individuals with intellectual disabilities. The aim of this work is to develop assistive technology applications and/or products which meet the requirements of the Community Partners. The core development philosophy is Universal Design.</p>
+<p>The project work forms part of the academic requirements of the Team Project which is a third year module in undergraduate computer science courses and must fully meet the prescribed learning outcomes. Examples of projects undertaken include Accessible Login and Shopping Assistant.</p>
+<p>The Community Partners initiate the process by outlining preliminary requirements for the Projects using online accessible videos. In partnership with the students they engage and participate in design, development and testing workshops throughout the lifecycle of the project. Weekly co-design workshops take place, over five months, with the aim of co-designing accessible apps to support independent living.</p>
+<p>Co-design has its roots in the Participatory Design techniques developed in Scandinavia in the 1970s. This method reflects a fundamental change in the traditional designer-client relationship. Co-designers, as 'experts' of their own experience, become central to the design process and learn critical digital and design skills. Computer science under-graduate students gain the necessary real-world collaborative design experience. This engagement makes the university more accessible and relevant.</p>
+<hr /><hr />
+<p dir="ltr" style="text-align: justify;"><em>TU Dublin Computer Science February 2020</em></p>
+            <ul class="rslides">
+	<li><img src="../../../../media/computing/images/Aontas_Award_600x400" alt="" style="width : 600px; height : 400px;     " /></li>	
+              
+              
+              
+              
+</ul>
+                 </div>
+            </div>
+</div>
+            <div class="col-md-4 col-sm-4">
+
+                <div class="row">
+                <div class="innerpadding">
+                    <div class="col-md-12">
+                        <ul class="margin-bottom">
+                            <li class="list-head">Latest News</li>
+                                           <!-- navigation object : COMP16 - INT - Latest News --><li><a href="headline172386en.html">TU Dublin researchers secure funding from HEA for two new Projects on Gender Balance </a></li><li><a href="headline182417en.html">TU Dublin academic secures funding in SFI Frontiers of the Future Initiative 
+</a></li><li><a href="headline183136en.html">Academic in the Spotlight 
+Dr. Mariana Rocha</a></li><li><a href="headline181794en.html">In the Spotlight:  
+Lucas Rizzo</a></li>           
+                                  
+<br/>
+<li><a href="headline165845en.html#">View Archives</a></li>
+                          
+                        </ul>
+                      
+               
+                      
+							<br>
+                            <ul class="margin-bottom-share">
+                      <li class="list-head"><a target="_blank" href="/-school-kieran-corcoran/&amp;t=Co-Design partnership shortlisted for an AONTAS STAR Award">Like &amp; Share</a></li>
+                      <li><a target="_blank" href="http://twitter.com/share?url=http%3A%2F%2Fadp.dit.ie%2Fevent%2FCo-Design partnership shortlisted for an AONTAS STAR Award%2F&amp;count=horizontal">Tweet This</a></li>
+                        </ul>
+                        <br>
+                          </div>
+                </div>
+                  		
+	    
+			
+
+                </div> <!-- end of row -->
+  
+            </div>
+        </div>
+
+
+
+
+
+	
+	
+	
+			
+
+	<div class="row footer"><!-- start of Footer -->
+        	<div class="col-md-12 innerpadding">
+        	<div class="breadcrumbs"><strong>You are here:&nbsp;</strong> <!-- navigation object : COMP16 - NAV - Breadcrumbs --><ul><li><a href="../../../index.html">Computing</a>&nbsp;&gt;&nbsp;<a href="../../index.html">News &amp; Events</a>&nbsp;&gt;&nbsp;<a href="../index.html">News &amp; Press</a>&nbsp;&gt;&nbsp;<a href="/computing/newsevents/newspress/newsarticles/">News Articles</a></li></ul></div>
+        	</div>
+            <div class="col-md-3 col-sm-3 innerpadding">
+	                <ul>
+                        <!-- navigation object : COMP16 - NAV - Footer links --><li><a href="/currentstudents/">Current Students</a></li><li><a href="../../../../study.html">Prospective Students</a></li><li><a href="../../../../studentservices/index.html">Student Services</a></li><li><a href="../../../../graduatenetwork/index.html">Alumni</a></li> 
+	                </ul>
+            </div>
+             <div class="col-md-3 col-sm-3 innerpadding">
+	                <ul>
+                        <li>School of Computer Science</li>
+                        <li>College of Science and Health</li>
+	                    <li>TU Dublin - City Campus, Kevin Street</li>
+                        <li><strong>School Administrators:</strong> Denise Murray / Barbara Byrne</li>
+                        <li><strong>T:</strong> +353-1-402 2840/ +353-1-402 4704</li>
+                        <li><strong>E:</strong> <a href="mailto:computing@dit.ie">computing@dit.ie</a></li>
+
+	                </ul>
+            </div>
+  <div class="col-md-6 col-sm-6 innerpadding">
+	                <ul>
+                        <ul class="social-icons list-inline">
+  <li class="facebook"><a href="https://www.facebook.com/tudublincomputerscience/" target="_blank">
+<span class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa fa-facebook fa-inverse fa-stack-1x"></i>
+</span>
+</a></li>
+  <li class="twitter"><a href="https://twitter.com/tudublincompsci" target="_blank">
+	<span class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa fa-twitter fa-inverse fa-stack-1x"></i>
+</span>
+</a></li>
+  <li class="youtube"><a href="https://www.youtube.com/channel/UC5eUa2ymYUMg2J3pQFXnRzg" target="_blank">
+		<span class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa fa-youtube-play fa-inverse fa-stack-1x"></i>
+</span>
+</a></li>
+  <li class="instagram"><a href="https://www.instagram.com/tudublincompsci/" target="_blank">
+		<span class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa fa-instagram fa-inverse fa-stack-1x"></i>
+</span>
+</a></li>
+
+	                </ul>
+            </div>
+        </div><!-- end of Footer -->
+
+
+    </div> <!-- end of container -->
+
+    <!-- Javascript loading -->
+    <script src="../../../../media/llss/js/jquery.js"></script>
+    <script src="../../../../media/llss/js/midway.min.js"></script>
+    <script src="../../../../media/llss/js/bootstrap.js"></script>
+    <script src="../../../../media/llss/js/bootstrap.custom.js"></script>
+    <script src="../../../../media/llss/js/imgLiquid-min.js"></script>
+	<script>
+	$(document).ready(function() {
+	    $(".img200").imgLiquid({
+	        fill: true,
+	        horizontalAlign: "center",
+	        verticalAlign: "center"
+	    });
+	});
+	</script>
+	<script>
+	$(document).ready(function() {
+	    $(".img400").imgLiquid({
+	        fill: true,
+	        horizontalAlign: "center",
+	        verticalAlign: "center"
+	    });
+	});
+	</script>
+  <!-- navigation object : DIT Google Analytics code copied from DTP- to /body-><!--Plain code template-->
+<!--new DIT tracking code implemented 05 October 2009-->
+<script src="../../../../media/javascript/gataglinks.js" type="text/javascript"> </script>    
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4025580-1");
+pageTracker._setDomainName(".dit.ie");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!--new DIT tracking code implemented 05 October 2009-->
+</body>
+</html>

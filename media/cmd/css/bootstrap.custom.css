@@ -1,0 +1,1457 @@
+/* bootstap.custom.css
+ * custom styles for the wireframes.
+*/
+
+		@font-face {
+    font-family: 'sofia_pro_regularregular';
+    src: url('../../../fonts/mostardesign_-_sofia_pro_regular-webfont.eot');
+    src: url('../../../fonts/mostardesign_-_sofia_pro_regular-webfont.eot%3F') format('embedded-opentype'),
+         url('../../../fonts/mostardesign_-_sofia_pro_regular-webfont.woff') format('woff'),
+         url('../../../fonts/mostardesign_-_sofia_pro_regular-webfont.ttf') format('truetype'),
+         url('../../../fonts/mostardesign_-_sofia_pro_regular-webfont.svg') format('svg');
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sofia_probold';
+    src: url('../../../fonts/mostardesign_-_sofia_pro_bold-webfont.eot');
+    src: url('../../../fonts/mostardesign_-_sofia_pro_bold-webfont.eot%3F') format('embedded-opentype'),
+         url('../../../fonts/mostardesign_-_sofia_pro_bold-webfont.woff') format('woff'),
+         url('../../../fonts/mostardesign_-_sofia_pro_bold-webfont.ttf') format('truetype'),
+         url('../../../fonts/mostardesign_-_sofia_pro_bold-webfont.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+a:focus {text-decoration:none;}
+.img200 {height: 200px;}
+.img400 {height: 400px;}
+.bolding {font-family: 'sofia_probold';}
+.midway-horizontal, .midway-vertical {display:none;}
+
+.centering {
+    height: 10em;
+    position: relative }
+.centering .contentCenter {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); }
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
+body {background: #D5D5D5;font-family: 'sofia_pro_regularregular'; font-size: 16px;}
+
+strong {font-family: 'sofia_probold';}
+
+.navbar-collapse, .container, .row,
+.welcome-row .col-md-7{
+  border: 0;
+}
+
+ul li{list-style:none;}
+ul{padding:0px !important;}
+
+.content-spacer{
+    width:80%;
+    padding:0px !important;
+    margin: 30px 30px 30px 30px;
+}
+
+.info-row h3,
+.bottom-dropdown-row .col-md-4 h4,
+.question-row .col-md-4 h3,
+.question-row .col-md-6 h4,
+.question-row .col-md-3 h4{
+    margin-left:20px;
+}
+
+.bottom-right-row .col-md-12 .col-md-12{
+    margin-bottom:15px;
+    margin-bottom:15px;
+}
+
+.form-group input{
+    margin-top:10px;
+    margin-right:10px;
+    width:90%;
+}
+
+.remove-space{
+    margin:0px;
+    padding:0px;
+}
+
+.navbar-collapse, .navbar, .navbar-default{
+    background-color:white !important;
+}
+
+.navbar{
+    min-height: 10px !important;
+}
+
+.navbar-collapse .col-sm-12 .col-sm-4{
+    margin-top:12px;
+    margin-bottom:8px !important;
+}
+
+
+
+.center-header *{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+.footer-row ul,
+.info-row ul {
+    padding:10px !important;
+}
+
+.margin-bottom li{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+    font-size: 16px;
+}
+
+.margin-bottom-white li{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 16px;
+}
+
+.margin-bottom-undergrad li{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #008CA8;
+    color: #008CA8;
+    font-size: 16px;
+}
+
+.margin-bottom-share li{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #8C8789;
+    color: #8C8789;
+    font-size: 16px;
+}
+
+.margin-bottom-ditblue li{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #00AEDA;
+    color: #00AEDA;
+    font-size: 16px;
+}
+
+.course-list li
+{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+
+.list-head
+{
+    font-family: 'sofia_probold';
+}
+
+.breadcrumb{
+    margin-top:10px;
+    margin-bottom:5px;
+    background-color:white !important;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 89.5%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.dropdown-menu-custom {
+    width: 100% !important;
+}
+
+.caret-spacer {
+    margin-top:10px;
+    margin-right:10px;
+}
+
+.social-buttons {
+    margin-top:10px;
+}
+
+/** CSS Properties for overlays applied to images**/
+.image-hover-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+
+}
+
+.image-hover-overlay-invert {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    opacity: 0.0;
+}
+.image-hover-overlay-people {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+    opacity: 1;
+}
+
+
+/** DIT top menu **/
+
+.dit_topmenu
+{
+background: #F1F1F2;
+font-family: 'sofia_pro_regularregular';
+font-size: 10px;
+line-height: 25px;
+border: 0px;
+height: 25px;
+text-align: right;
+}
+
+.ditmand-menu li
+{
+display: inline-block;
+padding-right: 20px;
+}
+
+.fa-angle-right
+{
+color: #00AEDA;
+padding-right: 2px;
+}
+
+/** Header **/
+.ditlogo
+{
+width: 66px;
+}
+
+.school-header
+{
+background: white;
+font-family: 'sofia_pro_regularregular';
+padding-left: 80px;
+padding-top: 30px;
+height: 125px;
+}
+
+.innerpadding-left
+{
+padding-left: 20px;
+}
+
+.innerpadding-large
+{
+padding: 80px 40px 80px 80px;
+}
+
+.school-header h1.irish
+{
+font-family: 'sofia_pro_regularregular';
+font-size: 18px;
+line-height: 32px;
+margin: 0;
+padding: 0;
+color: black;
+}
+
+.school-header h1.english
+{
+font-family: 'sofia_probold';
+font-size: 18px;
+line-height: 18px;
+margin: 0;
+padding: 0;
+color: black;
+}
+
+
+
+
+/** Main Nav menu **/
+
+.main_navmenu
+{
+background: #4A4A4F;
+font-family: 'sofia_pro_regularregular';
+font-size: 15px;
+color: white;
+min-height: 50px;
+border: 0;
+}
+
+
+/** Welcome **/
+
+.welcome-row
+{
+background: white;
+}
+
+.breadcrumbs
+{
+color: #8C8789;
+font-size: 12px;
+}
+
+.breadcrumbs .fa-angle-right{
+color: #8C8789;
+font-size: 12px;
+padding-left: 5px;
+}
+
+
+h1
+{
+font-family: 'sofia_probold';
+font-size: 48px;
+}
+
+p.welcome_intro
+{
+font-family: 'sofia_pro_regularregular';
+font-size: 24px;
+line-height: 28px;
+}
+
+
+.news
+{
+background: #C9EAF4;
+height: 200px;
+}
+.newsSmall ul li, .newsSmall .innerpadding
+{
+font-size:14px;
+}
+
+.news .fa-angle-right
+{
+color: black;
+}
+
+
+.row.news .col-md-7 .innerpadding { padding: 9px 20px 5px; }
+ 
+.row.news .col-md-7 .innerpadding ul.margin-bottom li { font-size:15px; }
+
+.col-md-12.col-sm-6.col-xs-6.img200.Part-time.study {overflow:hidden;}
+.col-md-12.col-sm-6.col-xs-6.img200.Over18.Part-time {overflow:hidden;}
+
+/** Course Overlays **/
+.text-hover-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #7F7F7F;
+    opacity: 0;
+}
+
+.image-hover-text{ padding-top:0; }
+.hover-column{ max-height:200px; overflow: hidden; cursor: pointer;}
+.hover-column-large{ max-height:400px; overflow: hidden; cursor: pointer;}
+
+.placeholder-text {
+    margin:0 !important;
+    padding:50px;
+}
+
+.course_buttons_overlay
+{
+font-size: 24px;
+line-height: 28px;
+font-family: 'sofia_probold';
+color: white;
+height: 200px;
+}
+
+.course_buttons_overlay_bottom
+{
+font-size: 24px;
+line-height: 28px;
+font-family: 'sofia_probold';
+color: white;
+text-align: center;max-width:200px;
+}
+.coursepage {
+padding: 60px 0px 60px 0px;
+}
+a, a:hover, .overview-page a, .coursesLinks ul li a, .margin-bottom-undergrad a, .margin-bottom-postgrad a , .margin-bottom-junior a, .peoplepage a , .margin-bottom-partshort a, .footer a  {
+color: inherit;
+}
+.course_buttons
+{
+font-size: 24px;
+line-height: 28px;
+font-family: 'sofia_probold';
+color: white;
+text-align: center;
+}
+
+.course_buttons_small
+{
+font-size: 24px;
+line-height: 28px;
+text-align: left;
+padding: 10px 0px 10px 20px;
+font-family: 'sofia_probold';
+color: white;
+height: 50px;
+}
+
+.overlay-news
+{
+font-size: 24px;
+line-height: 28px;
+font-family: 'sofia_probold';
+color: #4A4A4F;
+text-align: center;
+margin-bottom: 20px;
+}
+.overlay-people
+{
+color: white;
+}
+.categorybox
+{
+font-size: 12px;
+line-height: 16px;
+text-transform: capitalize;
+color: #4A4A4F;
+padding: 5px;
+display: block;
+text-align: center;
+width: 50px;
+margin: 0 auto;
+background:white;
+font-family: 'sofia_pro_regularregular';
+}
+.categorybox_people
+{
+color: white;
+border:1px solid;
+background:transparent;
+}
+
+.meta
+{
+font-size: 10px;
+line-height: 16px;
+text-transform: capitalize;
+letter-spacing: .1em;
+color: #4A4A4F;
+padding: 5px;
+display: block;
+text-align: center;
+width: 100%;
+margin: 0 auto;
+font-family: 'sofia_pro_regularregular';
+}
+
+.small-overlay
+{
+font-family: 'sofia_pro_regularregular';font-size:16px;
+}
+.overview-page a:hover, .course_buttons:hover, .course_buttons_small a:hover, .coursepage a:hover, .coursesLinks ul li a:hover, 
+.margin-bottom-postgrad a:hover, .margin-bottom-junior a :hover, .peoplepage a:hover, .footer a:hover
+ {
+opacity: 0.5;
+text-decoration: none;
+}
+.course_buttons_small, .course_buttons_small a {
+font-size: 24px;
+line-height: 28px;
+text-align: left;
+padding: 10px 20px 10px 20px;
+font-family: 'sofia_probold';
+color: white;
+height: 50px;
+}
+.course_buttons_small a {
+padding: 0 5px;
+}
+/** Choose **/
+.choose_course
+{
+background: #162328;
+color: white;
+cursor: pointer;
+height: 50px;
+padding-top:5px;
+}
+
+/** What **/
+.whatdoyou
+{
+background: #4A4A4F;
+color: white;
+cursor: pointer;
+height: 50px;
+padding-top:5px;
+}
+
+
+
+
+/** Root Colours **/
+
+.undergrad {background: #72C2C6;}
+.ud-text {color: #72C2C6;}
+.postgrad {background: #00AEDA;}
+.pg-text {color: #00AEDA;}
+.partshort {background: #008CA8;}
+.ps-text {color: #008CA8;}
+.junior {background: #00687d;}
+.junior_text {color: #00687d;}
+.white {background: white;}
+.w-text {color: white;}
+.dark-grey { background: #4A4A4F; color: white;}
+.light-grey{ background: #dbdbdc;}
+.dk-grey { color: #4A4A4F;}
+.gs1 {background: #172429;}
+.gs2 {background: #2c363a;}
+.gs3 {background: #42484d;}
+.gs4 {background: #5a5c60;}
+.gs5 {background: #727174;}
+.gs6 {background: #8d888a;}
+
+.ditblue {background: #00AEDA;}
+.db-text {color: #00AEDA;}
+
+.under18 {background: #008CA8;}
+.over18 {background: #00687D;}
+
+/** Events row **/
+
+.events
+{
+background: white;
+}
+.socialNews
+{
+font-size:14px; padding-top:30px; padding-bottom:30px;
+}
+.socialNews .eventstitle, .socialNews span
+{
+color: #00aeda;
+}
+.socialNews li
+{
+border-bottom:1px solid;
+}
+.socialNews a
+{
+color:#8c878a;
+}
+.socialNews .Twitter li, .socialNews .faceBook li
+{
+	border-color:#8c878a;
+}
+
+.events .fa-angle-right
+{
+color: #8C8789;
+}
+
+h2.eventstitle
+{
+font-size: 24px;
+font-family: 'sofia_probold';
+margin: 0;
+padding: 0;
+}
+
+.innerpadding
+{
+padding: 20px;
+}
+.innerpadding-studentLife
+{
+padding: 60px 80px 60px 80px;
+}
+
+
+/** 2nd Last row **/
+
+.success
+{
+background: #C9EAF4;
+}
+
+.logoslider
+{
+background: #BDDDE8;
+}
+
+.friend
+{
+background: #C9EAF4;
+}
+
+.course_buttons_blk
+{
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+padding: 70px;
+font-family: 'sofia_probold';
+color: black;
+height: 200px;
+}
+
+
+/** Footer **/
+.footer
+{
+background:#EDECED;
+color: #4A4A4F;
+font-size: 12px;
+}
+.credits a {color:#00aeda;}
+
+
+/** Form **/
+.righter{text-align:right;position:relative;width:50%;display: inline;float: left;width: 50%;}
+.form-row .right label{position:relative;font-family:'sofia_pro_regularregular';}
+.radio {margin:0;}
+.form form .radio input {width:auto; height:auto;}
+.radio label {width:100%;}
+.form form .radio input[type="radio"] {float:none;}
+.form form .radio input[type="radio"]:focus {box-shadow: 0px 0px 0px 1px #00AEDA;}
+.form form {
+border-top: 1px solid;
+margin-top: 60px;
+}
+.form-row {clear:both;}
+.form-row .col-md-6 {
+height: 30px;
+margin-top: 5px;
+}
+.larger-row .col-md-6 {
+height: 60px;
+}
+.larger-row .righter{
+margin-top:11px;
+}
+.form-row label {bottom: 0;
+position: absolute;
+margin-bottom: 4px;font-weight: normal; font-family: 'sofia_probold';}
+.form form input , .form form select{
+background: #d8f3f9;
+width: 100%;
+height: 100%;margin-top:0;
+}
+.form form select{line-height: 30px;border-color: transparent;}
+input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"], textarea{padding: 0;border: 0;}
+.form form textarea  {
+background: #d8f3f9;
+width: 100%;
+}
+.labelForm {display: inline-block; margin-right:30px;}
+.autoHeight {height:auto; margin-top:30px;}
+.form-row .autoHeight label {position:relative;}
+textarea:focus, select:focus, input:focus, .form form .radio input[type="radio"]:focus {outline:none; }
+.form form input:focus, .form form select:focus, .form form textarea:focus {background:#c3eef7;}
+form button{background: transparent;border: 0;}
+form button:hover{color:#00aeda;}
+/*----------------------------Radio Styling----------------------*/
+
+input[type="radio"] {
+    display:none;
+}
+.form form .radio input[type="radio"] + label span {
+    display:inline-block;
+    width:40px;
+    height:30px;
+    margin:-1px 0px 0 0;
+    vertical-align:middle;
+    background:url('http://www.dit.test.roomthree.com/images/cmd/checkbox.png') right -31px no-repeat;
+    cursor:pointer;
+}
+.form form .radio input[type="radio"]:checked + label span {
+    background:url('http://www.dit.test.roomthree.com/images/cmd/checkbox.png') right top no-repeat;
+}
+.form form .xBox input[type="radio"] + label span {
+    display:inline-block;
+    width:40px;
+    height:30px;
+    margin:-1px 0px 0 0;
+    vertical-align:middle;
+    background:url('http://www.dit.test.roomthree.com/images/cmd/radio.png') right -31px no-repeat;
+    cursor:pointer;
+}
+.form form .xBox input[type="radio"]:checked + label span {
+    background:url('http://www.dit.test.roomthree.com/images/cmd/radio.png') right top no-repeat;
+}
+
+/*----------------------------Scrollbar----------------------*/
+body, html{  
+    scrollbar-face-color: #000000;  
+    scrollbar-shadow-color: #2D2C4D;  
+    scrollbar-highlight-color:#7D7E94;  
+    scrollbar-3dlight-color: #7D7E94;  
+    scrollbar-darkshadow-color: #2D2C4D;  
+    scrollbar-track-color: white;  
+    scrollbar-arrow-color: #C1C1D1;   
+} 
+form textarea::-webkit-scrollbar{  
+    width: 12px;  
+}  
+form textarea::-webkit-scrollbar-track{  
+    background-color: white;  
+    border-right: 0;  
+}  
+form textarea::-webkit-scrollbar-thumb{  
+    background-color: #00aeda;  
+}  
+form textarea::-webkit-scrollbar-thumb:hover{  
+    background-color: #7fc6d8;  
+} 
+/*----------------------------Select Styling----------------------*/
+.selection select {
+   -webkit-appearance: none;
+   }
+.selector {
+   overflow: hidden;
+background: url('http://www.dit.test.roomthree.com/images/cmd/select.png') no-repeat right;
+/* background-color: #d8f3f9; */
+width: 100%;
+position: absolute;
+height: 30px;pointer-events: none;
+   }
+
+/** Overview template **/
+
+.overview-page h1
+{
+margin: 0;
+padding: 0;
+}
+
+.overview-page h3
+{
+font-family: 'sofia_probold';
+font-size: 20px;
+}
+.courses-row .fa {
+  /* rc monotone social padding */
+/*padding: 0px 5px 0px 5px;*/
+  padding:0px;
+}
+.courses-row .course_buttons {width:200px;}
+
+/** Popover **/
+.popover { box-shadow: none; -webkit-box-shadow:none;background:#172429;font-size:14px; color:white;}
+.popover.top > .arrow {margin-left:-21px; bottom: -21px; border-top-color: transparent;}
+.popover > .arrow:after {border-width:20px;}
+.popover.top > .arrow:after {border-top-color: #172429;}
+.popover-content {padding:5px;}
+
+/** Discipline template **/
+.coursesLinks .panel-title {font-family: 'sofia_probold';}
+.coursesLinks .panel-body ul li {border-bottom:1px solid;}
+.discipline-page
+{
+}
+
+.margin-bottom-undergrad li{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #008CA8;
+    color: #008CA8;
+    font-size: 16px;
+}
+
+.margin-bottom-about li {
+	width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+    color: #000;
+    font-size: 16px;
+}
+
+.discipline-page h3
+{
+font-family: 'sofia_probold';
+font-size: 20px;
+}
+
+
+.margin-bottom-postgrad li{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #00AEDA;
+    color: #00AEDA;
+    font-size: 16px;
+}
+
+.margin-bottom-partshort li{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #008CA8;
+    color: #008CA8;
+    font-size: 16px;
+}
+
+.innerpadding-discipline
+{
+padding: 40px 40px 0px 80px;
+}
+
+.innerpadding-discipline-end
+{
+padding: 40px 40px 80px 80px;
+}
+
+
+/** Profile template **/
+.innerpadding-profile
+{
+padding: 20px 80px 20px 80px;
+}
+.margin-bottom-junior li {
+width: 100%;
+margin-top: 5px;
+margin-bottom: 5px;
+padding-bottom: 5px;
+border-bottom: 1px solid;
+color: #00687d;
+font-size: 16px;
+}
+
+.align-right2
+{
+text-align: right;
+float: right;
+padding: 0px;
+margin-right: 10px;
+}
+
+.profilepage h1
+{
+font-family: 'sofia_probold';
+font-size: 48px;
+margin-bottom: 20px;
+}
+
+.profilepage h2
+{
+font-family: 'sofia_probold';
+font-size: 24px;
+}
+
+.profilepage .panel-title
+{
+font-family: 'sofia_probold';
+font-size: 24px;
+color: #4A4A4F;
+}
+
+.panel-heading a:hover {text-decoration: none;}
+
+.right-profile h4
+{
+font-family: 'sofia_probold';
+}
+
+/** Grad Profile template **/
+
+.innerpadding-grad
+{
+padding: 80px 80px 80px 80px;
+}
+
+.innerpadding-gradright
+{
+padding: 80px 40px 20px 40px;
+}
+
+.gradprofilepage h1
+{
+font-family: 'sofia_probold';
+font-size: 48px;
+margin-bottom: 24px;
+}
+
+.gradprofilepage h2
+{
+font-family: 'sofia_pro_regularregular';
+font-size: 24px;
+line-height: 30px;
+}
+
+/** Grad Show template **/
+
+.gradshowpage h1
+{
+font-family: 'sofia_probold';
+font-size: 48px;
+}
+
+.gradshowpage h2
+{
+font-family: 'sofia_pro_regularregular';
+font-size: 24px;
+line-height: 30px;
+}
+
+.gradshowpage h3
+{
+font-family: 'sofia_pro_regularregular';
+font-size: 20px;
+}
+
+
+/** Course template **/
+.coursesLinks .margin-bottom {margin-top:190px;}
+.coursesLinks  .margin-bottomLess{margin-top:30px;}
+.coursepage h1
+{
+font-family: 'sofia_probold';
+font-size: 48px;
+max-width:400px;
+}
+.img200 {text-align:center;}
+
+.coursepage h2
+{
+font-family: 'sofia_probold';
+font-size: 24px;
+}
+
+.coursepage h3
+{
+font-family: 'sofia_pro_regularregular';
+font-size: 20px;
+line-height: 0;
+}
+.postgrad h3
+{
+text-align:center;
+}
+.postgrad.overview-page h3
+{
+text-align:left;
+}
+
+.coursepage .apply-button
+{
+font-family: 'sofia_pro_regularregular';
+font-size: 12px;
+line-height: 16px;
+border: 1px solid white;
+width: 100px;
+color: white;
+padding: 3px 6px 6px 6px;
+text-align: center;
+margin: 0 auto;
+cursor: pointer;border-radius:5px;
+}
+
+.coursepage .apply-button:hover
+{
+border: 1px solid white;
+background: white;
+color: #72C2C6;
+}
+
+
+.nav-tabs
+{
+color: white;
+cursor: pointer;
+height: 50px;
+font-family: 'sofia_probold';
+font-size: 24px;
+margin: 0;
+padding: 0;
+}
+
+.nav-tabs li
+{
+padding: 5px 0px 5px 20px;
+}
+
+.nav-tabs .fa-chevron-down
+{
+font-size: 18px;
+}
+
+.tab-content, .tab-pane
+{
+width: 100%;
+}
+
+.t1
+{
+cursor: pointer;
+height: 50px;
+background: #DFEFEF;
+}
+
+.t2
+{
+cursor: pointer;
+height: 50px;
+background: #D1E8E9;
+}
+
+.t3
+{
+cursor: pointer;
+height: 50px;
+background: #c4e3e4;
+}
+
+.t4
+{
+cursor: pointer;
+height: 50px;
+background: #a9d7da;
+}
+
+.t5
+{
+cursor: pointer;
+height: 50px;
+background: #8ecdd0;
+}
+
+.t6
+{
+cursor: pointer;
+height: 50px;
+background: #72c3c6;
+}
+.ta {background:#e8e7e8;/*height:50px;*/}
+.tb {background:#dddbdc;/*height:50px;*/}
+.tc {background:#d1cfd0;/*height:50px;*/}
+.postT1 {background:#cbeef7;}
+.postT2 {background:#b1e6f4;}
+.postT3 {background:#98def0;}
+.postT4 {background:#65cee9;}
+.postT5 {background:#32bee2;}
+.postT6 {background:#00aeda;}
+.junT1 {background:#bedee6;}
+.junT2 {background:#a2d1dd;}
+.junT3 {background:#86c5d5;}
+.junT4 {background:#86c5d5;}
+.junT5 {background:#47afc5;}
+.junT6 {background:#009db6;}
+.nav-tabs a:hover {color:#4A4A4F;}
+.innerpadding-course
+{
+padding: 20px 80px 20px 80px;
+}
+
+.align-right
+{
+text-align: right;
+float: right;
+padding: 10px;
+margin-right: 10px;
+}
+
+/** Pobail **/
+input[type=text] {
+   border: 0;
+   border-radius: 0;
+   margin: 0;
+   margin-top:3px;
+   padding: 0;
+   padding-left: 10px;
+}
+
+.question
+{
+padding-left: 20px;
+font-family: 'sofia_probold';
+font-size: 24px;
+line-height: 36px;
+margin: 0;
+}
+
+/** Resources Template **/
+
+.resources
+{
+background: #E8E6E6;
+}
+
+.resource
+{
+background: #F7F7F7;
+border: 1px solid #E8E6E6;
+}
+
+.resources h2
+{
+font-size: 24px;
+font-family: 'sofia_probold';
+margin: 0;
+padding: 0;
+}
+
+.innerpadding
+{
+padding: 20px;
+}
+
+.resources .text-hover-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #F7F7F7;
+    opacity: 0;
+    padding: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.resources .course_buttons_blk
+{
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+padding: 50px;
+font-family: 'sofia_probold';
+color: black;
+height: 150px;
+}
+
+
+
+@media (min-width: 1920px) {
+
+ .t1, .t2, .t3, .t4, .t5, .t6
+{
+/*width: 620px;*/
+}
+
+
+}
+
+
+/** Iphone **/
+@media handheld, only screen and (max-width: 767px) {
+
+.dit_topmenu
+{
+background: #F1F1F2;
+font-family: 'sofia_pro_regularregular';
+font-size: 10px;
+line-height: 25px;
+border: 0px;
+height: 100%;
+text-align: right;
+}
+
+.ditlogo
+{
+width: 46px;
+}
+
+.school-header
+{
+background: white;
+font-family: 'sofia_pro_regularregular';
+padding-left: 20px;
+padding-top: 20px;
+height: 75px;
+}
+
+ .col-md-1 {
+    width: 10%;
+    float: left;
+  }
+
+   .col-md-11 {
+    width: 90%;
+        float: left;
+
+  }
+
+  .school-header h1.irish
+{
+font-family: 'sofia_pro_regularregular';
+font-size: 12px;
+line-height: 26px;
+}
+
+.school-header h1.english
+{
+font-family: 'sofia_probold';
+font-size: 12px;
+line-height: 12px;
+}
+
+.innerpadding-large
+{
+padding: 30px 30px 30px 30px;
+}
+
+
+.innerpadding-profile, .innerpadding-course, .innerpadding-discipline, .innerpadding-discipline-end
+{
+padding: 20px 20px 20px 20px;
+}
+
+
+ .t1, .t2, .t3, .t4, .t5, .t6
+{
+font-size: 12px;
+}
+
+
+.img400 {height: 200px;}
+
+}
+
+/* RC link style */
+
+/*.footer a {
+	color:#00aeda;
+}
+*/
+.footer a:hover {
+	opacity:05; 
+}
+
+/* junior courses overview list */
+ul.junior-text {
+	color:#00687d; 
+}
+
+ul.junior-text li {
+	border-bottom: 1px solid; 
+}
+
+h4.junior-heading {
+ 	color:#00687d;
+ 	border-bottom: 1px solid;
+  	margin:0;
+}
+
+.sl-top-right-image {
+ 	overflow:hidden; 
+}
+
+/* rc hp font style */
+body.home div.innerpadding-large p {
+ 	font-size:24px;
+    line-height:28px;
+}
+
+/* rc footer styles */
+
+div.footer div.col-md-3.innerpadding,
+div.footer div.col-md-6.innerpadding {
+ 	padding-top:0;
+  	padding-bottom:0;
+}
+
+div.footer div.col-md-12.innerpadding {
+ 	padding-bottom:40px; 
+}
+
+div.footer div.footer-credits a {
+  	color:#00aeda;
+}
+
+div.row.footer {
+ 	padding-bottom:20px; 
+}
+
+/* rc course page styles */
+
+div.row.slider-row div.Undergraduate {
+ 	background-color:#72c2c6;	
+}
+
+div.row.slider-row div.Postgraduate {
+ 	background-color:#00aeda; 
+}
+
+div.row.slider-row div.Junior {
+ 	background-color:#008ca8; 
+}
+
+div.row.slider-row div.Partshort {
+  	background-color:#00687d;
+}
+
+/* rc u18 course individual */
+
+.u18-top-right-image {
+  	overflow:hidden;
+}
+
+/* rc HP chevron hover state */
+
+div.row.courses-row div.col-md-4 div.course_buttons_small i.fa-chevron-down {
+ 	 opacity:inherit;
+}
+
+.innerpadding.courseLinks {
+ 	padding-top:190px; 
+}
+
+.socialNews li {
+  	border-bottom:solid 1px #8c878a;
+}
+
+/* rc final form styles */
+
+.form form div.button-holder input {
+ 	width:auto; 
+  	background:none!important;
+    border:none; 
+	padding:0!important;
+	font: inherit;
+	cursor: pointer;
+}
+
+.form form div.button-holder input:hover {
+ 	color: #00aeda;
+}
+
+/* rc styles for Font Awesome social links */
+
+div.social-links i.fa {
+	padding: 0 5px !important;
+}
+
+div.social-links i.fa.fa-facebook {
+	padding: 0 5px 0 0 !important;
+}
+
+div.col-md-4 div.row div.innerpadding div.col-md-12 ul.margin-bottom-about li a i.fa {
+ 	padding:0 3px; 
+}
+
+/* rc customise facebook feed */
+
+div._h7r._5ip3 {
+	display:none !important; 
+}
+
+
+/* rc course code respond */
+@media screen and (max-width:633px) {
+
+  	div.coursepage.innerpadding div.midway-horizontal.midway-vertical h1 {
+		font-size:36px;
+	}
+
+}
+
+@media screen and (max-width:505px) {
+
+  	div.coursepage.innerpadding div.midway-horizontal.midway-vertical h1 {
+		font-size:24px;
+	}
+
+        .col-sm-6 {
+       width: 50%;
+       }
+  		.col-sm-6.col-md-4 {
+    		width:100%;
+  		}
+
+}
+
+
+
+
+
+/* rc event article spacing */
+
+div.event-date {
+ 	margin-bottom:20px; 
+}
+
+/* rc smaller heading for long course titles */
+
+h1.rc-smaller-course-title {
+  font-size:36px;
+}
+
+/* junior course page responsive */
+
+@media screen and (max-width:990px) {
+
+.col-md-12.col-sm-6.col-xs-6.img200.u18-top-right-image {
+	
+}
+
+
+}
+
+/* rc responsive events feed */
+
+div.row.slider-row .col-md-4 .row.news {
+ 	height:100%; 
+}
+
+/* rc application form social links */
+
+ul.application-form-contact i.fa-soundcloud,
+ul.application-form-contact i.fa-youtube-play {
+ 	padding-right:5px; 
+}

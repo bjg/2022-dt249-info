@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--Force browser cache refresh-->  
+<META HTTP-EQUIV="refresh" CONTENT="600">
+
+     <title>News Articles - School of Computer Science</title>
+    
+    <link href="../../../../media/llss/css/bootstrap.css" rel="stylesheet">       <!-- base bootstrap style -->
+    <link href="../../../../media/llss/css/Bootstrap&#32;Custom&#32;StylesheetV01.css" rel="stylesheet">  <!-- custom styles -->
+    <link href="../../../../media/llss/css/menu.css" rel="stylesheet"> <!--menu-->
+    <link href="../../../../media/llss/css/font.awesome.css" rel="stylesheet">      <!-- bootstrap social icons -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!-- Favicon -->
+<link rel="icon" href="../../../../favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="../../../../favicon.ico" type="image/x-icon" />
+
+<style>  
+<!-- Start Table Style on academy page -->
+  table { 
+	width: 750px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+	background: #eee; 
+	}
+
+th { 
+	background: #3498db; 
+	color: white; 
+	font-weight: bold; 
+	}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: center; 
+	font-size: 18px;
+	}
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	table { 
+	  	width: 100%; 
+	}
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 5%; 
+	}
+
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		/* Label the data */
+		content: attr(data-column);
+
+		color: #000;
+		font-weight: bold;
+	}
+
+}
+  <!-- END Table Style on academy page -->
+/* unvisited link */
+p a:link {
+    color: #428bca !important;
+}
+
+/* visited link */
+p a:visited {
+    color: #428bca !important;
+}
+
+/* mouse over link */
+p a:hover {
+    color: red !important;
+}
+
+/* selected link */
+p a:active {
+    color: yellow !important;
+} 
+div.panel-body p a:link {
+color: #428bca !important;
+}
+
+/* visited link */
+div.panel-body p a:visited {
+color: #428bca !important;
+}
+
+/* mouse over link */
+div.panel-body p a:hover {
+color: red !important;
+}
+
+/* selected link */
+div.panel-body p a:active {
+color: yellow !important;
+}
+.margin-bottom-white a:link { color:#428bca !important;}
+.margin-bottom-white a:visited { color:#428bca !important;}
+.margin-bottom-white a:hover { color:red !important;}
+.margin-bottom-white a:active { color:yellow !important;}
+div.row.school-header{
+    padding-top:10px !important;
+    }
+<!-- new styles -->
+.news a:hover {opacity:1;}
+.margin-bottom-white a:hover {opacity:0;}
+.image-hover-overlay {opacity:0;}
+.text-hover-overlay{opacity:0;}
+.resources.text-hover-overlay {opacity:0;}  
+<!-- End New Styles -->  
+</style>
+</head>
+  <body>
+    <!-- START  WELCOME --> 
+    <div class="container">
+        <div class="row">
+              <div class="col-md-12 dit_topmenu">
+				<ul class="ditmand-menu">   
+                        <!-- navigation object : COMP16 - NAV - DIT BAR --><li><i class="fa fa-angle-right"></i> <a href="../../../../index.html">DIT Home</a></li><li><i class="fa fa-angle-right"></i> <a href="/about/organisation/contacts/">Contacts</a></li>       
+                </ul>
+          </div>
+        </div><!-- end DIT Mandatory Menu row -->
+      <div class="row school-header">
+            <div class="col-md-3 col-sm-3">
+              <a href="../../../../index.html"><img style="height:100px !important;" src="../../../../media/tudublin/images/TUD_RGB-blu-logo-587x323-svg.svg" alt="TU Dublin Logo"/> </a>
+            </div>
+               <div class="col-md-9 col-sm-9">
+               <div class="innerpadding-left">
+                    <a href="../../../index.html">  <h1 class="irish">Scoil na Ríomheolaíochta</h1>
+                      <h1 class="english">School of Computer Science</h1></a>
+               </div>
+            </div>
+        </div> <!-- end header-row -->
+        <!--end welcome-->
+                 
+      <!-- navigation object : COMP16 - Temp Nav --><style>
+  /*
+  .menu-item{
+  width:160px;
+  }*/
+</style>
+<div class="menucontainer">
+<div class="flat-menu flat-menu-fixed flat-menu-dit flat-menu-slide-up">
+		    <input type="checkbox" id="toggle-one" name="toggle" class="toggle-menu-input">
+            <label for="toggle-one" class="toggle-menu-label"><span class="three-line-menu"></span>Menu</label>
+			<ul class="flat-responsive-menu">
+            <li class="menu-item">
+					<input type="checkbox" id="menu-one" name="menu" class="menu-1">
+                      <label for="menu-one"><a href="../../../findacourse/index.html">Find<br/> a Course</a></label>
+                   
+                      
+                      <!-- navigation object : Computing - Find a course Sub-Menu --><ul class="menu-dropdown-one"> <li><a href="../../../findacourse/undergraduate/index.html">Undergraduate</a></li><li><a href="../../../findacourse/postgraduate/index.html">Postgraduate</a></li><li><a href="../../../findacourse/conversioncourses/index.html">Conversion Courses</a></li><li><a href="../../../findacourse/cpd/index.html">CPD</a></li></ul>
+                   
+                     				</li>
+  <li class="menu-item">
+					<input type="checkbox" id="menu-two" name="menu" class="menu-2">
+                      <label for="menu-one"><a href="../../../aboutourschool/index.html">About<br/> our School</a></label>
+                   
+                      <ul class="menu-dropdown-one">
+                        <!-- navigation object : Computing - About our school Sub-Menu  --><li><a href="../../../aboutourschool/internationalisation/index.html">Internationalisation</a></li><li><a href="../../../aboutourschool/industryengagement/index.html">Industry Engagement</a></li><li><a href="../../../aboutourschool/contactus/index.html">Contact Us</a></li><li><a href="/intranet/computing/">Staff Intranet</a></li></ul>
+                   
+                     				</li>
+              
+				<li class="menu-item">
+					<input type="checkbox" id="menu-three" name="menu" class="menu-3">
+                                          <label for="menu-two"><a href="../../../people/index.html">People<br/>&nbsp;</a></label> <ul class="menu-dropdown-one">
+					<!-- navigation object : Computing - People Sub-Menu --><li><a href="../../../people/academicstaff/index.html">Academic Staff</a></li><li><a href="../../../people/administrativetechnical/index.html">Administrative &amp; Technical</a></li><li><a href="../../../people/researchstaff/index.html">Research Staff</a></li><li><a href="../../../people/staffalumni/index.html">Staff Alumni</a></li>
+				</ul></li>
+                  <!--
+					<li class="menu-item">
+					<input type="checkbox" id="menu-four" name="menu" class="menu-4">
+                                          <label for="menu-five"><a href="/computing/research/"> Student Life</a></label> <ul class="menu-dropdown-one">
+                     <li><a href="/computing/newsevents/newspress/">News &amp; Press</a></li><li><a href="/computing/newsevents/eventscompetitions/">Events &amp; Competitions</a></li><li><a href="/computing/newsevents/inthenews/">In the News</a></li><li><a href="/computing/newsevents/archive/">Archive </a></li>
+                      
+                   
+				</ul></li>
+              -->
+
+				<li class="menu-item">
+					<input type="checkbox" id="menu-five" name="menu" class="menu-5">
+                                          <label for="menu-three"><a href="../../../research/index.html">Research<br/>&nbsp;</a></label> <ul class="menu-dropdown-one">
+                    <!-- navigation object : Computing - Research Sub-Menuh --><li><a href="../../../research/phdopportunities/index.html">PhD Opportunities</a></li><li><a href="../../../research/researchgroups/index.html">Research Groups</a></li><li><a href="../../../research/researchprojects/index.html">Research Projects</a></li>
+				</ul></li>
+				<li class="menu-item">
+					<input type="checkbox" id="menu-six" name="menu" class="menu-6">
+                      <label for="menu-four"><!-- navigation Object : Computing - 2018 - Link to Student Resources New --><a href="../../../studentresources/index.html">Student<br/> Resources</a></label> <ul class="menu-dropdown-one">
+                  <!-- navigation object : Computing - Student Resources Sub-Menu --><li><a href="../../../studentresources/coursementors/index.html">Course Mentors</a></li><li><a href="../../../studentresources/erasmusopportunities/index.html">Erasmus Opportunities</a></li><li><a href="../../../studentresources/computerlaboratories/index.html">Computer Laboratories</a></li><li><a href="../../../studentresources/brightspace/index.html">Brightspace</a></li><li><a href="../../../studentresources/datacamp/index.html">DataCamp</a></li><li><a href="../../../studentresources/studentservices/index.html">Student Services</a></li><li><a href="../../../studentresources/chaplaincy/index.html">Chaplaincy</a></li><li><a href="../../../studentresources/disabilityservice/index.html">Disability Service</a></li><li><a href="../../../studentresources/learningsupport/index.html">Learning Support</a></li><li><a href="../../../studentresources/generalassessmentregulations/index.html">General Assessment Regulations</a></li><li><a href="../../../studentresources/studentcounsellingservices/index.html">Student Counselling Services</a></li><li><a href="../../../studentresources/accessibilityresources/index.html">Accessibility Resources</a></li><li><a href="../../../studentresources/accessiblelearningmaterials/index.html">Accessible Learning Materials</a></li>
+                      
+                 </ul>
+				</li>
+			       
+                 <li class="menu-item">
+					<input type="checkbox" id="menu-seven" name="menu" class="menu-7">
+                      <label for="menu-seven"><!-- navigation Object : Computing - 2018 - Link to News and Events --><a href="../../index.html">News<br/> &amp; Events</a></label>
+                      
+                       <ul class="menu-dropdown-one">
+                     <!-- navigation object :Coomputing7 - Sub-Menu News & Events --><li><a href="../index.html">News &amp; Press</a></li><li><a href="../../eventscompetitions/index.html">Events &amp; Competitions</a></li><li><a href="../../inthenews/index.html">In the News</a></li><li><a href="../../archive/index.html">Archive </a></li> 
+                 </ul>
+                      </li>
+                   
+                 <!--<li class="menu-item">
+					<input type="checkbox" id="menu-eight" name="menu" class="menu-8">
+                      <label for="menu-eight"><a href="#">Staff<br/> Internet</a></label>
+                      </li>-->
+                  </ul>
+		</div>
+</div><!-- end Menu -->
+
+
+
+          
+     <div class="row profilepage white">
+            <div class="col-md-8 col-sm-8">
+                <div class="row">
+                <div class="innerpadding-profile">
+                  
+                  
+  
+                  <div class="breadcrumbs"><strong>You are here:&nbsp;</strong> <!-- navigation object : COMP16 - NAV - Breadcrumbs --><ul><li><a href="../../../index.html">Computing</a>&nbsp;&gt;&nbsp;<a href="../../index.html">News &amp; Events</a>&nbsp;&gt;&nbsp;<a href="../index.html">News &amp; Press</a>&nbsp;&gt;&nbsp;<a href="/computing/newsevents/newspress/newsarticles/">News Articles</a></li></ul></div>                    <h1 class="dk-grey">Cracking the Silicon Ceiling - 
+Female intake for Computer Science Degree reaches a record 42% </h1>
+                        <p style="text-align: center;"><img src="../../../../media/computing/images/Gender_Intake_1.png" alt="" style="width : 600px; height : 429px;     " /></p>
+<p><strong>42</strong> is a magic number &ndash; it's the angle at which sunlight passing through rain droplets creates a rainbow and it&rsquo;s the meaning of life, the universe and everything. It's also the percentage of female students on TU Dublin&rsquo;s Computer Science Interational degree this year. Over 190 students have enrolled on TU Dublin&rsquo;s three computer science undergraduate programmes in 2020/21 and the intake of female students is up 35% from the 2015 figures, nearing 30% across the board.</p>
+<p>These figures are highly encouraging and can be viewed as part of sustained campaign to increase female participation in courses across the faculty. Head of Undergraduate Studies at the School of Computer Science <strong>Dr Dympna O&rsquo;Sullivan</strong> welcomed the new figures saying</p>
+<p><em>&ldquo;The School has been working hard on a number of initiatives to increase the proportion of female students studying Computer Science and the number of female students enrolling on our courses is a great endorsement of our efforts. We are proud of the inclusive environment we are building at TU Dublin Computer Science. Computer Science is one of the most exciting and innovate industries to enter. Computer Scientists are designing and developing technologies that will change how we live, work and play and as such it is important that women's intellects, insights and voices are reflected in new computing paradigms, products and services.</em></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><img src="../../../../media/computing/images/Gender_Intake_2.png" alt="" style="width : 600px; height : 429px;     " /></p>
+<p style="text-align: center;"><em>In 2015 TU Dublin held Ireland&rsquo;s the first ever Code First: Girls courses on campus</em>&nbsp;</p>
+<p style="text-align: left;"><strong>&nbsp;</strong></p>
+<p><strong>&ldquo;If she can&rsquo;t see it, she can&rsquo;t be it&rdquo;</strong> is the core of the strategy adopted by TU Dublin Computer Science over the past 5 years, a strategy which is now paying rich dividends. Providing accessible role models is a key element and significant strides have been made to address the issue of gender balance, amongst both its staff and students. The recent figures are in many ways the culmination of years of determined effort to increase the intake of female students into our courses.</p>
+<p><strong>ESTeEM</strong></p>
+<p>Providing students with a positive role model is the key function of the ESTeEM gender initiative established at TU Dublin. The ESTeEM (Equality in Science &amp; Technology by Engaged Education Mentoring) mentorship programme is a unique initiative which aims to brings female Computer Science &amp; Engineering students in to contact with female mentors currently working in relevant industry positions. Industry mentor's provide the students with guidance and information around possible career paths, as well as the necessary skills now needed in industry. The initiative was set up in 2018 by<strong> Leslie Shoemaker</strong>, a lecturer in the School of Electrical and Electronic Engineering. Speaking about the recent increase in figures for the first-year intake at the School of Computer Science Leslie says she is greatly encouraged.</p>
+<p>&lsquo;<em>When we started ESTEeM our aim was to get the message out to young women, both prospective and current students, that computer science was a great option for them. This is a career path that has lots of dynamic options and opportunities for young women and it looks like this news is starting to get out there. This is a great start and I look forward to seeing how the gender balance shifts towards a more balanced representation in the coming years because the international research is quite clear about how inclusive workplaces do better for staff and customers on all fronts.'</em></p>
+<p style="text-align: center;"><img src="../../../../media/computing/images/Gender_Intake_3.png" alt="" style="width : 600px; height : 400px;     " /></p>
+<p style="text-align: center;"><em>ESTeEM Co-Ordinator Leslie Shoemaker with TU Dublin President Prof. David Fitzpatrick&nbsp;&nbsp;</em></p>
+<p>The importance of mentoring has also been recognised by industry. Salesforce International recently invested $300,000 in a unique industry mentoring programme which aims to increase the participation of underrepresented groups in the IT sector in Ireland. This announcement coincides with the company's 20th anniversary in Ireland. The project, the Saer Mentoring Programme, will assist 120 students in finding meaningful paid internships in ICT-related fields which will ultimately result in rewarding careers upon graduation from TU Dublin. The 120 students will be from groups that are traditionally underrepresented in the ICT sector, including women, those from areas of social disadvantage, and students with disabilities. Sixty trained industry mentors will support them.</p>
+<p><strong>&ldquo;If she can&rsquo;t see it, she can&rsquo;t be it&rdquo;</strong> is also reflected in the recent achievements of female students. This year TU858 student Jennifer Nolan won the prestigious Global Undergraduate Awards for the Island of Ireland for her project Navigation Assistant: An Investigation into Obstacle Avoidance for the Visually Impaired using the Raspberry Pi. This award was previously won in 2015 by TU Dublin graduate Deirdre Corr for a novel Sleep Apnoea Detection System.</p>
+<p style="text-align: left;"><img src="../../../../media/computing/images/Gender_Intake_4.png" alt="" style="width : 600px; height : 600px;   margin : 0px auto; display: block; " /></p>
+<p style="text-align: center;"><em>TU858 student Jennifer Nolan recently won the prestigious Undergraduate Award for her final Year Project &lsquo;Navigation Assistant&rsquo;&nbsp;</em>&nbsp;</p>
+<p><strong>Promoting the careers of female faculty</strong></p>
+<p>&ldquo;If she can&rsquo;t see it, she can&rsquo;t be it&rdquo; is also at the heart of a strategy to address the issue of gender imbalance which starts within academia itself.</p>
+<p>Research conducted by the HEA into the University sector in 2017 shows that whilst 51% of entry level academic positions are held by women, that corresponds to only 24% of high-level Professorships.1 To this end the development of the Senior Academic Leadership Initiative, (SALI) by the HEA was a greatly welcomed proposition. Within TU Dublin it allowed for the creation of a unique new Professorship in Inclusive Computer Science.<strong> Dr Susan McKeever</strong> (Senior lecturer School of Computer Science) was instrumental in the creation of this new role, which can be viewed as part of a broader strategy within the School to increase gender balance amongst not just its staff, but also its students. For Dr McKeever creating the right type of learning environment for these students is key.</p>
+<p><em>&ldquo;We still do not have enough women entering the tech sector &ndash; a sector where the technologies that affect every aspects of our lives are produced. We can&rsquo;t be passive about changing this - We have to offer environments, programmes and jobs that are attractive and supportive to both genders. This professorship will now be part of driving this change, focusing on attracting more female students into computer science, and ultimately into the technology sector.&rdquo;</em></p>
+<p>Creating the right type of learning environment means making positive changes at all levels and all stages across a University. Within TU Dublin <strong>Professor Sarah Jane Delany</strong> co-founded the Women Leaders in Higher Education network in 2016 to provide a support network for females in all leadership roles. This means providing support across all roles within Higher Education, including women in academic, administrative, research and technical positions.</p>
+<p><em>&ldquo;The aim of the network is to empower and enable women in all roles across TU Dublin. We wanted to give women opportunities and time for reflection on their personal and professional development and to consider their career enhancement. Our event speakers have given inspirational talks sharing their experiences and personal journeys. Through the network we can see the importance of shared experiences, support and mentorship for encouraging female participation and leadership at all levels in TU Dublin"</em></p>
+<p style="text-align: center;"><img src="../../../../media/computing/images/Gender_Intake_5.png" alt="" style="width : 600px; height : 429px;     " /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><em>Dr Susan McKeever helped to establish the INGENIC Network&nbsp;&nbsp;</em></p>
+<p>&nbsp;</p>
+<p>TU Dublin is also a founding member of the recently set up INGENIC group (Irish Network for Gender Equality at National 3rd Level Institutions for Computing) which consists of representatives from 17 different third-level institutes across Ireland. The INGENIC network&rsquo;s purpose is to help third-level institutes work together to foster the right type of learning environment which it is hoped will lead to a greater intake and retention of female students.<em> &ldquo;There is huge value in working together and learning from each other&rdquo;</em> explains<strong> Dr. Susan McKeever.</strong> <em>&ldquo;We have lines of communication into every third level computing school which is a powerful enabler for driving change."</em></p>
+<p>All of these initiatives were recognised as TU Dublin Computer Science recently received the Minerva Informatics Europe Award in 2019. The award was in recognition of TU Dublin Computer Science&rsquo;s sustained work in addressing the persistent issue of Gender Imbalance within Computer Science at third-level.</p>
+<p style="text-align: center;"><img src="../../../../media/computing/images/Gender_Intake_6.png" alt="" style="width : 600px; height : 480px;     " /></p>
+<p style="text-align: center;"><em>Dr Susan McKeever and Dr Deirdre Lillis receiving the Minerva Informatics Equality Award&nbsp;</em></p>
+<p><strong>Vision for the TU Dublin School of Computer Science</strong></p>
+<p>Reflecting on the successes over the past five years, Head of School <strong>Dr. Deirdre Lillis</strong> has identified a handful of factors as being critical for success.</p>
+<p><em>&ldquo;Creating a holistic culture, where inclusion is everyone&rsquo;s responsibility, rather than treating females differently is critical. Our female students didn&rsquo;t want special treatment, they wanted the same opportunities and natural peer supports that the male students had. The second key factor for us was creating a supportive network of accessible role models and mentors for both staff and students and celebrating every success along the way. I am incredibly proud of what the team here have achieved - everyone is involved in some way. For two decades this has been an intractable problem, which is why this year&rsquo;s first year intake is so encouraging. It is putting TU Dublin Computer Science on the international map for inclusive technology&rdquo;</em></p>
+<p>Even in 2020, information technology worldwide is developed almost exclusively by men, with far-reaching consequences for achieving the UN Sustainable Development Goal for gender equality, and for an inclusive society on all dimensions.</p>
+<p>But the cracks are finally appearing in the silicon ceiling in undergraduate computer science education. International research suggests that 40%, or in this case 42%, is the magic number need to create a critical mass of momentum. This year&rsquo;s successes sustain the belief that together we can create a new rainbow of inclusion for all groups underrepresented in the Technology sector, a core element of TU Dublin&rsquo;s ambitious strategic plan.</p>
+<hr />
+<p><em>TU Dublin Computer Science. September 2020</em></p>
+<p>&ldquo;The aim of the network is to empower and enable women in all roles across TU Dublin. We wanted to give women opportunities and time for reflection on their personal and professional development and to consider their career enhancement. Our event speakers have given inspirational talks sharing their experiences and personal journeys. Through the network we can see the importance of shared experiences, support and mentorship for encouraging female participation and leadership at all levels in TU&hellip;</p>
+            <ul class="rslides">
+	<li><img src="../../../../media/computing/images/Gender_Intake_1.png" alt="" style="width : 600px; height : 429px;     " /></li>	
+              
+              
+              
+              
+</ul>
+                 </div>
+            </div>
+</div>
+            <div class="col-md-4 col-sm-4">
+
+                <div class="row">
+                <div class="innerpadding">
+                    <div class="col-md-12">
+                        <ul class="margin-bottom">
+                            <li class="list-head">Latest News</li>
+                                           <!-- navigation object : COMP16 - INT - Latest News --><li><a href="headline172386en.html">TU Dublin researchers secure funding from HEA for two new Projects on Gender Balance </a></li><li><a href="headline182417en.html">TU Dublin academic secures funding in SFI Frontiers of the Future Initiative 
+</a></li><li><a href="headline183136en.html">Academic in the Spotlight 
+Dr. Mariana Rocha</a></li><li><a href="headline181794en.html">In the Spotlight:  
+Lucas Rizzo</a></li>           
+                                  
+<br/>
+<li><a href="headline182032en.html#">View Archives</a></li>
+                          
+                        </ul>
+                      
+               
+                      
+							<br>
+                            <ul class="margin-bottom-share">
+                      <li class="list-head"><a target="_blank" href="/-school-kieran-corcoran/&amp;t=Cracking the Silicon Ceiling - 
+Female intake for Computer Science Degree reaches a record 42% ">Like &amp; Share</a></li>
+                      <li><a target="_blank" href="http://twitter.com/share?url=http%3A%2F%2Fadp.dit.ie%2Fevent%2FCracking the Silicon Ceiling - 
+Female intake for Computer Science Degree reaches a record 42% %2F&amp;count=horizontal">Tweet This</a></li>
+                        </ul>
+                        <br>
+                          </div>
+                </div>
+                  		
+	    
+			
+
+                </div> <!-- end of row -->
+  
+            </div>
+        </div>
+
+
+
+
+
+	
+	
+	
+			
+
+	<div class="row footer"><!-- start of Footer -->
+        	<div class="col-md-12 innerpadding">
+        	<div class="breadcrumbs"><strong>You are here:&nbsp;</strong> <!-- navigation object : COMP16 - NAV - Breadcrumbs --><ul><li><a href="../../../index.html">Computing</a>&nbsp;&gt;&nbsp;<a href="../../index.html">News &amp; Events</a>&nbsp;&gt;&nbsp;<a href="../index.html">News &amp; Press</a>&nbsp;&gt;&nbsp;<a href="/computing/newsevents/newspress/newsarticles/">News Articles</a></li></ul></div>
+        	</div>
+            <div class="col-md-3 col-sm-3 innerpadding">
+	                <ul>
+                        <!-- navigation object : COMP16 - NAV - Footer links --><li><a href="/currentstudents/">Current Students</a></li><li><a href="../../../../study.html">Prospective Students</a></li><li><a href="../../../../studentservices/index.html">Student Services</a></li><li><a href="../../../../graduatenetwork/index.html">Alumni</a></li> 
+	                </ul>
+            </div>
+             <div class="col-md-3 col-sm-3 innerpadding">
+	                <ul>
+                        <li>School of Computer Science</li>
+                        <li>College of Science and Health</li>
+	                    <li>TU Dublin - City Campus, Kevin Street</li>
+                        <li><strong>School Administrators:</strong> Denise Murray / Barbara Byrne</li>
+                        <li><strong>T:</strong> +353-1-402 2840/ +353-1-402 4704</li>
+                        <li><strong>E:</strong> <a href="mailto:computing@dit.ie">computing@dit.ie</a></li>
+
+	                </ul>
+            </div>
+  <div class="col-md-6 col-sm-6 innerpadding">
+	                <ul>
+                        <ul class="social-icons list-inline">
+  <li class="facebook"><a href="https://www.facebook.com/tudublincomputerscience/" target="_blank">
+<span class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa fa-facebook fa-inverse fa-stack-1x"></i>
+</span>
+</a></li>
+  <li class="twitter"><a href="https://twitter.com/tudublincompsci" target="_blank">
+	<span class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa fa-twitter fa-inverse fa-stack-1x"></i>
+</span>
+</a></li>
+  <li class="youtube"><a href="https://www.youtube.com/channel/UC5eUa2ymYUMg2J3pQFXnRzg" target="_blank">
+		<span class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa fa-youtube-play fa-inverse fa-stack-1x"></i>
+</span>
+</a></li>
+  <li class="instagram"><a href="https://www.instagram.com/tudublincompsci/" target="_blank">
+		<span class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa fa-instagram fa-inverse fa-stack-1x"></i>
+</span>
+</a></li>
+
+	                </ul>
+            </div>
+        </div><!-- end of Footer -->
+
+
+    </div> <!-- end of container -->
+
+    <!-- Javascript loading -->
+    <script src="../../../../media/llss/js/jquery.js"></script>
+    <script src="../../../../media/llss/js/midway.min.js"></script>
+    <script src="../../../../media/llss/js/bootstrap.js"></script>
+    <script src="../../../../media/llss/js/bootstrap.custom.js"></script>
+    <script src="../../../../media/llss/js/imgLiquid-min.js"></script>
+	<script>
+	$(document).ready(function() {
+	    $(".img200").imgLiquid({
+	        fill: true,
+	        horizontalAlign: "center",
+	        verticalAlign: "center"
+	    });
+	});
+	</script>
+	<script>
+	$(document).ready(function() {
+	    $(".img400").imgLiquid({
+	        fill: true,
+	        horizontalAlign: "center",
+	        verticalAlign: "center"
+	    });
+	});
+	</script>
+  <!-- navigation object : DIT Google Analytics code copied from DTP- to /body-><!--Plain code template-->
+<!--new DIT tracking code implemented 05 October 2009-->
+<script src="../../../../media/javascript/gataglinks.js" type="text/javascript"> </script>    
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4025580-1");
+pageTracker._setDomainName(".dit.ie");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<!--new DIT tracking code implemented 05 October 2009-->
+</body>
+</html>
